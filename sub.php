@@ -24,6 +24,8 @@
 
                 </nav>
             </div>
+            <!-- 가이드 작성 영역 -->
+            <!-- // 가이드 작성 영역 -->
         </main>
         <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     </div>
