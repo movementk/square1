@@ -4,3 +4,5 @@
 /bower_components/
 /node_modules/
 /assets/css/.sass-cache/
+/assets/css/_notes/
+_notes

@@ -65,6 +65,18 @@
       "css": "plus",
       "code": 59396,
       "src": "entypo"
+    },
+    {
+      "uid": "981c9f3d44fd4fd6b37c0b5a981334ce",
+      "css": "clock",
+      "code": 59397,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "06301c50d89b5d3e651bd07ebd6d7de7",
+      "css": "cancel",
+      "code": 59398,
+      "src": "mfglabs"
     }
   ]
 }

@@ -39,10 +39,16 @@ address {
     margin-bottom: 0;
 }
 
+.form-group {
+    margin-bottom: 0;
+}
+
 .form-control {
     box-shadow: none;
+    border-radius: 0;
     &:focus {
         box-shadow: none;
+        border-color: inherit;
     }
 }
 
@@ -157,6 +163,9 @@ body.gnb-open {
         min-width: 320px;
         #top-nav {
             left: 270px;
+            .search-area {
+                left: 270px;
+            }
         }
     }
     @media (min-width: $sm) {
@@ -165,6 +174,9 @@ body.gnb-open {
             min-width: 768px;
             #top-nav {
                 left: 640px;
+                .search-area {
+                    left: 640px;
+                }
             }
         }
     }
@@ -188,7 +200,7 @@ body.gnb-open {
     transition: left .3s;
 }
 
-// GNB(모바일)
+// GNB mobile
 #gnb-aside {
     position: fixed;
     top: 0;
@@ -322,7 +334,7 @@ body.gnb-open {
             width: 110px;
         }
     }
-    .btn-search {
+    .btn-toggle-search {
         float: right;
         margin-top: 5px;
         margin-left: -6px;
@@ -335,6 +347,67 @@ body.gnb-open {
         background-color: transparent;
         color: #999;
         font-size: 18px;
+        &:before {
+            font-family: 'fontello';
+            content: '\E800';
+        }
+    }
+    .search-area {
+        display: none;
+        position: fixed;
+        top: 45px;
+        left: 0;
+        padding-right: 35px;
+        min-width: 320px;
+        width: 100%;
+        height: 35px;
+        background-color: #3e4347;
+        -webkit-transition: left .3s;
+        transition: left .3s;
+        ::-webkit-input-placeholder {
+            font-family: 'Myriad Pro', sans-serif;
+            font-size: 11px;
+        }
+        ::-moz-placeholder {
+            font-family: 'Myriad Pro', sans-serif;
+            font-size: 11px;
+        }
+        ::-ms-input-placeholder {
+            font-family: 'Myriad Pro', sans-serif;
+            font-size: 11px;
+        }
+        ::-moz-placeholder {
+            font-family: 'Myriad Pro', sans-serif;
+            font-size: 11px;
+        }
+        .form-control {
+            border: 0;
+            background-color: transparent;
+            color: #999;
+        }
+        .btn-global-search {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 0;
+            width: 35px;
+            height: 35px;
+            border: 0;
+            border-radius: 0;
+            background-color: transparent;
+            color: #999;
+        }
+    }
+    &.search-open {
+        .btn-toggle-search {
+            &:before {
+                font-family: 'fontello';
+                content: '\E806';
+            }
+        }
+        .search-area {
+            display: block;
+        }
     }
     @media (min-width: $sm) {
         height: 54px;
@@ -347,8 +420,11 @@ body.gnb-open {
                 width: 136px;
             }
         }
-        .btn-search {
+        .btn-toggle-search {
             margin-top: 9px;
+        }
+        .search-area {
+            top: 54px;
         }
     }
     @media (min-width: $lg) {
@@ -411,7 +487,222 @@ body.gnb-open {
             }
         }
         .search-area {
+            display: block;
+            position: relative;
+            top: inherit;
+            left: inherit;
+            margin-left: 70px;
+            min-width: inherit;
+            width: auto;
+        }
+        &.search-open {
+            .search-area {
+                display: block;
+            }
+        }
+    }
+}
 
+// GNB 네비게이션
+#gnb {
+    overflow: hidden;
+    clear: both;
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: 48px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    .container {
+        height: 100%;
+        > ul {
+            overflow: hidden;
+            height: 100%;
+            background-color: #fff;
+            > li {
+                position: relative;
+                float: left;
+                width: 20%;
+                > a {
+                    display: block;
+                    width: 100%;
+                    all: 48px;
+                    color: #fff;
+                    background-color: #3e4347;
+                    text-align: center;
+                    line-height: 48px;
+                    border-left: 1px solid #1d2022;
+                    border-right: 1px solid #5b5f62;
+                    text-decoration: none;
+                    &:focus, &:hover {
+                        background-color: #f57f26;
+                    }
+                }
+                &:hover {
+                    > a {
+                        background-color: #f57f26;
+                    }
+                }
+                &:first-child {
+                    > a {
+                        border-left: 0;
+                    }
+                    > div {
+                        > ul {
+                            border-left: 0;
+                        }
+                    }
+                }
+                &:last-child {
+                    > a {
+                        border-right: 0;
+                    }
+                }
+                > div {
+                    display: none;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                    height: 260px;
+                    > ul {
+                        overflow: hidden;
+                        height: 200px;
+                        border-left: 1px solid #d5d5d5;
+                        > li {
+                            > a {
+                                display: block;
+                                font-size: 14px;
+                                line-height: 33px;
+                                color: #666;
+                                text-align: center;
+                                text-decoration: none;
+                                &:hover, &:focus {
+                                    color: #ec6708;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.opened {
+        height: 308px;
+        .container {
+            > ul {
+                > li {
+                    > div {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    &.fixed {
+        position: fixed;
+        top: 0;
+        background-image: url(/assets/images/bg_gnb.gif);
+        background-repeat: repeat-x;
+        background-size: auto 48px;
+        background-color: #fff;
+    }
+}
+
+// 대메뉴 제목
+.jumbo {
+    padding-top: 90px;
+    text-align: center;
+    color: #fff;
+    h1 {
+        margin-bottom: 20px;
+        font-size: 33px;
+        @include lato();
+        small {
+            display: none;
+        }
+    }
+    p {
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: 300;
+    }
+    @media (min-width: $sm) {
+        padding-top: 120px;
+        h1 {
+            margin-bottom: 30px;
+            font-size: 65px;
+            line-height: 90px;
+            small {
+                display: block;
+                color: #fff;
+                font-size: 26px;
+                @include noto();
+            }
+        }
+        p {
+            font-size: 16px;
+            line-height: 27px;
+        }
+    }
+    @media (min-width: $lg) {
+        padding-top: 285px;
+    }
+}
+
+#content {
+    // 서브페이지의 기본 페이지 헤더
+    .page-header {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: 0;
+        text-align: center;
+        h1 {
+            font-size: 27px;
+            color: #060032;
+            font-weight: bold;
+            letter-spacing: -1px;
+            .square1 {
+                i {
+                    font-style: normal;
+                    color: #ec6708;
+                    font-size: 1.4em;
+                }
+            }
+        }
+        @media (min-width: $sm) {
+            h1 {
+                font-size: 34px;
+            }
+        }
+        @media (min-width: $lg) {
+        }
+    }
+}
+
+// LNB
+#lnb {
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    .nav {
+        li {
+            a {
+                border: 0;
+                line-height: 29px;
+                font-size: 16px;
+                color: #222;
+                &:hover, &:focus {
+                    background-color: transparent;
+                    border-bottom: 2px solid orange;
+                    line-height: 28px;
+                }
+            }
+            &.active {
+                a {
+                    background-color: transparent;
+                    border-bottom: 2px solid orange;
+                    line-height: 28px;
+                }
+            }
         }
     }
 }
