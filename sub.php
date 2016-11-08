@@ -27,7 +27,7 @@
             </div>
             <!-- 가이드 작성 영역 -->
             <div class="test">
-                Test Test
+                Test Test Test
             </div>
             <!-- // 가이드 작성 영역 -->
         </main>
