@@ -1,5 +1,5 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link rel="stylesheet" href="/assets/css/sub.scss">
+<link rel="stylesheet" href="/assets/css/sub.css">
 </head>
 <body class="sub introduce">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb_aside.php'); ?>
@@ -26,8 +26,8 @@
                 </nav>
             </div>
             <!-- 가이드 작성 영역 -->
-            <div class="test">
-                Test Test Test
+            <div class="container">
+
             </div>
             <!-- // 가이드 작성 영역 -->
         </main>
