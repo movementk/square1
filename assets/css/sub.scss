@@ -684,152 +684,243 @@
 }
 
 .card-information {
-    > ul {
-        > li {
-            padding-left: 10px;
-            padding-right: 10px;
-            background-color: #fff;
-            .c-details {
-                padding-top: 30px;
-                padding-bottom: 30px;
-                border-bottom: 1px solid #f3f3f3;
-                > h4 {
+    .article-list {
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #fff;
+        .c-details {
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #f3f3f3;
+            > h4 {
+                font-size: 14px;
+                color: #ec6708;
+                margin-bottom: 20px;
+                line-height: 16px;
+                > i {
                     font-size: 14px;
-                    color: #ec6708;
-                    margin-bottom: 20px;
-                    line-height: 16px;
-                    > i {
-                        font-size: 14px;
-                    }
-                    > small {
-                        font-size: 12px;
-                        color: #999;
-                        &.s-margin {
-                            margin-left: 22px;
-                        }
+                }
+                > small {
+                    font-size: 12px;
+                    color: #999;
+                    &.s-margin {
+                        margin-left: 22px;
                     }
                 }
-                .benefit-list {
-                    overflow: hidden;
-                    > li {
-                        float: left;
-                        width: 48.4%;
-                        border: 1px solid #dfdfdf;
-                        margin-right: 10px;
-                        margin-bottom: 10px;
-                        display: table;
-                        @media(min-width: $xs) {
-                            &:nth-of-type(2n + 2) {
-                                margin-right: 0;
-                            }
-                        }
+            }
+            .benefit-list {
+                overflow: hidden;
+                > li {
+                    float: left;
+                    width: 48.4%;
+                    border: 1px solid #dfdfdf;
+                    padding-top: 10px;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                    display: table;
+                    &.cgv {
                         .item-icon {
-                            width: 100%;
-                            height: 55px;
-                            display: table-cell;
-                            vertical-align: middle;
-                            img {
-                                margin: 0 auto;
-                            }
-                            &.cgv {
-                                padding: 0 40px;
-                            }
-                            &.chinaf {
-                                padding-top: 10px;
-                                padding: 0 25px;
-                            }
-                            &.bibigo {
-                                padding: 0 33px;
-                            }
-                            &.hakoya {
-                                padding: 0 20px;
-                            }
-                            &.smoothie {
-                                padding: 0 14px;
+                            padding: 0 40px;
+                        }
+                    }
+                    &.chinaf {
+                        margin-right: 0;
+                        .item-icon {
+                            padding: 0 25px;
+                        }
+                    }
+                    &.bibigo {
+                        .item-icon {
+                            padding: 0 33px;
+                        }
+                    }
+                    &.hakoya {
+                        margin-right: 0;
+                        .item-icon {
+                            padding: 0 20px;
+                        }
+                    }
+                    &.smoothie {
+                        .item-icon {
+                            padding: 0 14px;
+                        }
+                    }
+                    .item-icon {
+                        width: 100%;
+                        height: 55px;
+                        display: table-cell;
+                        vertical-align: middle;
+                        img {
+                            margin: 0 auto;
+                        }
+                    }
+                    > dl {
+                        height: 60px;
+                        display: table-row;
+                        text-align: center;
+                        dt {
+                            font-size: 11px;
+                            color: #666;
+                            font-weight: 300;
+                        }
+                        dd {
+                            font-size: 13px;
+                            color: #333;
+                            font-weight: 400;
+                        }
+                    }
+                    @media(min-width: $sm) {
+                        width: 32.3%;
+                        &.cgv {
+                            .item-icon {
+                                padding: 0 68px;
                             }
                         }
-                        > dl {
-                            height: 60px;
-                            display: table-row;
-                            text-align: center;
+                        &.chinaf {
+                            margin-right: 10px;
+                            .item-icon {
+                                padding: 0 45px;
+                            }
+                        }
+                        &.bibigo {
+                            margin-right: 0;
+                            .item-icon {
+                                padding: 0 58px;
+                            }
+                        }
+                        &.hakoya {
+                            margin-right: 10px;
+                            .item-icon {
+                                padding: 0 39px;
+                            }
+                        }
+                        &.smoothie {
+                            .item-icon {
+                                padding: 0 32px;
+                            }
+                        }
+                        dl {
+                            height: 70px;
                             dt {
-                                font-size: 11px;
-                                color: #666;
-                                font-weight: 300;
+                                font-size: 13px;
                             }
                             dd {
-                                font-size: 13px;
-                                color: #333;
-                                font-weight: 400;
+                                font-size: 15px;
                             }
                         }
                     }
+                    @media(min-width: $md) {
+                        width: 18.77%;
+                        &.cgv {
+                            margin-right: 15px;
+                            .item-icon {
+                                padding: 0;
+                            }
+                        }
+                        &.chinaf {
+                            margin-right: 15px;
+                            .item-icon {
+                                padding: 0;
+                            }
+                        }
+                        &.bibigo {
+                            margin-right: 15px;
+                            .item-icon {
+                                padding: 0;
+                            }
+                        }
+                        &.hakoya {
+                            margin-right: 15px;
+                            .item-icon {
+                                padding: 0;
+                            }
+                        }
+                        &.smoothie {
+                            margin-right: 0;
+                            .item-icon {
+                                padding: 0;
+                            }
+                        }
+                        dl {
+                            height: 70px;
+                            dt {
+                                padding-top: 10px;
+                                font-size: 13px;
+                            }
+                            dd {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                    @media(min-width: $lg) {
+                        width: 18.99%
+                    }
                 }
-                .table-wrap {
-                    border-top: 1px solid #ec6708;
-                    .table-bordered {
-                        border: 0;
-                        thead {
-                            tr {
-                                th {
-                                    font-size: 12px;
-                                    color: #333;
-                                    text-align: center;
-                                    font-weight: 400;
-                                    vertical-align: middle;
-                                    padding: 15px 0;
-                                    border: 0;
-                                    border-left: 1px solid #dfdfdf;
-                                    background-color: #f9f9f9;
-                                    &:first-child {
-                                        border-left: 0;
-                                    }
-                                    @media(min-width: $sm) {
-                                        font-size: 15px;
-                                        font-weight: 500;
-                                    }
+            }
+            .table-wrap {
+                border-top: 1px solid #ec6708;
+                .table-bordered {
+                    border: 0;
+                    thead {
+                        tr {
+                            th {
+                                font-size: 12px;
+                                color: #333;
+                                text-align: center;
+                                font-weight: 400;
+                                vertical-align: middle;
+                                padding: 15px 0;
+                                border: 0;
+                                border-left: 1px solid #dfdfdf;
+                                background-color: #f9f9f9;
+                                &:first-child {
+                                    border-left: 0;
+                                }
+                                @media(min-width: $sm) {
+                                    font-size: 15px;
+                                    font-weight: 500;
                                 }
                             }
                         }
-                        tbody {
-                            tr {
-                                td {
-                                    font-size: 12px;
-                                    line-height: 18px;
-                                    color: #666;
-                                    text-align: center;
-                                    vertical-align: middle;
-                                    padding: 15px 0;
-                                    border-right: 0;
-                                    font-weight: 300;
-                                    &:first-child {
-                                        border-left: 0;
-                                    }
-                                    @media(min-width: $sm) {
-                                        font-size: 15px;
-                                    }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                font-size: 12px;
+                                line-height: 18px;
+                                color: #666;
+                                text-align: center;
+                                vertical-align: middle;
+                                padding: 15px 0;
+                                border-right: 0;
+                                font-weight: 300;
+                                &:first-child {
+                                    border-left: 0;
+                                }
+                                @media(min-width: $sm) {
+                                    font-size: 15px;
                                 }
                             }
                         }
                     }
                 }
             }
-            @media(min-width: $sm) {
-                padding-left: 20px;
-                padding-right: 20px;
-                .c-details {
-                    padding-top: 45px;
-                    padding-bottom: 49px;
-                    > h4 {
+        }
+        @media(min-width: $sm) {
+            padding-left: 20px;
+            padding-right: 20px;
+            .c-details {
+                padding-top: 45px;
+                padding-bottom: 49px;
+                > h4 {
+                    font-size: 16px;
+                    > i {
                         font-size: 16px;
-                        > i {
-                            font-size: 16px;
-                        }
-                        > small {
-                            font-size: 13px;
-                            &.s-margin {
-                                margin-left: 0;
-                            }
+                    }
+                    > small {
+                        font-size: 13px;
+                        &.s-margin {
+                            margin-left: 0;
                         }
                     }
                 }

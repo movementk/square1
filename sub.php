@@ -530,129 +530,128 @@
 
                 <h1 style="font-size:20px; color:#f54c4c; margin: 30px 0;">포인트카드</h1>
                 <div style="padding: 30px 0;">
-                    <div class="card-information">
-                        <ul>
-                            <li>
-                                <div class="c-details">
-                                    <h4><i class="icon-chat"></i> 스퀘어원 포인트카드 안내</h4>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="c-details">
-                                    <h4><i class="icon-users"></i> 포인트카드 회원혜택 <small> (기준일 : 2015년 3월 2일) </small></h4>
+                    <article class="card-information">
+                        <div class="article-list">
+                            <div class="c-details">
+                                <h4><i class="icon-chat"></i> 스퀘어원 포인트카드 안내</h4>
+                            </div>
+                        </div>
+                        <div class="article-list">
+                            <div class="c-details">
+                                <h4><i class="icon-users"></i> 포인트카드 회원혜택 <small> (기준일 : 2015년 3월 2일) </small></h4>
 
-                                    <ul class="benefit-list">
-                                        <li>
-                                            <p class="item-icon cgv">
-                                                <img src="/assets/images/introduce/card_benefit_logo01.jpg" class="img-responsive" alt="CGV">
-                                            </p>
-                                            <dl>
-                                                <dt>인청연수점 전품목<br>콤보세트</dt>
-                                                <dd>3,000원 할인</dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <p class="item-icon chinaf">
-                                                <img src="/assets/images/introduce/card_benefit_logo02.jpg" class="img-responsive" alt="차이나팩토리">
-                                            </p>
-                                            <dl>
-                                                <dt>차이나팩토리</dt>
-                                                <dd>10% 상시 할인</dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <p class="item-icon bibigo">
-                                                <img src="/assets/images/introduce/card_benefit_logo03.jpg" class="img-responsive" alt="비비고">
-                                            </p>
-                                            <dl>
-                                                <dt>비비고</dt>
-                                                <dd>10% 상시 할인</dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <p class="item-icon hakoya">
-                                                <img src="/assets/images/introduce/card_benefit_logo04.jpg" class="img-responsive" alt="하코야">
-                                            </p>
-                                            <dl>
-                                                <dt>하코야</dt>
-                                                <dd>10% 상시 할인</dd>
-                                            </dl>
-                                        </li>
-                                        <li>
-                                            <p class="item-icon smoothie">
-                                                <img src="/assets/images/introduce/card_benefit_logo05.jpg" class="img-responsive" alt="스무디킹">
-                                            </p>
-                                            <dl>
-                                                <dt>스무디킹</dt>
-                                                <dd>5% 상시 할인</dd>
-                                            </dl>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="c-details">
-                                    <h4><i class="icon-star"></i> 적립 포인트 혜택 <small> (기준일 : 2015년 2월 1일) </small></h4>
+                                <ul class="benefit-list">
+                                    <li class="cgv">
+                                        <p class="item-icon">
+                                            <img src="/assets/images/introduce/card_benefit_logo01.jpg" class="img-responsive" alt="CGV">
+                                        </p>
+                                        <dl>
+                                            <dt>인청연수점 전품목<br class="visible-xs">콤보세트</dt>
+                                            <dd>3,000원 할인</dd>
+                                        </dl>
+                                    </li>
+                                    <li class="chinaf">
+                                        <p class="item-icon">
+                                            <img src="/assets/images/introduce/card_benefit_logo02.jpg" class="img-responsive" alt="차이나팩토리">
+                                        </p>
+                                        <dl>
+                                            <dt>차이나팩토리</dt>
+                                            <dd>10% 상시 할인</dd>
+                                        </dl>
+                                    </li>
+                                    <li class="bibigo">
+                                        <p class="item-icon">
+                                            <img src="/assets/images/introduce/card_benefit_logo03.jpg" class="img-responsive" alt="비비고">
+                                        </p>
+                                        <dl>
+                                            <dt>비비고</dt>
+                                            <dd>10% 상시 할인</dd>
+                                        </dl>
+                                    </li>
+                                    <li class="hakoya">
+                                        <p class="item-icon">
+                                            <img src="/assets/images/introduce/card_benefit_logo04.jpg" class="img-responsive" alt="하코야">
+                                        </p>
+                                        <dl>
+                                            <dt>하코야</dt>
+                                            <dd>10% 상시 할인</dd>
+                                        </dl>
+                                    </li>
+                                    <li class="smoothie">
+                                        <p class="item-icon">
+                                            <img src="/assets/images/introduce/card_benefit_logo05.jpg" class="img-responsive" alt="스무디킹">
+                                        </p>
+                                        <dl>
+                                            <dt>스무디킹</dt>
+                                            <dd>5% 상시 할인</dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
 
-                                    <div class="table-wrap">
-                                        <table class="table table-bordered">
-                                            <colgorup>
-                                                <col style="width: 30%">
-                                                <col style="width: 70%">
-                                            </colgorup>
-                                            <thead>
-                                                <tr>
-                                                    <th>포인트</th>
-                                                    <th>혜택</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>6,000포인트</td>
-                                                    <td>CGV인천연수점 무료영화관람권 1매</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>12,000포인트</td>
-                                                    <td>CGV인천연수점<br class="visible-xs">무료영화관람권 1매 + CGV콤보세트</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>30,000포인트</td>
-                                                    <td>스퀘어원 매장 금액권(3만원)</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>60,000포인트</td>
-                                                    <td>스퀘어원 매장 금액권(6만원)</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
+                        <div class="article-list">
+                            <div class="c-details">
+                                <h4><i class="icon-star"></i> 적립 포인트 혜택 <small> (기준일 : 2015년 2월 1일) </small></h4>
+
+                                <div class="table-wrap">
+                                    <table class="table table-bordered">
+                                        <colgroup>
+                                            <col style="width: 30%">
+                                            <col style="width: 70%">
+                                        </colgroup>
+                                        <thead>
+                                            <tr>
+                                                <th>포인트</th>
+                                                <th>혜택</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>6,000포인트</td>
+                                                <td>CGV인천연수점 무료영화관람권 1매</td>
+                                            </tr>
+                                            <tr>
+                                                <td>12,000포인트</td>
+                                                <td>CGV인천연수점<br class="visible-xs">무료영화관람권 1매 + CGV콤보세트</td>
+                                            </tr>
+                                            <tr>
+                                                <td>30,000포인트</td>
+                                                <td>스퀘어원 매장 금액권(3만원)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>60,000포인트</td>
+                                                <td>스퀘어원 매장 금액권(6만원)</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
-                            </li>
-                            <li>
-                                <div class="c-details">
-                                    <h4><i class="icon-credit-card"></i> 카드 발급 및 적립 안내</h4>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="c-details">
-                                    <h4>
-                                        <i class="icon-cancel-circled2"></i> 스퀘어원 포인트 적립 제외 매장<br class="visible-xs">
-                                        <small class="s-margin"> (기준일 : 2015년 5월 3일)</small>
-                                    </h4>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="c-details">
-                                    <h4><i class="icon-credit-card"></i> 카드 재발급 및 카드 분실</h4>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="c-details">
-                                    <h4><i class="icon-credit-card"></i> 포인트카드 마일리지 유효기간 및 소멸안내 </h4>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                            </div>
+                        </div>
+                        <div class="article-list">
+                            <div class="c-details">
+                                <h4><i class="icon-credit-card"></i> 카드 발급 및 적립 안내</h4>
+                            </div>
+                        </div>
+                        <div class="article-list">
+                            <div class="c-details">
+                                <h4>
+                                    <i class="icon-cancel-circled2"></i> 스퀘어원 포인트 적립 제외 매장<br class="visible-xs">
+                                    <small class="s-margin"> (기준일 : 2015년 5월 3일)</small>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="article-list">
+                            <div class="c-details">
+                                <h4><i class="icon-credit-card"></i> 카드 재발급 및 카드 분실</h4>
+                            </div>
+                        </div>
+                        <div class="article-list">
+                            <div class="c-details">
+                                <h4><i class="icon-credit-card"></i> 포인트카드 마일리지 유효기간 및 소멸안내 </h4>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div><!-- // container -->
             <!-- // 가이드 작성 영역 -->
