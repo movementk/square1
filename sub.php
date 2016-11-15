@@ -1,4 +1,5 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"><!-- calendar -->
 <link rel="stylesheet" href="/assets/css/sub.css">
 </head>
 <body class="sub introduce">
@@ -21,6 +22,8 @@
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/lnb1.php'); ?>
             <div class="page-header">
                 <h1><span class="square1">SQUARE<i>1</i></span> 소개</h1>
+                <h2>스퀘어원의 새로운 소식을<br class="visible-xs">알려드립니다.</h2>
+                <p>고객님의 평의를 위한 스퀘어원의<br class="visible-xs"> 정보를 전해드립니다.</p>
                 <nav class="snb">
 
                 </nav>
@@ -39,33 +42,77 @@
                     <nav aria-label="Page navigation" class="paging">
                         <ul class="pagination">
                             <li>
-                                <a href="#" aria-label="Previous">
-                                    <span aria-hidden="true">&laquo;</span>
-                                </a>
+                                <a href="#" aria-label="Previous" class="ap">
+                                    <i aria-hidden="true" class="icon-angle-double-left"></i>
+                                </a> 
                             </li>
                             <li>
-                                <a href="#" aria-label="Previous">
-                                    <span aria-hidden="true">&laquo;</span>
+                                <a href="#" aria-label="Previous" class="ap ap-mr">
+                                    <i aria-hidden="true" class="icon-angle-left"></i>
                                 </a>
                             </li>
-                            <li><a href="#">1</a></li>
+                            <li class="active"><a href="#">1</a></li>
                             <li><a href="#">2</a></li>
                             <li><a href="#">3</a></li>
                             <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
+                            <li><a href="#" class="ap-mr">5</a></li>
                             <li>
-                                <a href="#" aria-label="Next">
-                                    <span aria-hidden="true">&raquo;</span>
+                                <a href="#" aria-label="Next" class="ap">
+                                    <i aria-hidden="true" class="icon-angle-right"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#" aria-label="Next">
-                                    <span aria-hidden="true">&raquo;</span>
+                                <a href="#" aria-label="Next" class="ap">
+                                    <i aria-hidden="true" class="icon-angle-double-right"></i>
                                 </a>
                             </li>
                         </ul>
                     </nav>
-
+                </div>
+                <div class="board-list">
+                    <ul class="row">
+                        <li class="col-xs-4 col-sm-2 active">
+                            <a href="#">ALL</a>
+                        </li>
+                        <li class="col-xs-4 col-sm-2">
+                            <a href="#">매장안내</a>
+                        </li>
+                        <li class="col-xs-4 col-sm-2">
+                            <a href="#">이벤트</a>
+                        </li>
+                        <li class="col-xs-4 col-sm-2">
+                            <a href="#">편의시설</a>
+                        </li>
+                        <li class="col-xs-4 col-sm-2">
+                            <a href="#">주차/교통</a>
+                        </li>
+                        <li class="col-xs-4 col-sm-2">
+                            <a href="#">기타</a>
+                        </li>
+                    </ul>
+                </div>
+                <div style="margin: 30px 0;">
+                    <div class="calendar-form">
+                        <form>
+                            <p class="calendar">
+                                <input type="text" id="datepicker" class="form-control in-mr">
+                                <label for="datepicker">
+                                    <i class="icon-calendar">
+                                        <span class="sr-only">시작날짜조회</span>
+                                    </i>
+                                </label>
+                            </p>
+                            -
+                            <p class="calendar">
+                                <input type="text" id="datepicker-2" class="form-control in-mr">
+                                <label for="datepicker-2">
+                                    <i class="icon-calendar">
+                                        <span class="sr-only">종료날짜조회</span>
+                                    </i>
+                                </label>
+                            </p>
+                        </form>
+                    </div>
                 </div>
                 <div style="margin: 30px 0;">
                     <div class="search-form">
@@ -693,11 +740,82 @@
                         </div>
                     </article>
                 </div>
+                
+                <div style="margin: 30px 0;">
+                    <div class="table-wrap">
+                        <table class="table table-bordered notice-table">
+                            <thead>
+                                <tr>
+                                    <th>번호</th>
+                                    <th>제목</th>
+                                    <th>작성일</th>
+                                    <th>조회수</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>100</td>
+                                    <td class="t-content"><a href="#">4F 전문식당가 리뉴얼/매장이동 안내입니다.</a></td>
+                                    <td class="date">2016-10-06</td>
+                                    <td>123</td>
+                                </tr>
+                                <tr>
+                                    <td>99</td>
+                                    <td class="t-content"><a href="#">바르미 샤브샤브 칼국수 입점 오픈 안내</a></td>
+                                    <td class="date">2016-10-06</td>
+                                    <td>15</td>
+                                </tr>
+                                <tr>
+                                    <td>98</td>
+                                    <td class="t-content"><a href="#">포베이 입점 오픈 안내</a></td>
+                                    <td class="date">2016-10-06</td>
+                                    <td>77</td>
+                                </tr>
+                                <tr>
+                                    <td>97</td>
+                                    <td class="t-content"><a href="#">4F 푸드코너 리뉴얼 공사 안내</a></td>
+                                    <td class="date">2016-10-06</td>
+                                    <td>23</td>
+                                </tr>
+                                <tr>
+                                    <td>96</td>
+                                    <td class="t-content"><a href="#">더제이케이키친박스 입점 오픈 안내</a></td>
+                                    <td class="date">2016-10-06</td>
+                                    <td>96</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div><!-- // container -->
             <!-- // 가이드 작성 영역 -->
         </main>
         <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     </div>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+    
+    
+    
+    <!-- calendar 없는 페이지 제거 -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script><!-- calendar -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><!-- calendar -->
+    <script><!-- calendar -->
+        (function($) {
+            $("#datepicker, #datepicker-2").datepicker({
+                dateFormat: 'yy-mm-dd',
+                prevText: '이전 달',
+                nextText: '다음 달',
+                monthNames: ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'],
+                monthNamesShort: ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'],
+                dayNames: ['일','월','화','수','목','금','토'],
+                dayNamesShort: ['일','월','화','수','목','금','토'],
+                dayNamesMin: ['일','월','화','수','목','금','토'],
+                showMonthAfterYear: true,
+                changeMonth: true,
+                changeYear: true,
+                yearSuffix: '년'
+            });
+        })(jQuery);
+    </script>
 </body>
 </html>
