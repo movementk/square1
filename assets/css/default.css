@@ -331,7 +331,9 @@ body.gnb-open {
       body.gnb-open #wrapper {
         left: 0; }
         body.gnb-open #wrapper #top-nav {
-          left: 0; } }
+          left: 0; }
+          body.gnb-open #wrapper #top-nav .search-area {
+            left: 0; } }
 
 #wrapper {
   position: relative;
