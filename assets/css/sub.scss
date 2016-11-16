@@ -1,49 +1,5 @@
 @import 'common';
 
-/*
-.page-header {
-    h1 {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-    h2 {
-        font-size: 22px;
-        color: #ec6708;
-        font-weight: 300;
-        line-height: 30px;
-        margin-bottom: 15px;
-    }
-    p {
-        font-size: 13px;
-        color: #333;
-        line-height: 26px;
-        margin-bottom: 45px;
-    }
-    @media(min-width: $sm) {
-        h1 {
-            font-size: 34px;
-            margin-top: 60px;
-            margin-bottom: 60px;
-        }
-        h2 {
-            font-size: 30px;
-            margin-bottom: 40px;
-        }
-        p {
-            font-size: 16px;
-        }
-    }
-    @media(min-width: $md) {
-        p {
-            margin-bottom: 60px;
-        }
-    }
-}
-
-.lato {
-    font-family: 'Lato', sans-serif;
-}
-*/
 .sub {
     background-color: #f8f8f8;
     #content {
@@ -63,6 +19,12 @@
         display: inline-block;
         width: 45.7%;
         margin-left: 8px;
+        @media(min-width: 375px) {
+            width: 46.33%;
+        }
+        @media(min-width: 425px) {
+            width: 46.8%;
+        }
         &:first-child {
             margin-left: 0;
             margin-right: 8px;
@@ -93,37 +55,59 @@
             }
         }
     }
-    .search-form {
-        width: 100%;
-        margin: 0;
+    .c-search {
         margin-top: 10px;
+        @media(min-width: $xs) {
+            
+        }
+        @media (min-width: $sm) {
+            
+        }
         .form-group {
+            overflow: hidden;
             width: 100%;
+            .form-control {
+                height: 38px;
+                float: left;
+                font-size: 13px;
+                color: #333;
+            }
             select {
                 width: 35%;
                 margin-right: 10px;
             }
             input {
-                width: 48%;
+                width: 47.5%;
+                margin-right: 5px;
+                @media(min-width: 375px) {
+                    width: 50.2%;
+                }
+                @media(min-width: 425px) {
+                    width: 51.99%;
+                }
             }
-        }
-        .btn {
-            vertical-align: top;
-            float: right;
+            .btn {
+                float: left;
+                width: 39px;
+                height: 38px;
+                background-color: #666;
+                span {
+                    color: #fff;
+                }
+            }
         }
     }
 }
 #content .search-form {
     overflow: hidden;
     margin: 0 auto;
-    @media(min-width: $xs) {
-        width: 300px;
-    }
+    width: 300px;
     @media (min-width: $sm) {
         width: 500px;
     }
     .form-group {
         float: left;
+        overflow: hidden;
         .form-control {
             height: 38px;
             float: left;
@@ -181,7 +165,7 @@
             font-family: "fontello";
             content: "\E80C";
             padding-right: 5px;
-            color: #ec6708;
+            color: $orange;
         }
         @media(min-width: $sm) {
             font-size: 15px;
@@ -192,6 +176,8 @@
 // 게시판 리스트
 .board-list {
     > ul {
+        margin-left: -5px !important;
+        margin-right: -5px !important;
         > li {
             > a {
                 display: block;
@@ -211,8 +197,8 @@
             &.active {
                 a {
                     color: #fff;
-                    border-color: #ec6708;
-                    background-color: #ec6708;
+                    border-color: $orange;
+                    background-color: $orange;
                 }
             }
             &:nth-of-type(4) {
@@ -275,8 +261,8 @@
             &.active {
                 a {
                     color: #fff;
-                    border-color: #ec6708;
-                    background-color: #ec6708;
+                    border-color: $orange;
+                    background-color: $orange;
                 }
             }
         }
@@ -297,8 +283,8 @@
         }
         .btn-orange {
             color: #fff;
-            border: 1px solid #ec6708;
-            background-color: #ec6708;
+            border: 1px solid $orange;
+            background-color: $orange;
         }
         .btn-default {
             color: #666;
@@ -367,7 +353,7 @@
                     dl {
                         dt {
                             font-size: 13px;
-                            color: #ec6708;
+                            color: $orange;
                             font-weight: 400;
                             margin-bottom: 5px;
                         }
@@ -377,20 +363,13 @@
                             font-weight: 400;
                             @include lato();
                             line-height: 22px;
-                            padding-left: 20px;
-                            background-repeat: no-repeat;
-                            background-position: 0 5px;
-                            &:nth-of-type(1) {
-                                background-image: url(/assets/images/tel_ico.gif);
-                                background-size: 11px;
-                            }
-                            &:nth-of-type(2) {
-                                background-image: url(/assets/images/clock_ico.gif);
-                                background-size: 11px;
-                            }
-                            &:nth-of-type(3) {
-                                background-image: url(/assets/images/position_ico.gif);
-                                background-size: 8px 11px;
+                            i {
+                                font-size: 13px;
+                                color: $orange;
+                                margin-right: 6px;
+                                @media(min-width: $sm) {
+                                    font-size: 16px;
+                                }
                             }
                             a {
                                 color: #333;
@@ -407,16 +386,6 @@
                             dd {
                                 font-size: 16px;
                                 line-height: 28px;
-                                background-position: 0 8px;
-                                &.c-tel {
-                                    background-size: 13px;
-                                }
-                                &.c-clock {
-                                    background-size: 13px;
-                                }
-                                &.c-floor {
-                                    background-size: 9px 13px;
-                                }
                             }
                         }
                     }
@@ -588,15 +557,17 @@
                         line-height: 24px;
                         font-weight: 400;
                         margin-right: 15px;
+                        i {
+                            font-size: 13px;
+                            color: $orange;
+                            display: inline;
+                            @media(min-width: $sm) {
+                                font-size: 16px;
+                            }
+                        }
                         &.clear {
                             clear: both;
                             margin-left: 80px;
-                        }
-                        &.a-position {
-                            width: 33px;
-                            background-image: url(/assets/images/position_ico.gif);
-                            background-repeat: no-repeat;
-                            background-position: 100% 5px;
                         }
                     }
                 }
@@ -700,11 +671,6 @@
                             line-height: 28px;
                             &.clear {
                                 margin-left: 94px;
-                            }
-                            &.a-position {
-                                width: 40px;
-                                background-size: 10px 13px;
-                                background-position: 100% 8px;
                             }
                         }
                     }
@@ -951,7 +917,7 @@
             border-bottom: 1px solid #f3f3f3;
             > h4 {
                 font-size: 14px;
-                color: #ec6708;
+                color: $orange;
                 margin-bottom: 20px;
                 line-height: 16px;
                 > i {
@@ -1115,7 +1081,7 @@
                 }
             }
             .table-wrap {
-                border-top: 1px solid #ec6708;
+                border-top: 1px solid $orange;
                 .table-bordered {
                     border: 0;
                     thead {
@@ -1187,7 +1153,7 @@
 }
 
 .table-wrap {
-    border-top: 1px solid #ec6708;
+    border-top: 1px solid $orange;
     .notice-table {
         table-layout: fixed;
         border: 0;
@@ -1339,7 +1305,7 @@
             border-top: 1px solid #dfdfdf;
             background-color: #f9f9f9;
             &:first-child {
-                border-top-color: #ec6708;
+                border-top-color: $orange;
             }
             label {
                 margin: 0;
@@ -1371,6 +1337,8 @@
             select {
                 width: 250px;
                 height: 30px;
+                padding: 0;
+                padding-left: 12px;
                 border: 1px solid #dfdfdf;
             }
             textarea {
@@ -1390,7 +1358,7 @@
                 padding-right: 20px;
                 border-top: 1px solid #dfdfdf;
                 &:nth-of-type(1) {
-                    border-color: #ec6708;
+                    border-color: $orange;
                 }
             }
         }
