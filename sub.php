@@ -68,6 +68,13 @@
                             </li>
                         </ul>
                     </nav>
+
+                    <dis class="btn-area">
+                        <p>
+                            <a href="#" class="btn btn-orange" role="button">확인</a>
+                            <a href="#" class="btn btn-default" role="button">취소</a>
+                        </p>
+                    </dis>
                 </div>
                 <div class="board-list">
                     <ul class="row">
@@ -111,6 +118,18 @@
                                     </i>
                                 </label>
                             </p>
+                            <div class="search-form">
+                                <div class="form-group">
+                                    <select class="form-control">
+                                        <option value="">전체</option>
+                                    </select>
+                                    <label for="search-keyword" class="sr-only">검색어</label>
+                                    <input id="search-keyword" type="text" class="form-control">
+                                </div>
+                                <button type="submit" class="btn">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -785,6 +804,22 @@
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+                </div>
+                <div style="margin: 30px 0;">
+                    <div class="input-form type-1">
+                        <dl>
+                            <dt><label for="u-name">단체(개인)명</label></dt>
+                            <dd><input type="text" id="u-name" class="form-control"></dd>
+                            <dt><label for="performance">공연분야</label></dt>
+                            <dd>
+                                <select class="form-control" id="performance">
+                                    <option value="">선택하세요</option>
+                                </select>
+                            </dd>
+                            <dt><label for="mfic">담당자명</label></dt>
+                            <dd><input type="text" id="mfic" class="form-control"></dd>
+                        </dl>
                     </div>
                 </div>
             </div><!-- // container -->

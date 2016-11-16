@@ -946,7 +946,7 @@ body.gnb-open {
   .calendar-form .calendar {
     position: relative;
     display: inline-block;
-    width: 45%;
+    width: 45.7%;
     margin-left: 8px; }
     .calendar-form .calendar:first-child {
       margin-left: 0;
@@ -972,6 +972,20 @@ body.gnb-open {
         color: #bcbcbc; }
       .calendar-form .calendar label:hover {
         cursor: pointer; }
+  .calendar-form .search-form {
+    width: 100%;
+    margin: 0;
+    margin-top: 10px; }
+    .calendar-form .search-form .form-group {
+      width: 100%; }
+      .calendar-form .search-form .form-group select {
+        width: 35%;
+        margin-right: 10px; }
+      .calendar-form .search-form .form-group input {
+        width: 48%; }
+    .calendar-form .search-form .btn {
+      vertical-align: top;
+      float: right; }
 
 .search-form {
   overflow: hidden;
@@ -1091,6 +1105,24 @@ body.gnb-open {
       color: #fff;
       border-color: #ec6708;
       background-color: #ec6708; }
+
+.btn-area {
+  text-align: center; }
+  .btn-area p .btn {
+    width: 123px;
+    height: 42px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 42px;
+    padding: 0; }
+  .btn-area p .btn-orange {
+    color: #fff;
+    border: 1px solid #ec6708;
+    background-color: #ec6708; }
+  .btn-area p .btn-default {
+    color: #666;
+    border: 1px solid #d4d4d4;
+    background-color: #fff; }
 
 .category-list ul {
   margin: -4px !important; }
@@ -1823,5 +1855,69 @@ body.gnb-open {
         @media (min-width: 992px) {
           .table-wrap .notice-table tbody tr td:nth-of-type(4) {
             width: 10%; } }
+
+.input-form > dl {
+  overflow: hidden;
+  border-bottom: 1px solid #dfdfdf; }
+  .input-form > dl > dt {
+    display: block;
+    width: 100%;
+    float: left;
+    clear: both;
+    font-size: 13px;
+    color: #666;
+    font-weight: 400;
+    padding: 16px 0 16px 10px;
+    border-top: 1px solid #dfdfdf;
+    background-color: #f9f9f9; }
+    .input-form > dl > dt:first-child {
+      border-top-color: #ec6708; }
+    .input-form > dl > dt label {
+      margin: 0;
+      font-weight: 400; }
+      .input-form > dl > dt label i {
+        font-size: 13px;
+        color: #999;
+        font-style: normal;
+        font-weight: 400; }
+  .input-form > dl > dd {
+    float: left;
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    color: #666;
+    font-weight: 400;
+    padding: 11px 10px;
+    border-top: 1px solid #dfdfdf;
+    background-color: #fff; }
+    .input-form > dl > dd .form-control {
+      width: 250px;
+      height: 30px;
+      font-size: 13px;
+      border: 1px solid #dfdfdf; }
+    .input-form > dl > dd select {
+      width: 250px;
+      height: 30px;
+      border: 1px solid #dfdfdf; }
+    .input-form > dl > dd textarea {
+      width: 100%; }
+  @media (min-width: 768px) {
+    .input-form > dl dt {
+      width: 30%;
+      font-size: 14px;
+      padding-left: 30px;
+      border-top: 1px solid #dfdfdf; }
+    .input-form > dl dd {
+      width: 70%;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-top: 1px solid #dfdfdf; }
+      .input-form > dl dd:nth-of-type(1) {
+        border-color: #ec6708; } }
+  @media (min-width: 992px) {
+    .input-form > dl dd {
+      width: 70%;
+      padding-left: 30px;
+      padding-right: 30px; } }
 
 /*# sourceMappingURL=sub.css.map */
