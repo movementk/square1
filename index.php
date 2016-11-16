@@ -1,6 +1,6 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 </head>
-<body class="sub introduce">
+<body class="main">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb_aside.php'); ?>
     <div id="wrapper">
         <div id="top-bn">
@@ -21,7 +21,6 @@
             <div class="page-header">
                 <h1><span class="square1">SQUARE<i>1</i></span> 소개</h1>
                 <nav class="snb">
-
                 </nav>
             </div>
         </main>

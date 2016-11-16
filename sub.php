@@ -1,7 +1,7 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link rel="stylesheet" href="/assets/css/sub.scss">
+<link rel="stylesheet" href="/assets/css/sub.css">
 </head>
-<body class="sub introduce">
+<body class="sub introduce gnb-open">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb_aside.php'); ?>
     <div id="wrapper">
         <div id="top-bn">
@@ -19,15 +19,26 @@
         </header>
         <main id="content">
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/lnb1.php'); ?>
-            <div class="page-header">
+            <div class="page-header has-snb"><!-- SNB를 포함할 경우 has-snb 클래스 추가-->
                 <h1><span class="square1">SQUARE<i>1</i></span> 소개</h1>
-                <nav class="snb">
-
-                </nav>
+                <div class="snb">
+                    <div class="container">
+                        <button class="btn btn-block" type="button">
+                            SQUARE1
+                        </button>
+                        <nav>
+                            <ul>
+                                <li class="active"><a href="#">SQUARE1</a></li>
+                                <li><a href="#">SQUARE1 CONCEPT</a></li>
+                                <li><a href="#">SQUARE1 BI</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
             </div>
             <!-- 가이드 작성 영역 -->
-            <div class="test">
-                Test Test Test
+            <div class="test" style="height: 2000px;">
+                
             </div>
             <!-- // 가이드 작성 영역 -->
         </main>

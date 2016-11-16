@@ -15,7 +15,7 @@
 })(jQuery);
 */
 (function($) {
-    // 모바일 햄버거 버튼
+    // 모바일 메뉴 관련 버튼
     $(document).on('click', '#header .btn-menu', function() {
         $('body').addClass('gnb-open');
     });
@@ -25,6 +25,14 @@
     $(document).on('click', '#gnb-aside', function(e) {
         if ($(e.target).attr('id') === 'gnb-aside') {
             $('body').removeClass('gnb-open');
+        }
+    });
+    $(document).on('click', '#gnb-aside .menu > ul > li > a', function() {
+        if ($(this).parent().hasClass('active')) {
+            $(this).parent().removeClass('active');
+        } else {
+            $(this).parent().siblings('.active').removeClass('active');
+            $(this).parent().addClass('active');
         }
     });
 
@@ -39,5 +47,21 @@
     });
     $(document).on('mouseleave', '#gnb', function() {
         $('#gnb').removeClass('opened');
+    });
+    
+    // 모바일: 서브페이지에서 페이지헤더 탭
+    $(document).on('click', '#content .page-header .snb .btn', function() {
+        $('#content .page-header .snb').toggleClass('open');
+    });
+    
+    $(window).on('scroll', function() {
+        //console.log( $('#gnb').scrollTop() );
+        console.log( $('#gnb').offset().top);
+        console.log( $('#gnb').position().top);
+        if ( $(this).scrollTop() > 200 ) {
+            $('#gnb').addClass('fixed');
+        } else {
+            $('#gnb').removeClass('fixed');
+        }
     });
 })(jQuery);
