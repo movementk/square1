@@ -1,8 +1,12 @@
 @import 'common';
 
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*:focus {
+    border: 10px solid black !important;
+}
 
 h1, h2, h3,h4, h5, h6 {
     margin-top: 0;
@@ -241,17 +245,6 @@ body.gnb-open {
             
         }
         .member {
-//                ul {
-//                    display: inline-block;
-//                    li {
-//                        display: inline;
-//                        a {
-//                            float: left;
-//                            width: 33.33%;
-//                            height: 40px;
-//                        }
-//                    }
-//                }
             ul {
                 display: table;
                 width: 100%;
@@ -307,6 +300,7 @@ body.gnb-open {
                             border-right: 1px solid #f3f3f3;
                             text-align: center;
                             line-height: 20px;
+                            text-decoration: none;
                             &:before {
                                 position: relative;
                                 display: block;
@@ -316,8 +310,6 @@ body.gnb-open {
                                 background-size: auto 100%;
                                 background-position: 50% 50%;
                                 content: '';
-                            }
-                            &:hover, &:focus {
                                 text-decoration: none;
                             }
                             small {
@@ -402,6 +394,9 @@ body.gnb-open {
                             float: right;
                             font-family: 'fontello';
                             content: '\E804';
+                        }
+                        &:hover, &:focus {
+                            color: $orange;
                         }
                     }
                     > ul {

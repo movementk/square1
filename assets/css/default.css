@@ -1,6 +1,9 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+*:focus {
+  border: 10px solid black !important; }
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -429,7 +432,8 @@ body.gnb-open {
             height: 105px;
             border-right: 1px solid #f3f3f3;
             text-align: center;
-            line-height: 20px; }
+            line-height: 20px;
+            text-decoration: none; }
             #gnb-aside > .content .quick ul li div a:before {
               position: relative;
               display: block;
@@ -438,8 +442,7 @@ body.gnb-open {
               background-repeat: no-repeat;
               background-size: auto 100%;
               background-position: 50% 50%;
-              content: ''; }
-            #gnb-aside > .content .quick ul li div a:hover, #gnb-aside > .content .quick ul li div a:focus {
+              content: '';
               text-decoration: none; }
             #gnb-aside > .content .quick ul li div a small {
               font-size: 10px;
@@ -478,6 +481,8 @@ body.gnb-open {
           float: right;
           font-family: 'fontello';
           content: '\E804'; }
+        #gnb-aside > .content .menu > ul > li > a:hover, #gnb-aside > .content .menu > ul > li > a:focus {
+          color: #ec6708; }
       #gnb-aside > .content .menu > ul > li > ul {
         display: none;
         padding-top: 20px;
