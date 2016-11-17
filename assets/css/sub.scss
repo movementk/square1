@@ -25,12 +25,6 @@
             display: inline-block;
             width: 141.8px;
             margin-left: 8px;
-            @media(min-width: 375px) {
-                
-            }
-            @media(min-width: 425px) {
-                
-            }
             &:first-child {
                 margin-left: 0;
                 margin-right: 8px;
@@ -40,6 +34,7 @@
                 height: 38px;
                 display: inline-block;
                 border-color: #ddd;
+                padding-right: 45px;
             }
             label {
                 position: absolute;
