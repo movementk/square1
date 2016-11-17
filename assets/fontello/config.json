@@ -131,6 +131,12 @@
       "css": "calendar",
       "code": 59405,
       "src": "zocial"
+    },
+    {
+      "uid": "221947bea81f49a11b863c686a7bd235",
+      "css": "search-1",
+      "code": 59406,
+      "src": "websymbols"
     }
   ]
 }

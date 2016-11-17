@@ -1,9 +1,6 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
-*:focus {
-  border: 10px solid black !important; }
-
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -564,7 +561,7 @@ body.gnb-open {
   height: 230px;
   background-image: url(/assets/images/bg_header.jpg);
   background-size: 200% auto;
-  background-position: 50% 20%; }
+  background-position: 50% 50%; }
   @media (min-width: 768px) {
     #header {
       height: 380px;
@@ -755,7 +752,7 @@ body.gnb-open {
         #gnb .container > ul > li > a {
           display: block;
           width: 100%;
-          all: 48px;
+          height: 48px;
           color: #fff;
           background-color: #3e4347;
           text-align: center;
@@ -797,7 +794,7 @@ body.gnb-open {
       display: block; }
   #gnb.fixed {
     position: fixed;
-    top: 0;
+    top: 0 !important;
     background-image: url(/assets/images/bg_gnb.gif);
     background-repeat: repeat-x;
     background-size: auto 48px;

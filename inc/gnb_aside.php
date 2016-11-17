@@ -1,4 +1,4 @@
-<nav id="gnb-aside" class="hidden-lg" aria-hidden="true">
+<nav id="gnb-aside" class="hidden-lg" aria-hidden="true" tabindex="-1">
     <div class="back"></div>
     <div class="content">
         <header>
