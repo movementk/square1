@@ -277,6 +277,10 @@
             text-align: center;
             line-height: 42px;
             padding: 0;
+            margin-right: 7px;
+            &:last-child {
+                margin-right: 0;
+            }
         }
         .btn-orange {
             color: #fff;
@@ -288,9 +292,48 @@
             border: 1px solid #d4d4d4;
             background-color: #fff;
         }
+        .btn-gray {
+            color: #fff;
+            width: 268px;
+            height: 39px;
+            line-height: 39px;
+            background-color: #666;
+            @media(min-width: $sm) {
+                width: 126px;
+                height: 96px;
+                line-height: 96px;
+            }
+        }
+        .btn-sms {
+            width: 181px;
+            height: 45px;
+            font-size: 14px;
+            color: #333;
+            line-height: 45px;
+            border: 1px solid #ccc;
+            background-color: #f5f5f5;
+            @media(min-width: $sm) {
+                width: 203px;
+                height: 51px;
+                font-size: 15px;
+                line-height: 51px;
+            }
+        }
+    }
+}
+.btn-basics {
+    display: inline-block;
+    vertical-align: top;
+    .btn {
+        width: 70px;
+        height: 30px;
+        font-size: 12px;
+        color: #fff;
+        background-color: #666;
     }
 }
 
+// 카테고리 리스트
 .category-list {
     ul {
         margin: -4px !important;
@@ -392,6 +435,7 @@
     }
 }
 
+// 층별안내
 .floor-information {
     width: 100%;
     padding: 20px;
@@ -481,6 +525,7 @@
     }
 }
 
+// 편의시설안내
 .amenity-list {
     > ul {
         margin-left: -5px !important;
@@ -800,6 +845,7 @@
     }
 }
 
+// 영업시간안내
 .store-hours {
     ul {
         li {
@@ -903,6 +949,7 @@
     }
 }
 
+// 포인트카드
 .card-information {
     .article-list {
         padding-left: 10px;
@@ -1149,6 +1196,8 @@
     }
 }
 
+
+// 기본테이블 폼
 .table-wrap {
     border-top: 1px solid $orange;
     .notice-table {
@@ -1286,6 +1335,7 @@
     }
 }
 
+// 입력양식 폼
 .input-form {
     > dl {
         overflow: hidden;
