@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="/assets/css/sub.css">
 <link rel="stylesheet" href="/assets/css/member.css">
 </head>
-<body class="sub introduce gnb-open">
+<body class="sub member">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb_aside.php'); ?>
     <div id="wrapper">
         <div id="top-bn">
@@ -11,35 +11,48 @@
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/top_nav.php'); ?>
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb.php'); ?>
             <div class="jumbo">
-                <h1><small>스퀘어원 소개</small>SQUARE1</h1>
+                <h1><small>회원전용</small>MEMBERSHIP</h1>
                 <p>
-                    인천에 새로운 문화와 라이프 스타일이 시작됩니다.<br>
-                    새로운 쇼핑세상으로 초대합니다.
+                    새로운 공간을 선두하는 스퀘어원의<br class="visible-xs">
+                    라이프 스타일 공간입니다.<br class="hidden-xs"> FASHION · F&amp;B · CGV <br class="visible-xs">
+                    <span class="hidden-xs"> · </span>HOME PLUS 등의 다양한 서비스를 소개합니다.
                 </p>
             </div>
         </header>
         <main id="content">
-            <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/lnb1.php'); ?>
-            <div class="page-header has-snb"><!-- SNB를 포함할 경우 has-snb 클래스 추가-->
-                <h1><span class="square1">SQUARE<i>1</i></span> 소개</h1>
-
-                <div class="snb">
-                    <div class="container">
-                        <button class="btn btn-block" type="button">
-                            SQUARE1
-                        </button>
-                        <nav>
-                            <ul>
-                                <li class="active"><a href="#">SQUARE1</a></li>
-                                <li><a href="#">SQUARE1 CONCEPT</a></li>
-                                <li><a href="#">SQUARE1 BI</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </div>
             <div class="container">
-                    
+                <section class="login">
+                    <div class="section-header">
+                        <h2>LOGIN</h2>
+                        <hr>
+                        <p>스퀘어원을 방문해주셔서 감사합니다.</p>
+                    </div>
+                    <div class="section-content">
+                        <div class="login-form">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" id="user-id" class="form-control" placeholder="아이디">
+                                    <input type="password" id="user-pw" class="form-control" placeholder="비밀번호">
+                                </div>
+                                <div class="btn-area">
+                                    <p>
+                                        <a href="#" class="btn btn-gray" role="button">로그인</a>
+                                    </p>
+                                </div>
+                            </form>
+                        </div>
+                        <ul class="dot-list">
+                            <li>
+                                아직 square1 가입이 안되셨나요?<br>
+                                <a href="#">회원가입하기</a>
+                            </li>
+                            <li>
+                                아이디 또는 비밀번호가 생각나지 않으세요?<br>
+                                <a href="#">아이디/비밀번호 찾기</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
             </div><!-- container -->
         </main>
         <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>

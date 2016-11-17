@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <link rel="stylesheet" href="/assets/css/sub.css">
 </head>
-<body class="sub introduce gnb-open">
+<body class="sub">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb_aside.php'); ?>
     <div id="wrapper">
         <div id="top-bn">
@@ -80,12 +80,17 @@
                         </ul>
                     </nav>
 
-                    <dis class="btn-area">
+                    <div class="btn-area">
                         <p>
                             <a href="#" class="btn btn-orange" role="button">확인</a>
                             <a href="#" class="btn btn-default" role="button">취소</a>
+                            <a href="#" class="btn btn-gray" role="button">로그인</a>
+                            <a href="#" class="btn btn-sms" role="button">휴대폰인증하기</a>
                         </p>
-                    </dis>
+                    </div>
+                    <p class="btn-basic">
+                        <a href="#" class="btn" role="button">중복확인</a>
+                    </p>
                 </div>
                 <div class="board-list">
                     <ul class="row">
