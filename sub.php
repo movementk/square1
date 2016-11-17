@@ -112,23 +112,25 @@
                 <div style="margin: 30px 0;">
                     <div class="calendar-form">
                         <form>
-                            <p class="calendar">
-                                <input type="text" id="datepicker" class="form-control in-mr">
-                                <label for="datepicker">
-                                    <i class="icon-calendar">
-                                        <span class="sr-only">시작날짜조회</span>
-                                    </i>
-                                </label>
-                            </p>
-                            -
-                            <p class="calendar">
-                                <input type="text" id="datepicker-2" class="form-control in-mr">
-                                <label for="datepicker-2">
-                                    <i class="icon-calendar">
-                                        <span class="sr-only">종료날짜조회</span>
-                                    </i>
-                                </label>
-                            </p>
+                            <div class="calendar">
+                                <p class="selecter">
+                                    <input type="text" id="datepicker" class="form-control in-mr">
+                                    <label for="datepicker">
+                                        <i class="icon-calendar">
+                                            <span class="sr-only">시작날짜조회</span>
+                                        </i>
+                                    </label>
+                                </p>
+                                -
+                                <p class="selecter">
+                                    <input type="text" id="datepicker-2" class="form-control in-mr">
+                                    <label for="datepicker-2">
+                                        <i class="icon-calendar">
+                                            <span class="sr-only">종료날짜조회</span>
+                                        </i>
+                                    </label>
+                                </p>
+                            </div>
                             <div class="c-search">
                                 <div class="form-group">
                                     <select class="form-control">
