@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <link rel="stylesheet" href="/assets/css/sub.css">
 </head>
-<body class="sub introduce gnb-open">
+<body class="sub">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb_aside.php'); ?>
     <div id="wrapper">
         <div id="top-bn">
@@ -80,12 +80,17 @@
                         </ul>
                     </nav>
 
-                    <dis class="btn-area">
+                    <div class="btn-area">
                         <p>
                             <a href="#" class="btn btn-orange" role="button">확인</a>
                             <a href="#" class="btn btn-default" role="button">취소</a>
+                            <a href="#" class="btn btn-gray" role="button">로그인</a>
+                            <a href="#" class="btn btn-sms" role="button">휴대폰인증하기</a>
                         </p>
-                    </dis>
+                    </div>
+                    <p class="btn-basic">
+                        <a href="#" class="btn" role="button">중복확인</a>
+                    </p>
                 </div>
                 <div class="board-list">
                     <ul class="row">
@@ -112,34 +117,37 @@
                 <div style="margin: 30px 0;">
                     <div class="calendar-form">
                         <form>
-                            <p class="calendar">
-                                <input type="text" id="datepicker" class="form-control in-mr">
-                                <label for="datepicker">
-                                    <i class="icon-calendar">
-                                        <span class="sr-only">시작날짜조회</span>
-                                    </i>
-                                </label>
-                            </p>
-                            -
-                            <p class="calendar">
-                                <input type="text" id="datepicker-2" class="form-control in-mr">
-                                <label for="datepicker-2">
-                                    <i class="icon-calendar">
-                                        <span class="sr-only">종료날짜조회</span>
-                                    </i>
-                                </label>
-                            </p>
-                            <div class="search-form">
+                            <div class="calendar">
+                                <p class="selecter">
+                                    <input type="text" id="datepicker" class="form-control in-mr">
+                                    <label for="datepicker">
+                                        <i class="icon-calendar">
+                                            <span class="sr-only">시작날짜조회</span>
+                                        </i>
+                                    </label>
+                                </p>
+                                -
+                                <p class="selecter">
+                                    <input type="text" id="datepicker-2" class="form-control in-mr">
+                                    <label for="datepicker-2">
+                                        <i class="icon-calendar">
+                                            <span class="sr-only">종료날짜조회</span>
+                                        </i>
+                                    </label>
+                                </p>
+                            </div>
+                            <div class="c-search">
                                 <div class="form-group">
                                     <select class="form-control">
                                         <option value="">전체</option>
                                     </select>
                                     <label for="search-keyword" class="sr-only">검색어</label>
                                     <input id="search-keyword" type="text" class="form-control">
+                                    
+                                    <button type="submit" class="btn">
+                                        <span class="glyphicon glyphicon-search"></span>
+                                    </button>
                                 </div>
-                                <button type="submit" class="btn">
-                                    <span class="glyphicon glyphicon-search"></span>
-                                </button>
                             </div>
                         </form>
                     </div>
@@ -179,10 +187,15 @@
                                                 <dl>
                                                     <dt>유니클로</dt>
                                                     <dd class="c-tel">
+                                                        <i class="icon-phone"></i>
                                                         <a href="tel:0314564466">032-456-4466</a>
                                                     </dd>
-                                                    <dd class="c-clock">10:00 - 22:00</dd>
-                                                    <dd class="c-floor">2F</dd>
+                                                    <dd class="c-clock">
+                                                        <i class="icon-clock"></i>10:00 - 22:00
+                                                    </dd>
+                                                    <dd class="c-floor">
+                                                        <i class="icon-location"></i>2F
+                                                    </dd>
                                                 </dl>
                                             </div>
                                         </div>
@@ -204,10 +217,15 @@
                                                 <dl>
                                                     <dt>숲</dt>
                                                     <dd class="c-tel">
+                                                        <i class="icon-phone"></i>
                                                         <a href="tel:0314564466">032-456-4466</a>
                                                     </dd>
-                                                    <dd class="c-clock">10:00 - 22:00</dd>
-                                                    <dd class="c-floor">2F</dd>
+                                                    <dd class="c-clock">
+                                                        <i class="icon-clock"></i>10:00 - 22:00
+                                                    </dd>
+                                                    <dd class="c-floor">
+                                                        <i class="icon-location"></i>2F
+                                                    </dd>
                                                 </dl>
                                             </div>
                                         </div>
@@ -229,10 +247,15 @@
                                                 <dl>
                                                     <dt>LAP</dt>
                                                     <dd class="c-tel">
+                                                        <i class="icon-phone"></i>
                                                         <a href="tel:0314564466">032-456-4466</a>
                                                     </dd>
-                                                    <dd class="c-clock">10:00 - 22:00</dd>
-                                                    <dd class="c-floor">2F</dd>
+                                                    <dd class="c-clock">
+                                                        <i class="icon-clock"></i>10:00 - 22:00
+                                                    </dd>
+                                                    <dd class="c-floor">
+                                                        <i class="icon-location"></i>2F
+                                                    </dd>
                                                 </dl>
                                             </div>
                                         </div>
@@ -254,10 +277,15 @@
                                                 <dl>
                                                     <dt>클라이드앤</dt>
                                                     <dd class="c-tel">
+                                                        <i class="icon-phone"></i>
                                                         <a href="tel:0314564466">032-456-4466</a>
                                                     </dd>
-                                                    <dd class="c-clock">10:00 - 22:00</dd>
-                                                    <dd class="c-floor">2F</dd>
+                                                    <dd class="c-clock">
+                                                        <i class="icon-clock"></i>10:00 - 22:00
+                                                    </dd>
+                                                    <dd class="c-floor">
+                                                        <i class="icon-location"></i>2F
+                                                    </dd>
                                                 </dl>
                                             </div>
                                         </div>
@@ -279,10 +307,15 @@
                                                 <dl>
                                                     <dt>로엠</dt>
                                                     <dd class="c-tel">
+                                                        <i class="icon-phone"></i>
                                                         <a href="tel:0314564466">032-456-4466</a>
                                                     </dd>
-                                                    <dd class="c-clock">10:00 - 22:00</dd>
-                                                    <dd class="c-floor">2F</dd>
+                                                    <dd class="c-clock">
+                                                        <i class="icon-clock"></i>10:00 - 22:00
+                                                    </dd>
+                                                    <dd class="c-floor">
+                                                        <i class="icon-location"></i>2F
+                                                    </dd>
                                                 </dl>
                                             </div>
                                         </div>
@@ -304,10 +337,15 @@
                                                 <dl>
                                                     <dt>플라스틱아일랜드</dt>
                                                     <dd class="c-tel">
+                                                        <i class="icon-phone"></i>
                                                         <a href="tel:0314564466">032-456-4466</a>
                                                     </dd>
-                                                    <dd class="c-clock">10:00 - 22:00</dd>
-                                                    <dd class="c-floor">2F</dd>
+                                                    <dd class="c-clock">
+                                                        <i class="icon-clock"></i>10:00 - 22:00
+                                                    </dd>
+                                                    <dd class="c-floor">
+                                                        <i class="icon-location"></i>2F
+                                                    </dd>
                                                 </dl>
                                             </div>
                                         </div>
@@ -353,7 +391,9 @@
                                     </div>
                                     <dl>
                                         <dt>위치</dt>
-                                        <dd class="a-position">1층</dd>
+                                        <dd>
+                                            1층 <i class="icon-location"></i>
+                                        </dd>
                                         <dt>운영시간</dt>
                                         <dd>10:30 ~ 22:00</dd>
                                     </dl>
@@ -375,7 +415,9 @@
                                     </div>
                                     <dl>
                                         <dt>위치</dt>
-                                        <dd class="a-position">1층</dd>
+                                        <dd>
+                                            1층 <i class="icon-location"></i>
+                                        </dd>
                                         <dt>운영시간</dt>
                                         <dd>10:30 ~ 22:00</dd>
                                     </dl>
@@ -396,10 +438,18 @@
                                     </div>
                                     <dl>
                                         <dt>위치</dt>
-                                        <dd class="a-position">1층</dd>
-                                        <dd class="a-position">2층</dd>
-                                        <dd class="a-position clear">3층</dd>
-                                        <dd class="a-position">4층</dd>
+                                        <dd>
+                                            1층 <i class="icon-location"></i>
+                                        </dd>
+                                        <dd>
+                                            2층 <i class="icon-location"></i>
+                                        </dd>
+                                        <dd class="clear">
+                                            3층 <i class="icon-location"></i>
+                                        </dd>
+                                        <dd>
+                                            4층 <i class="icon-location"></i>
+                                        </dd>
                                     </dl>
                                 </a>
                             </li>
@@ -417,10 +467,18 @@
                                     </div>
                                     <dl>
                                         <dt>위치</dt>
-                                        <dd class="a-position">1층</dd>
-                                        <dd class="a-position">2층</dd>
-                                        <dd class="a-position clear">3층</dd>
-                                        <dd class="a-position">4층</dd>
+                                        <dd>
+                                            1층 <i class="icon-location"></i>
+                                        </dd>
+                                        <dd>
+                                            2층 <i class="icon-location"></i>
+                                        </dd>
+                                        <dd class="clear">
+                                            3층 <i class="icon-location"></i>
+                                        </dd>
+                                        <dd>
+                                            4층 <i class="icon-location"></i>
+                                        </dd>
                                     </dl>
                                 </a>
                             </li>
@@ -438,8 +496,12 @@
                                     </div>
                                     <dl>
                                         <dt>위치</dt>
-                                        <dd class="a-position">1층</dd>
-                                        <dd class="a-position">4층</dd>
+                                        <dd>
+                                            1층 <i class="icon-location"></i>
+                                        </dd>
+                                        <dd>
+                                            4층 <i class="icon-location"></i>
+                                        </dd>
                                         <dt>운영시간</dt>
                                         <dd>10:30 ~ 22:00</dd>
                                     </dl>
@@ -459,7 +521,9 @@
                                     </div>
                                     <dl>
                                         <dt>위치</dt>
-                                        <dd class="a-position">1층</dd>
+                                        <dd>
+                                            1층 <i class="icon-location"></i>
+                                        </dd>
                                         <dt>운영시간</dt>
                                         <dd>10:30 ~ 22:00</dd>
                                     </dl>
@@ -479,7 +543,9 @@
                                     </div>
                                     <dl>
                                         <dt>위치</dt>
-                                        <dd class="a-position">1층</dd>
+                                        <dd>
+                                            1층 <i class="icon-location"></i>
+                                        </dd>
                                         <dt>운영시간</dt>
                                         <dd>10:30 ~ 22:00</dd>
                                     </dl>
@@ -499,9 +565,15 @@
                                     </div>
                                     <dl>
                                         <dt>위치</dt>
-                                        <dd class="a-position">1층</dd>
-                                        <dd class="a-position">2층</dd>
-                                        <dd class="a-position clear">3층</dd>
+                                        <dd>
+                                            1층 <i class="icon-location"></i>
+                                        </dd>
+                                        <dd>
+                                            2층 <i class="icon-location"></i>
+                                        </dd>
+                                        <dd class="clear">
+                                            3층 <i class="icon-location"></i>
+                                        </dd>
                                     </dl>
                                 </a>
                             </li>
@@ -519,7 +591,9 @@
                                     </div>
                                     <dl>
                                         <dt>위치</dt>
-                                        <dd class="a-position">1층</dd>
+                                        <dd>
+                                            1층 <i class="icon-location"></i>
+                                        </dd>
                                     </dl>
                                 </a>
                             </li>

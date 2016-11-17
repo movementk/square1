@@ -10,7 +10,7 @@
                 </button>
                 <ul class="member visible-lg">
                     <li><a href="#">HOME</a></li>
-                    <li><a href="#">LOGIN</a></li>
+                    <li><a href="/member/login.php">LOGIN</a></li>
                     <li><a href="#">JOIN</a></li>
                 </ul>
             </div>

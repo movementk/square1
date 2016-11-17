@@ -1,0 +1,426 @@
+.member #header {
+  background-image: url(/assets/images/member/membership_top_bg.jpg);
+  background-size: cover; }
+.member section .section-header {
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 45px; }
+  .member section .section-header > h2 {
+    font-family: 'Lato', sans-serif;
+    color: #ec6708; }
+  .member section .section-header > hr {
+    display: block;
+    width: 48px;
+    margin: 18px auto;
+    border-top: 3px solid #ec6708; }
+.member section .section-content .procedure {
+  padding: 26px 7px;
+  margin-bottom: 45px;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  background-color: #fff; }
+  @media (min-width: 768px) {
+    .member section .section-content .procedure {
+      padding: 0;
+      padding-top: 35px;
+      padding-bottom: 35px;
+      margin-bottom: 60px; } }
+  @media (min-width: 992px) {
+    .member section .section-content .procedure {
+      margin-bottom: 84px; } }
+  .member section .section-content .procedure ol li {
+    position: relative;
+    display: inline-block;
+    width: 24.26%;
+    text-align: center;
+    vertical-align: top; }
+    @media (min-width: 768px) {
+      .member section .section-content .procedure ol li {
+        width: 24.67%; } }
+    .member section .section-content .procedure ol li .pcd-img {
+      margin-bottom: 15px; }
+      @media (min-width: 768px) {
+        .member section .section-content .procedure ol li .pcd-img {
+          display: inline-block;
+          margin-bottom: 0;
+          margin-right: 15px; } }
+    .member section .section-content .procedure ol li h3 {
+      display: inline-block;
+      font-size: 13px;
+      color: #b5b5b5;
+      font-weight: 400;
+      line-height: 16px; }
+      @media (min-width: 768px) {
+        .member section .section-content .procedure ol li h3 {
+          display: inline-block;
+          font-size: 15px;
+          vertical-align: middle; } }
+    .member section .section-content .procedure ol li:after {
+      position: absolute;
+      top: 5%;
+      right: -10.2px;
+      font-family: "fontello";
+      content: "\F105";
+      font-size: 30px;
+      color: #b5b5b5; }
+      @media (min-width: 768px) {
+        .member section .section-content .procedure ol li:after {
+          font-size: 36px;
+          top: 10%; } }
+    .member section .section-content .procedure ol li.active h3 {
+      color: #ec6708; }
+    .member section .section-content .procedure ol li.active:after {
+      color: #ec6708; }
+    .member section .section-content .procedure ol li:last-child:after {
+      content: "";
+      display: inline-block;
+      clear: both; }
+
+/* Login */
+.login {
+  padding-bottom: 60px; }
+  @media (min-width: 768px) {
+    .login {
+      padding-left: 44px;
+      padding-right: 44px;
+      padding-bottom: 80px; } }
+  @media (min-width: 992px) {
+    .login {
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 90px; } }
+  .login .section-content {
+    padding: 30px 20px 35px;
+    border: 1px solid #dfdfdf;
+    background-color: #fff; }
+    @media (min-width: 768px) {
+      .login .section-content {
+        padding: 82px 48px 128px; } }
+    @media (min-width: 992px) {
+      .login .section-content {
+        padding-left: 143px;
+        padding-right: 143px; } }
+    .login .section-content .login-form {
+      padding-bottom: 30px;
+      border-bottom: 1px solid #ddd; }
+      @media (min-width: 768px) {
+        .login .section-content .login-form {
+          text-align: center;
+          padding-bottom: 42px; } }
+      @media (min-width: 768px) {
+        .login .section-content .login-form .form-group {
+          width: 73.8%;
+          display: inline-block; } }
+      @media (min-width: 1200px) {
+        .login .section-content .login-form .form-group {
+          width: 81%; } }
+      .login .section-content .login-form .form-group .form-control {
+        margin-bottom: 15px;
+        height: 39px; }
+        @media (min-width: 768px) {
+          .login .section-content .login-form .form-group .form-control {
+            width: 100%;
+            margin-bottom: 18px; } }
+      @media (min-width: 768px) {
+        .login .section-content .login-form .btn-area {
+          margin-left: 13px;
+          display: inline-block;
+          vertical-align: top; } }
+    .login .section-content .dot-list {
+      padding-top: 30px; }
+      .login .section-content .dot-list li {
+        font-size: 12xpx;
+        color: #666;
+        line-height: 20px;
+        margin-bottom: 20px; }
+        .login .section-content .dot-list li:last-child {
+          margin-bottom: 0; }
+        .login .section-content .dot-list li a {
+          font-size: 12xpx;
+          color: #666; }
+          .login .section-content .dot-list li a:hover, .login .section-content .dot-list li a:focus {
+            text-decoration: underline;
+            color: #ec6708; }
+        @media (min-width: 768px) {
+          .login .section-content .dot-list li {
+            position: relative;
+            margin-bottom: 0;
+            line-height: 30px; }
+            .login .section-content .dot-list li a {
+              position: absolute;
+              top: 0;
+              right: 0; } }
+
+/* find */
+.find {
+  padding-bottom: 80px; }
+  @media (min-width: 768px) {
+    .find {
+      padding-left: 13px;
+      padding-right: 13px; } }
+  @media (min-width: 992px) {
+    .find {
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 120px; } }
+  .find .section-content > h3 {
+    font-size: 14px;
+    color: #222;
+    margin-top: 44px;
+    margin-bottom: 15px; }
+    .find .section-content > h3:first-child {
+      margin-top: 0; }
+    @media (min-width: 768px) {
+      .find .section-content > h3 {
+        font-size: 16px;
+        margin-bottom: 20px; } }
+  .find .section-content .find-form {
+    padding: 30px 19px;
+    margin-bottom: 27px;
+    border: 1px solid #ddd;
+    background-color: #fff; }
+    @media (min-width: 768px) {
+      .find .section-content .find-form {
+        padding: 33px 30px; } }
+    @media (min-width: 992px) {
+      .find .section-content .find-form {
+        padding-right: 266px; } }
+    @media (min-width: 1200px) {
+      .find .section-content .find-form {
+        padding-right: 465px; } }
+    .find .section-content .find-form dl dt {
+      margin-bottom: 10px; }
+      .find .section-content .find-form dl dt label {
+        font-size: 13px;
+        color: #666;
+        font-weight: 400;
+        margin-bottom: 0; }
+      .find .section-content .find-form dl dt.mt-dt {
+        margin-top: 18px; }
+    .find .section-content .find-form dl dd .form-control {
+      width: 100%;
+      height: 30px; }
+    .find .section-content .find-form dl dd.email {
+      position: relative;
+      padding-right: 110px; }
+      .find .section-content .find-form dl dd.email select {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100px;
+        font-size: 12px;
+        padding: 0;
+        padding-left: 6px; }
+        @media (min-width: 768px) {
+          .find .section-content .find-form dl dd.email select {
+            width: 114px !important; } }
+      .find .section-content .find-form dl dd.email span {
+        display: none; }
+    @media (min-width: 768px) {
+      .find .section-content .find-form dl {
+        overflow: hidden; }
+        .find .section-content .find-form dl dt {
+          float: left;
+          clear: both;
+          width: 200px;
+          height: 30px;
+          line-height: 30px;
+          margin-bottom: 20px; }
+          .find .section-content .find-form dl dt label {
+            font-size: 14px; }
+          .find .section-content .find-form dl dt.mt-dt {
+            margin: 0; }
+        .find .section-content .find-form dl dd {
+          float: left;
+          width: 68.8%; }
+          .find .section-content .find-form dl dd .form-control {
+            width: 250px;
+            margin-bottom: 20px; }
+          .find .section-content .find-form dl dd.email {
+            padding-right: 144px; }
+            .find .section-content .find-form dl dd.email .form-control {
+              width: 137px;
+              display: inline-block; }
+            .find .section-content .find-form dl dd.email span {
+              font-size: 13px;
+              color: #666;
+              height: 30px;
+              line-height: 30px;
+              margin: 0 2px;
+              display: inline-block; } }
+    .find .section-content .find-form .reference {
+      margin-top: 10px; }
+      @media (min-width: 768px) {
+        .find .section-content .find-form .reference {
+          margin: 0;
+          margin-left: 200px; } }
+
+/* terms */
+.terms {
+  padding-bottom: 117px; }
+  .terms .section-content article {
+    margin-bottom: 45px; }
+    .terms .section-content article:nth-of-type(3) {
+      margin-bottom: 0; }
+    @media (min-width: 768px) {
+      .terms .section-content article {
+        margin-bottom: 78px; } }
+    .terms .section-content article h4 {
+      font-size: 14px;
+      color: #222;
+      margin-bottom: 15px; }
+      @media (min-width: 768px) {
+        .terms .section-content article h4 {
+          font-size: 16px;
+          margin-bottom: 20px; } }
+    .terms .section-content article .article-content {
+      width: 100%;
+      height: 165px;
+      font-size: 13px;
+      color: #666;
+      line-height: 18px;
+      overflow-y: scroll;
+      padding: 20px;
+      margin-bottom: 15px;
+      border: 1px solid #dfdfdf;
+      background-color: #fff; }
+      @media (min-width: 768px) {
+        .terms .section-content article .article-content {
+          padding: 27px 20px;
+          height: 350px; } }
+    .terms .section-content article .check-box label {
+      font-size: 13px;
+      color: #666;
+      font-weight: 300;
+      vertical-align: top;
+      margin-bottom: 0; }
+      .terms .section-content article .check-box label:last-child {
+        margin-left: 80px; }
+      .terms .section-content article .check-box label input[type=checkbox] {
+        margin-top: -2px;
+        margin-right: 5px;
+        vertical-align: middle; }
+  .terms .section-content .btn-area {
+    display: none; }
+    @media (min-width: 768px) {
+      .terms .section-content .btn-area {
+        display: block;
+        margin-top: 45px; } }
+
+/* sms */
+.sms {
+  padding-bottom: 78px; }
+  @media (min-width: 768px) {
+    .sms {
+      padding-bottom: 90px; } }
+  .sms .section-content .verify .article-header h4 {
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 15px; }
+  .sms .section-content .verify .article-header p {
+    font-size: 12px;
+    color: #666;
+    line-height: 20px; }
+  @media (min-width: 768px) {
+    .sms .section-content .verify .article-header h4 {
+      font-size: 16px;
+      margin-bottom: 20px; }
+    .sms .section-content .verify .article-header p {
+      font-size: 13px;
+      margin-bottom: 20px; } }
+  .sms .section-content .verify .article-content {
+    text-align: center;
+    margin-top: 18px;
+    padding: 42px 20px;
+    border: 1px solid #dfdfdf;
+    background-color: #fff; }
+    @media (min-width: 768px) {
+      .sms .section-content .verify .article-content {
+        padding: 74px 30px; } }
+    .sms .section-content .verify .article-content .sms-img {
+      margin-bottom: 20px; }
+      @media (min-width: 768px) {
+        .sms .section-content .verify .article-content .sms-img {
+          margin-bottom: 0;
+          display: inline-block; } }
+    @media (min-width: 768px) {
+      .sms .section-content .verify .article-content .btn-area {
+        margin-left: 70px;
+        display: inline-block; } }
+    .sms .section-content .verify .article-content .dot-list {
+      width: 100%;
+      text-align: left;
+      margin-top: 24px;
+      padding-top: 24px;
+      border-top: 1px solid #dfdfdf; }
+      .sms .section-content .verify .article-content .dot-list li {
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 10px; }
+        .sms .section-content .verify .article-content .dot-list li:last-child {
+          margin-bottom: 0; }
+      @media (min-width: 768px) {
+        .sms .section-content .verify .article-content .dot-list {
+          margin-top: 75px;
+          padding-top: 30px; }
+          .sms .section-content .verify .article-content .dot-list li {
+            font-size: 13px;
+            line-height: 30px;
+            margin-bottom: 0; } }
+      @media (min-width: 992px) {
+        .sms .section-content .verify .article-content .dot-list li {
+          font-size: 14px; } }
+
+/* join */
+.join {
+  padding-bottom: 95px; }
+  .join .section-content .join-info h4 {
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      .join .section-content .join-info h4 {
+        font-size: 16px;
+        margin-bottom: 20px; } }
+  .join .section-content .join-info > p {
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+    margin-bottom: 15px; }
+    .join .section-content .join-info > p:before {
+      content: "*";
+      font-size: 13px;
+      color: #f0585d;
+      margin-right: 2px; }
+    @media (min-width: 768px) {
+      .join .section-content .join-info > p {
+        font-size: 13px;
+        margin-bottom: 20px; } }
+  .join .section-content .join-info .input-form.type-1 dl dt {
+    padding-left: 4px;
+    padding-right: 4px; }
+    .join .section-content .join-info .input-form.type-1 dl dt.bold-before:before {
+      content: "*";
+      color: #f0585d;
+      margin-right: 2px; }
+  .join .section-content .join-info .input-form.type-1 dl dd .form-control {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px; }
+  .join .section-content .join-info .input-form.type-1 dl dd.user-dd .form-control {
+    display: inline-block;
+    width: 200px;
+    margin-right: 7px; }
+  .join .section-content .join-info .input-form.type-1 dl dd.user-mail .form-control {
+    width: 170px;
+    display: inline-block;
+    margin-right: 7px; }
+  .join .section-content .join-info .input-form.type-1 dl dd.user-mail select {
+    width: 100px !important; }
+  .join .section-content .join-info .input-form.type-1 dl dd.phone select {
+    width: 70px !important; }
+  .join .section-content .join-info .input-form.type-1 dl dd.phone .form-control {
+    display: inline-block;
+    width: 90px !important; }
+
+/*# sourceMappingURL=member.css.map */
