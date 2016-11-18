@@ -4,7 +4,15 @@
 <body class="main">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb_aside.php'); ?>
     <div id="wrapper">
-        <div id="top-bn">
+        <div id="top-bn" class="callape in" style="background-color: #6d74e6; display: none;">
+            <div class="container">
+                <a href="#">
+                    <img class="img-responsive visible-xs" src="/assets/images/img_top_bn_lg.jpg" alt="">
+                    <img class="img-responsive visible-sm visible-md" src="/assets/images/img_top_bn_sm.jpg" alt="">
+                    <img class="img-responsive visible-lg" src="/assets/images/img_top_bn_xs.jpg" alt="">
+                </a>
+                <button class="btn btn-close" type="button" data-toggle="collapse" data-target="#top-bn"><img src="/assets/images/ico_close.png" alt="닫기"></button>
+            </div>
         </div>
         <header id="header">
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/top_nav.php'); ?>
@@ -16,11 +24,11 @@
                 </h1>
             </div>
         </header>
-        <main id="content" style="height: 2000px;">
+        <main id="content">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-lg-3">
-                        <div id="shortcuts">
+                        <div id="bookmarks">
                             <ul>
                                 <li><a href="#"><i><img src="/assets/images/ico_gift.png" alt=""></i> 브랜드 입점 매장 소개</a></li>
                                 <li><a href="#"><i><img src="/assets/images/ico_star.png" alt=""></i> 편의시설 안내</a></li>
@@ -46,19 +54,99 @@
                             </div>
                         </section>
                     </div>
-                    <div class="col-xs-6 col-sm-6 col-lg-3">영업시간안내</div>
-                    <div class="col-xs-6 col-sm-6 col-lg-3">층별안내</div>
+                    <div class="col-xs-6 col-sm-6 col-lg-3">
+                        <div class="shortcut hour">
+                            <a href="#">
+                                <small>BUSINESS HOUR</small><br>
+                                <b>영업시간안내</b>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-lg-3">
+                        <div class="shortcut floor">
+                            <a href="#">
+                                <small>FLOOR GUIDE</small><br>
+                                <b>층별안내</b>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-lg-6"><div style="height: 100px;">이벤트배너</div></div>
-                    <div class="col-xs-12 col-lg-6">입점안내</div>
-                    <div class="col-xs-6 col-lg-3">찾아오시는 길</div>
-                    <div class="col-xs-6 col-lg-3">멤버십 서비스</div>
+                    <div class="col-xs-12 col-lg-6">
+                        <div id="banner-1" class="banner">
+                            <ul>
+                                <li><a href="#">
+                                    <img class="visible-xs" src="/assets/images/img_banner1_1_xs.jpg" alt="">
+                                    <img class="visible-sm visible-md" src="/assets/images/img_banner1_1_sm.jpg" alt="">
+                                    <img class="visible-lg" src="/assets/images/img_banner1_1_lg.jpg" alt="">
+                                </a></li>
+                                <li><a href="#">
+                                    <img class="visible-xs" src="/assets/images/img_banner1_1_xs.jpg" alt="">
+                                    <img class="visible-sm visible-md" src="/assets/images/img_banner1_1_sm.jpg" alt="">
+                                    <img class="visible-lg" src="/assets/images/img_banner1_1_lg.jpg" alt="">
+                                </a></li>
+                                <li><a href="#">
+                                    <img class="visible-xs" src="/assets/images/img_banner1_1_xs.jpg" alt="">
+                                    <img class="visible-sm visible-md" src="/assets/images/img_banner1_1_sm.jpg" alt="">
+                                    <img class="visible-lg" src="/assets/images/img_banner1_1_lg.jpg" alt="">
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-lg-6">
+                        <div id="banner-2" class="banner">
+                            <ul>
+                                <li><a href="#">
+                                    <img class="visible-xs" src="/assets/images/img_banner2_1_xs.jpg" alt="">
+                                    <img class="visible-sm visible-md" src="/assets/images/img_banner2_1_sm.jpg" alt="">
+                                    <img class="visible-lg" src="/assets/images/img_banner2_1_lg.jpg" alt="">
+                                </a></li>
+                                <li><a href="#">
+                                    <img class="visible-xs" src="/assets/images/img_banner2_1_xs.jpg" alt="">
+                                    <img class="visible-sm visible-md" src="/assets/images/img_banner2_1_sm.jpg" alt="">
+                                    <img class="visible-lg" src="/assets/images/img_banner2_1_lg.jpg" alt="">
+                                </a></li>
+                                <li><a href="#">
+                                    <img class="visible-xs" src="/assets/images/img_banner2_1_xs.jpg" alt="">
+                                    <img class="visible-sm visible-md" src="/assets/images/img_banner2_1_sm.jpg" alt="">
+                                    <img class="visible-lg" src="/assets/images/img_banner2_1_lg.jpg" alt="">
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-lg-3">
+                        <div class="shortcut location">
+                            <a href="#">
+                                <small>LOCATION</small><br>
+                                <b>찾아오시는 길</b>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-lg-3">
+                        <div class="shortcut membership">
+                            <a href="#">
+                                <small>MEMBERSHIP</small><br>
+                                <b>멤버십 서비스</b>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
         <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     </div>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+    <script>
+        (function($) {
+            $(".banner ul").bxSlider({
+                auto: true,
+                controls: false,
+                autoHover: true,
+                buildPager: function(slideIndex) {
+                    return "<span class='sr-only'>"+ slideIndex +"</span>"
+                }
+            });
+        })(jQuery);
+    </script>
 </body>
 </html>

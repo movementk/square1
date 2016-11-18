@@ -1,13 +1,5 @@
 @import 'common';
 
-body.main {
-    .container {
-        @media (min-width: $lg) {
-            width: 1200px;
-        }
-    }
-}
-
 #header {
     height: 267px;
     .jumbo {
@@ -46,21 +38,43 @@ body.main {
         }
         #gnb {
             top: 567px;
+            .container {
+                padding-left: 0;
+                padding-right: 0;
+                width: 1200px;
+            }
         }
     }
 }
 
+// 컨텐츠 영역
 #content {
     background-color: #ececec;
-    @media (min-width: $lg) {
-        margin-top: -100px;
+    > .container {
+        padding-left: 0;
+        padding-right: 0;
+        > .row {
+            margin-left: 0;
+            margin-right: 0;
+            > div {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+        @media (min-width: $sm) {
+            width: 100%;
+        }
+        @media (min-width: $lg) {
+            width: 1200px;
+            > .row {
+                margin-top: -100px;
+            }
+        }
     }
 }
 
 // 자주쓰는 메뉴
-#shortcuts {
-    margin-left: -10px;
-    margin-right: -10px;
+#bookmarks {
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: #35455c;
@@ -141,8 +155,8 @@ body.main {
         }
     }
     @media (min-width: $md) {
-        margin-left: -15px;
-        margin-right: -15px;
+        //margin-left: -15px;
+        //margin-right: -15px;
     }
     @media (min-width: $lg) {
         padding-top: 20px;
@@ -170,8 +184,8 @@ body.main {
 
 // 매장검색
 #search-store {
-    margin-left: -10px;
-    margin-right: -10px;
+    //margin-left: -10px;
+    //margin-right: -10px;
     padding: 15px 30px 20px;
     background-color: #f57f26;
     color: #fff;
@@ -248,8 +262,8 @@ body.main {
         }
     }
     @media (min-width: $md) {
-        margin-left: -15px;
-        margin-right: -15px;
+        //margin-left: -15px;
+        //margin-right: -15px;
     }
     @media (min-width: $lg) {
         padding: 45px 25px;
@@ -279,6 +293,229 @@ body.main {
                     }
                 }
             }
+        }
+    }
+}
+
+// 바로가기들
+.shortcut {
+    height: 160px;
+    background-color: #fff;
+    a {
+        display: block;
+        padding-top: 95px;
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        text-align: center;
+        text-decoration: none;
+        line-height: 16px;
+        background-repeat: no-repeat;
+        small {
+            font-size: 10px;
+            color: $orange;
+        }
+        b {
+            font-size: 13px;
+        }
+    }
+    &.hour {
+        a {
+            background-image: url(/assets/images/ico_watch_big.png);
+            background-size: auto 46px;
+            background-position: 50% 30px;
+        }
+    }
+    &.floor {
+        a {
+            border-left: 1px solid #dfdfdf;
+            background-image: url(/assets/images/ico_flag_big.png);
+            background-size: auto 46px;
+            background-position: 52% 35px;
+        }
+    }
+    &.location {
+        a {
+            background-color: #4c84c9;
+            color: #fff;
+            background-image: url(/assets/images/ico_mappin_big.png);
+            background-size: auto 46px;
+            background-position: 50% 35px;
+            small {
+                color: #fbad1c;
+            }
+        }
+    }
+    &.membership {
+        a {
+            background-image: url(/assets/images/ico_card_big.png);
+            background-size: auto 35px;
+            background-position: 50% 42px;
+        }
+    }
+    @media (min-width: $sm) {
+        height: 384px;
+        a {
+            padding-top: 235px;
+            line-height: 30px;
+            small {
+                font-size: 14px;
+            }
+            b {
+                font-size: 25px;
+            }
+        }
+        &.hour {
+            a {
+                background-size: auto 100px;
+                background-position: 50% 100px;
+            }
+        }
+        &.floor {
+            a {
+                background-size: auto 100px;
+                background-position: 55% 100px;
+            }
+        }
+        &.location {
+            a {
+                background-size: auto 100px;
+                background-position: 50% 100px;
+            }
+        }
+        &.membership {
+            a {
+                background-size: auto 87px;
+                background-position: 50% 110px;
+            }
+        }
+    }
+    @media (min-width: $lg) {
+        height: 300px;
+        a {
+            padding-top: 180px;
+            line-height: 24px;
+            small {
+                font-size: 11px;
+            }
+            b {
+                font-size: 20px;
+            }
+        }
+        &.hour {
+            a {
+                background-size: auto 90px;
+                background-position: 50% 75px;
+            }
+        }
+        &.floor {
+            a {
+                background-size: auto 80px;
+                background-position: 55% 77px;
+            }
+        }
+        &.location {
+            a {
+                background-size: auto 87px;
+                background-position: 50% 76px;
+            }
+        }
+        &.membership {
+            a {
+                background-size: auto 67px;
+                background-position: 50% 87px;
+            }
+        }
+    }
+}
+
+#banner-1 {
+    margin-bottom: 0;
+}
+.banner {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    .bx-wrapper {
+        position: relative;
+        .bx-viewport {
+            ul li a img {
+                width: 100%;
+            }
+        }
+        .bx-controls {
+            position: absolute;
+            left: 10px;
+            bottom: 10px;
+            .bx-pager-item {
+                float: left;
+                width: 10px;
+                height: 10px;
+                & + .bx-pager-item {
+                    margin-left: 3px;
+                }
+                .bx-pager-link {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #fff;
+                    border-radius: 50%;
+                    &.active {
+                        background-color: $orange;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: $sm) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        .bx-wrapper {
+            .bx-controls {
+                left: 20px;
+                bottom: 40px;
+                .bx-pager-item {
+                    width: 17px;
+                    height: 17px;
+                    & + .bx-pager-item {
+                        margin-left: 7px;
+                    }
+                }
+            }
+        }
+    }
+    @media (min-width: $lg) {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        .bx-wrapper {
+            .bx-controls {
+                left: 40px;
+                bottom: 30px;
+                .bx-pager-item {
+                    width: 14px;
+                    height: 14px;
+                    & + .bx-pager-item {
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 푸터
+#footer {
+    border-top: 0;
+    @media (min-width: $lg) {
+        .container {
+            padding-left: 0;
+            padding-right: 0;
+            width: 1200px;
         }
     }
 }

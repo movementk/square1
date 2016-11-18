@@ -15,18 +15,23 @@
 })(jQuery);
 */
 (function($) {
+    // 탑배너 닫기버튼
+//    $(document).on('click', '#top-bn .btn-close', function() {
+//        $('#top-bn').addClass('close');
+//    });
+    
     // 모바일 메뉴 관련 버튼
     $(document).on('click', '#header .btn-menu', function() {
-        $('body').addClass('gnb-open');
+        $('html, body').addClass('gnb-open');
         $('#gnb-aside .btn-close').focus();
     });
     $(document).on('click', '#gnb-aside .btn-close', function() {
-        $('body').removeClass('gnb-open');
+        $('html, body').removeClass('gnb-open');
         $('#header .btn-menu').focus();
     });
     $(document).on('click', '#gnb-aside', function(e) {
         if ($(e.target).attr('id') === 'gnb-aside') {
-            $('body').removeClass('gnb-open');
+            $('html, body').removeClass('gnb-open');
         }
     });
     $(document).on('click', '#gnb-aside .menu > ul > li > a', function() {

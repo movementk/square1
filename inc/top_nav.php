@@ -20,7 +20,7 @@
             <div class="col-xs-2 col-lg-3 col-lg-offset-1">
                 <ul class="sns visible-lg">
                     <li><a class="facebook" href="#"><i class="icon-facebook"></i></a></li>
-                    <li><a class="blog" href="#" aria-label="블로그"><span aria-hidden="true">b</span></a></li>
+                    <li><a class="instagram" href="#" aria-label="인스타그램"><i class="icon-instagram"></i></a></li>
                 </ul>
                 <button class="btn btn-toggle-search hidden-lg" type="button">
                     <span class="sr-only">검색폼 버튼</span>

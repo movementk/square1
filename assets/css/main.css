@@ -1,7 +1,3 @@
-@media (min-width: 1200px) {
-  body.main .container {
-    width: 1200px; } }
-
 #header {
   height: 267px; }
   #header .jumbo {
@@ -31,28 +27,44 @@
       #header #top-nav .logo {
         margin-top: 100px; }
       #header #gnb {
-        top: 567px; } }
+        top: 567px; }
+        #header #gnb .container {
+          padding-left: 0;
+          padding-right: 0;
+          width: 1200px; } }
 
 #content {
   background-color: #ececec; }
-  @media (min-width: 1200px) {
-    #content {
-      margin-top: -100px; } }
+  #content > .container {
+    padding-left: 0;
+    padding-right: 0; }
+    #content > .container > .row {
+      margin-left: 0;
+      margin-right: 0; }
+      #content > .container > .row > div {
+        padding-left: 0;
+        padding-right: 0; }
+    @media (min-width: 768px) {
+      #content > .container {
+        width: 100%; } }
+    @media (min-width: 1200px) {
+      #content > .container {
+        width: 1200px; }
+        #content > .container > .row {
+          margin-top: -100px; } }
 
-#shortcuts {
-  margin-left: -10px;
-  margin-right: -10px;
+#bookmarks {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #35455c; }
-  #shortcuts ul {
+  #bookmarks ul {
     overflow: hidden; }
-    #shortcuts ul li {
+    #bookmarks ul li {
       float: left;
       padding-left: 10px;
       padding-right: 10px;
       width: 50%; }
-      #shortcuts ul li a {
+      #bookmarks ul li a {
         position: relative;
         display: block;
         padding-left: 25px;
@@ -62,64 +74,58 @@
         line-height: 33px;
         border-top: 1px solid #4a6181;
         border-bottom: 1px solid #202937; }
-        #shortcuts ul li a i {
+        #bookmarks ul li a i {
           position: absolute;
           left: 0;
           width: 25px;
           text-align: center; }
-          #shortcuts ul li a i img {
+          #bookmarks ul li a i img {
             width: 50%;
             vertical-align: -2px; }
-      #shortcuts ul li:nth-of-type(1) a, #shortcuts ul li:nth-of-type(2) a {
+      #bookmarks ul li:nth-of-type(1) a, #bookmarks ul li:nth-of-type(2) a {
         border-top: 0; }
-      #shortcuts ul li:nth-of-type(5) a, #shortcuts ul li:nth-of-type(6) a {
+      #bookmarks ul li:nth-of-type(5) a, #bookmarks ul li:nth-of-type(6) a {
         border-bottom: 0; }
   @media (min-width: 768px) {
-    #shortcuts {
+    #bookmarks {
       padding-top: 35px;
       padding-bottom: 35px;
       height: 384px; }
-      #shortcuts ul li {
+      #bookmarks ul li {
         float: none;
         padding-left: 40px;
         padding-right: 40px;
         width: 100%; }
-        #shortcuts ul li a {
+        #bookmarks ul li a {
           padding-left: 40px;
           font-size: 16px;
           line-height: 50px; }
-          #shortcuts ul li a i {
+          #bookmarks ul li a i {
             width: 30px; }
-            #shortcuts ul li a i img {
+            #bookmarks ul li a i img {
               width: auto; }
-        #shortcuts ul li:nth-of-type(2) a {
+        #bookmarks ul li:nth-of-type(2) a {
           border-top: 1px solid #4a6181; }
-        #shortcuts ul li:nth-of-type(5) a {
+        #bookmarks ul li:nth-of-type(5) a {
           border-bottom: 1px solid #202937; } }
-  @media (min-width: 992px) {
-    #shortcuts {
-      margin-left: -15px;
-      margin-right: -15px; } }
   @media (min-width: 1200px) {
-    #shortcuts {
+    #bookmarks {
       padding-top: 20px;
       padding-bottom: 20px;
       height: 300px; }
-      #shortcuts ul li {
+      #bookmarks ul li {
         padding-left: 30px;
         padding-right: 30px; }
-        #shortcuts ul li a {
+        #bookmarks ul li a {
           padding-left: 30px;
           font-size: 14px;
           line-height: 41px; }
-          #shortcuts ul li a i {
+          #bookmarks ul li a i {
             width: 25px; }
-            #shortcuts ul li a i img {
+            #bookmarks ul li a i img {
               width: 50%; } }
 
 #search-store {
-  margin-left: -10px;
-  margin-right: -10px;
   padding: 15px 30px 20px;
   background-color: #f57f26;
   color: #fff;
@@ -181,10 +187,6 @@
             #search-store .form-area .form-group .btn i {
               font-size: 24px;
               vertical-align: 5px; } }
-  @media (min-width: 992px) {
-    #search-store {
-      margin-left: -15px;
-      margin-right: -15px; } }
   @media (min-width: 1200px) {
     #search-store {
       padding: 45px 25px;
@@ -208,5 +210,156 @@
             #search-store .form-area .form-group .btn i {
               font-size: 18px;
               vertical-align: 4px; } }
+
+.shortcut {
+  height: 160px;
+  background-color: #fff; }
+  .shortcut a {
+    display: block;
+    padding-top: 95px;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    line-height: 16px;
+    background-repeat: no-repeat; }
+    .shortcut a small {
+      font-size: 10px;
+      color: #ec6708; }
+    .shortcut a b {
+      font-size: 13px; }
+  .shortcut.hour a {
+    background-image: url(/assets/images/ico_watch_big.png);
+    background-size: auto 46px;
+    background-position: 50% 30px; }
+  .shortcut.floor a {
+    border-left: 1px solid #dfdfdf;
+    background-image: url(/assets/images/ico_flag_big.png);
+    background-size: auto 46px;
+    background-position: 52% 35px; }
+  .shortcut.location a {
+    background-color: #4c84c9;
+    color: #fff;
+    background-image: url(/assets/images/ico_mappin_big.png);
+    background-size: auto 46px;
+    background-position: 50% 35px; }
+    .shortcut.location a small {
+      color: #fbad1c; }
+  .shortcut.membership a {
+    background-image: url(/assets/images/ico_card_big.png);
+    background-size: auto 35px;
+    background-position: 50% 42px; }
+  @media (min-width: 768px) {
+    .shortcut {
+      height: 384px; }
+      .shortcut a {
+        padding-top: 235px;
+        line-height: 30px; }
+        .shortcut a small {
+          font-size: 14px; }
+        .shortcut a b {
+          font-size: 25px; }
+      .shortcut.hour a {
+        background-size: auto 100px;
+        background-position: 50% 100px; }
+      .shortcut.floor a {
+        background-size: auto 100px;
+        background-position: 55% 100px; }
+      .shortcut.location a {
+        background-size: auto 100px;
+        background-position: 50% 100px; }
+      .shortcut.membership a {
+        background-size: auto 87px;
+        background-position: 50% 110px; } }
+  @media (min-width: 1200px) {
+    .shortcut {
+      height: 300px; }
+      .shortcut a {
+        padding-top: 180px;
+        line-height: 24px; }
+        .shortcut a small {
+          font-size: 11px; }
+        .shortcut a b {
+          font-size: 20px; }
+      .shortcut.hour a {
+        background-size: auto 90px;
+        background-position: 50% 75px; }
+      .shortcut.floor a {
+        background-size: auto 80px;
+        background-position: 55% 77px; }
+      .shortcut.location a {
+        background-size: auto 87px;
+        background-position: 50% 76px; }
+      .shortcut.membership a {
+        background-size: auto 67px;
+        background-position: 50% 87px; } }
+
+#banner-1 {
+  margin-bottom: 0; }
+
+.banner {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px; }
+  .banner .bx-wrapper {
+    position: relative; }
+    .banner .bx-wrapper .bx-viewport ul li a img {
+      width: 100%; }
+    .banner .bx-wrapper .bx-controls {
+      position: absolute;
+      left: 10px;
+      bottom: 10px; }
+      .banner .bx-wrapper .bx-controls .bx-pager-item {
+        float: left;
+        width: 10px;
+        height: 10px; }
+        .banner .bx-wrapper .bx-controls .bx-pager-item + .bx-pager-item {
+          margin-left: 3px; }
+        .banner .bx-wrapper .bx-controls .bx-pager-item .bx-pager-link {
+          display: block;
+          width: 100%;
+          height: 100%;
+          background-color: #fff;
+          border-radius: 50%; }
+          .banner .bx-wrapper .bx-controls .bx-pager-item .bx-pager-link.active {
+            background-color: #ec6708; }
+  @media (min-width: 768px) {
+    .banner {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding-left: 20px;
+      padding-right: 20px; }
+      .banner .bx-wrapper .bx-controls {
+        left: 20px;
+        bottom: 40px; }
+        .banner .bx-wrapper .bx-controls .bx-pager-item {
+          width: 17px;
+          height: 17px; }
+          .banner .bx-wrapper .bx-controls .bx-pager-item + .bx-pager-item {
+            margin-left: 7px; } }
+  @media (min-width: 1200px) {
+    .banner {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-left: 0;
+      padding-right: 0; }
+      .banner .bx-wrapper .bx-controls {
+        left: 40px;
+        bottom: 30px; }
+        .banner .bx-wrapper .bx-controls .bx-pager-item {
+          width: 14px;
+          height: 14px; }
+          .banner .bx-wrapper .bx-controls .bx-pager-item + .bx-pager-item {
+            margin-left: 5px; } }
+
+#footer {
+  border-top: 0; }
+  @media (min-width: 1200px) {
+    #footer .container {
+      padding-left: 0;
+      padding-right: 0;
+      width: 1200px; } }
 
 /*# sourceMappingURL=main.css.map */

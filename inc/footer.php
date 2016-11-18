@@ -23,7 +23,7 @@
             <div class="col-lg-2">
                 <ul class="sns">
                     <li><a class="facebook" href="#" aria-label="페이스북"><i class="icon-facebook"></i></a></li>
-                    <li><a class="blog" href="#" aria-label="블로그"><span aria-hidden="true">b</span></a></li>
+                    <li><a class="instagram" href="#" aria-label="인스타그램"><i class="icon-instagram"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -32,7 +32,7 @@
         <ul>
             <li><a href="#">오시는 길</a></li>
             <li><a href="#">전화문의</a></li>
-            <li><a href="#">PC버전</a></li>
+<!--            <li><a href="#">PC버전</a></li>-->
         </ul>
     </nav>
 </footer>
