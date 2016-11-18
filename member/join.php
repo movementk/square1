@@ -79,6 +79,9 @@
                                             <p class="btn-basics">
                                                 <a href="#" class="btn" role="button">중복확인</a>
                                             </p>
+                                            <p class="attention">
+                                                ※ 사용하실 아이디를 입력해 주세요.
+                                            </p>
                                         </dd>
                                         <dt>
                                             <label for="point-card">포인트카드번호</label>
@@ -88,12 +91,18 @@
                                             <p class="btn-basics">
                                                 <a href="#" class="btn" role="button">중복확인</a>
                                             </p>
+                                            <p class="attention">
+                                                ※ 포인트카드번호를 입력해 주세요.
+                                            </p>
                                         </dd>
                                         <dt class="bold-before">
                                             <label for="user-pw">비밀번호</label>
                                         </dt>
-                                        <dd>
+                                        <dd class="user-pw">
                                             <input type="password" id="user-pw" class="form-control" placeholder="※ 영문, 숫자 조합 6~12자">
+                                            <p class="attention">
+                                                ※ 영문, 숫자 조합 6~12자
+                                            </p>
                                         </dd>
                                         <dt class="bold-before">
                                             <label for="confirm-pw">비밀번호확인</label>
@@ -106,6 +115,8 @@
                                         </dt>
                                         <dd class="user-mail">
                                             <input type="text" id="email" class="form-control">
+                                            <span>@</span>
+                                            <input type="text" id="email2" class="form-control hidden-xs">
                                             <select class="form-control">
                                                 <option value="">선택하세요</option>
                                             </select>
@@ -118,31 +129,29 @@
                                         <dd class="phone">
                                             <select class="form-control">
                                                 <option value="">선택</option>
-                                            </select>
+                                                <option value="">010</option>
+                                            </select> &nbsp;&nbsp;-&nbsp;&nbsp;
                                             <label for="u-phone-2" class="sr-only">두번째 번호</label>
-                                            <input type="text" id="u-phone-2" class="form-control">
+                                            <input type="text" id="u-phone-2" class="form-control"> &nbsp;&nbsp;-&nbsp;&nbsp;
                                             <label for="u-phone-3" class="sr-only">마지막 번호</label>
                                             <input type="text" id="u-phone-3" class="form-control">
                                         </dd>
                                         <dt class="bold-before">
-                                            <label for=""></label>
+                                            이메일수신동의
                                         </dt>
                                         <dd>
-                                            <input type="text" class="form-control">
-                                        </dd>
-                                        <dt class="bold-before">
-                                            <label for=""></label>
-                                        </dt>
-                                        <dd>
-                                            <input type="text" class="form-control">
-                                        </dd>
-                                        <dt class="bold-before">
-                                            <label for=""></label>
-                                        </dt>
-                                        <dd>
-                                            <input type="text" class="form-control">
+                                            <div class="check-box">
+                                                <label><input type="checkbox">동의합니다.</label>
+                                                <label><input type="checkbox">동의하지 않습니다.</label>
+                                            </div>
                                         </dd>
                                     </dl>
+                                </div>
+                                <div class="btn-area">
+                                    <p>
+                                        <a href="#" class="btn btn-orange" role="button">완료</a>
+                                        <a href="#" class="btn btn-default" role="button">취소</a>
+                                    </p>
                                 </div>
                             </form>
                         </div>

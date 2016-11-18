@@ -1,3 +1,18 @@
+@charset "UTF-8";
+.check-box label {
+  font-size: 13px;
+  color: #666;
+  font-weight: 300;
+  vertical-align: top;
+  margin-bottom: 0; }
+  .check-box label:last-child {
+    margin-left: 80px; }
+  .check-box label input[type=checkbox] {
+    margin-top: -2px;
+    margin-right: 5px;
+    vertical-align: middle; }
+
+/* 회원관련 공통 부분 */
 .member #header {
   background-image: url(/assets/images/member/membership_top_bg.jpg);
   background-size: cover; }
@@ -5,14 +20,30 @@
   text-align: center;
   padding-top: 45px;
   padding-bottom: 45px; }
+  @media (min-width: 768px) {
+    .member section .section-header {
+      padding-top: 60px;
+      padding-bottom: 60px; } }
   .member section .section-header > h2 {
+    font-size: 27px;
     font-family: 'Lato', sans-serif;
     color: #ec6708; }
+    @media (min-width: 768px) {
+      .member section .section-header > h2 {
+        font-size: 33px; } }
   .member section .section-header > hr {
     display: block;
     width: 48px;
     margin: 18px auto;
     border-top: 3px solid #ec6708; }
+  .member section .section-header > p {
+    font-size: 13px;
+    color: #111;
+    line-height: 24px; }
+    @media (min-width: 768px) {
+      .member section .section-header > p {
+        font-size: 16px;
+        line-height: 28px; } }
 .member section .section-content .procedure {
   padding: 26px 7px;
   margin-bottom: 45px;
@@ -288,18 +319,6 @@
         .terms .section-content article .article-content {
           padding: 27px 20px;
           height: 350px; } }
-    .terms .section-content article .check-box label {
-      font-size: 13px;
-      color: #666;
-      font-weight: 300;
-      vertical-align: top;
-      margin-bottom: 0; }
-      .terms .section-content article .check-box label:last-child {
-        margin-left: 80px; }
-      .terms .section-content article .check-box label input[type=checkbox] {
-        margin-top: -2px;
-        margin-right: 5px;
-        vertical-align: middle; }
   .terms .section-content .btn-area {
     display: none; }
     @media (min-width: 768px) {
@@ -374,6 +393,12 @@
 /* join */
 .join {
   padding-bottom: 95px; }
+  @media (min-width: 768px) {
+    .join {
+      padding-bottom: 110px; } }
+  @media (min-width: 992px) {
+    .join {
+      padding-bottom: 115px; } }
   .join .section-content .join-info h4 {
     font-size: 14px;
     color: #222;
@@ -407,20 +432,236 @@
     padding-left: 5px;
     padding-right: 5px;
     font-size: 12px; }
+  .join .section-content .join-info .input-form.type-1 dl dd .attention {
+    display: none; }
+    @media (min-width: 768px) {
+      .join .section-content .join-info .input-form.type-1 dl dd .attention {
+        display: block;
+        font-size: 12px;
+        color: #666;
+        margin-top: 5px; } }
+    @media (min-width: 992px) {
+      .join .section-content .join-info .input-form.type-1 dl dd .attention {
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        margin: 0;
+        margin-left: 30px; } }
+  .join .section-content .join-info .input-form.type-1 dl dd .check-box label {
+    height: 30px;
+    line-height: 30px; }
   .join .section-content .join-info .input-form.type-1 dl dd.user-dd .form-control {
     display: inline-block;
-    width: 200px;
+    width: 210px;
     margin-right: 7px; }
+    @media (min-width: 992px) {
+      .join .section-content .join-info .input-form.type-1 dl dd.user-dd .form-control {
+        margin-right: 20px; } }
+  @media (min-width: 768px) {
+    .join .section-content .join-info .input-form.type-1 dl dd.user-id .form-control {
+      width: 250px !important; } }
+  .join .section-content .join-info .input-form.type-1 dl dd.user-pw .form-control {
+    display: inline-block; }
   .join .section-content .join-info .input-form.type-1 dl dd.user-mail .form-control {
-    width: 170px;
-    display: inline-block;
+    display: inline-block; }
+  .join .section-content .join-info .input-form.type-1 dl dd.user-mail > input {
+    width: 180px;
     margin-right: 7px; }
-  .join .section-content .join-info .input-form.type-1 dl dd.user-mail select {
-    width: 100px !important; }
-  .join .section-content .join-info .input-form.type-1 dl dd.phone select {
-    width: 70px !important; }
+  .join .section-content .join-info .input-form.type-1 dl dd.user-mail > select {
+    width: 100px !important;
+    margin-right: 0 !important; }
+    @media (min-width: 992px) {
+      .join .section-content .join-info .input-form.type-1 dl dd.user-mail > select {
+        margin-left: 30px !important; } }
+  .join .section-content .join-info .input-form.type-1 dl dd.user-mail > span {
+    display: none; }
+  @media (min-width: 768px) {
+    .join .section-content .join-info .input-form.type-1 dl dd.user-mail input {
+      width: 150px;
+      margin: 0; }
+    .join .section-content .join-info .input-form.type-1 dl dd.user-mail select {
+      width: 70px;
+      margin-left: 7px; }
+    .join .section-content .join-info .input-form.type-1 dl dd.user-mail span {
+      margin: 0 2px;
+      display: inline-block; } }
   .join .section-content .join-info .input-form.type-1 dl dd.phone .form-control {
     display: inline-block;
-    width: 90px !important; }
+    width: 90px; }
+  .join .section-content .join-info .input-form.type-1 dl dd.phone > select {
+    width: 66px !important; }
+  @media (min-width: 768px) {
+    .join .section-content .join-info .input-form.type-1 dl dd {
+      padding-right: 0; }
+      .join .section-content .join-info .input-form.type-1 dl dd ::-webkit-input-placeholder {
+        /* WebKit browsers */
+        color: transparent; }
+      .join .section-content .join-info .input-form.type-1 dl dd :-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: transparent; }
+      .join .section-content .join-info .input-form.type-1 dl dd ::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: transparent; }
+      .join .section-content .join-info .input-form.type-1 dl dd :-ms-input-placeholder {
+        /* Internet Explorer 10+ */
+        color: transparent; } }
+  .join .section-content .join-info .btn-area {
+    margin-top: 30px; }
+
+/* sucess */
+.sucess {
+  padding-bottom: 78px; }
+  @media (min-width: 768px) {
+    .sucess {
+      padding-bottom: 100px; } }
+  @media (min-width: 992px) {
+    .sucess {
+      padding-bottom: 210px; } }
+  .sucess .section-content .join-sucess {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border: 1px solid #f0f0f0;
+    background-color: #fff; }
+    .sucess .section-content .join-sucess h4 {
+      font-size: 20px;
+      color: #ec6708;
+      line-height: 27px;
+      margin-bottom: 30px; }
+      .sucess .section-content .join-sucess h4 b {
+        color: #060032; }
+        .sucess .section-content .join-sucess h4 b i {
+          font-size: 33px;
+          color: #ec6708;
+          font-style: normal; }
+      @media (min-width: 768px) {
+        .sucess .section-content .join-sucess h4 {
+          margin-bottom: 15px;
+          font-size: 24px; }
+          .sucess .section-content .join-sucess h4 i {
+            font-size: 35px; } }
+    .sucess .section-content .join-sucess .underline {
+      font-size: 16px;
+      color: #333;
+      display: inline;
+      line-height: 30px;
+      text-decoration: underline; }
+      @media (min-width: 768px) {
+        .sucess .section-content .join-sucess .underline {
+          text-decoration: none;
+          display: inline-block;
+          font-size: 18px;
+          padding-bottom: 8px;
+          border-bottom: 1px solid #656565;
+          box-shadow: 0 1px #ccc; } }
+    .sucess .section-content .join-sucess .join-txt {
+      font-size: 13px;
+      color: #666;
+      line-height: 24px;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+      @media (min-width: 768px) {
+        .sucess .section-content .join-sucess .join-txt {
+          font-size: 14px;
+          margin-bottom: 50px; } }
+
+/* mypoint */
+.mypoint {
+  padding-bottom: 82px; }
+  .mypoint .section-header p i {
+    font-style: normal;
+    color: #ec6708; }
+  .mypoint .section-content .point {
+    text-align: center;
+    background-color: #fff;
+    padding: 25px 10px 28px;
+    box-shadow: 0 6px 30px 0 #e4e4e4; }
+    @media (min-width: 768px) {
+      .mypoint .section-content .point {
+        padding: 25px 52px; } }
+    .mypoint .section-content .point .u-point {
+      padding: 10px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #dfdfdf; }
+      @media (min-width: 768px) {
+        .mypoint .section-content .point .u-point {
+          padding-top: 60px;
+          vertical-align: middle;
+          text-align: left;
+          border-bottom: 0; } }
+      .mypoint .section-content .point .u-point .user {
+        font-size: 13px;
+        color: #333; }
+        .mypoint .section-content .point .u-point .user .u-name {
+          font-size: 16px;
+          color: #204499;
+          font-weight: 500;
+          font-style: normal; }
+        @media (min-width: 768px) {
+          .mypoint .section-content .point .u-point .user {
+            font-size: 24px;
+            line-height: 30px; }
+            .mypoint .section-content .point .u-point .user .u-name {
+              font-size: 30px; } }
+      .mypoint .section-content .point .u-point .attention {
+        font-size: 12px;
+        color: #666;
+        opacity: .8; }
+        @media (min-width: 768px) {
+          .mypoint .section-content .point .u-point .attention {
+            margin-top: 10px; } }
+  .mypoint .section-content .point-info {
+    padding-top: 20px;
+    text-align: center; }
+    @media (min-width: 768px) {
+      .mypoint .section-content .point-info {
+        padding-top: 0;
+        border-left: 1px solid #dfdfdf; } }
+    .mypoint .section-content .point-info dl {
+      display: inline-block;
+      overflow: hidden; }
+      .mypoint .section-content .point-info dl dt {
+        float: left;
+        clear: both;
+        margin-right: 20px;
+        margin-bottom: 30px; }
+        .mypoint .section-content .point-info dl dt:nth-of-type(3) {
+          margin-bottom: 0; }
+        @media (min-width: 768px) {
+          .mypoint .section-content .point-info dl dt {
+            margin-bottom: 35px; } }
+      .mypoint .section-content .point-info dl dd {
+        float: left;
+        height: 50px;
+        text-align: left; }
+        .mypoint .section-content .point-info dl dd .title {
+          font-size: 13px;
+          height: 25px;
+          line-height: 25px;
+          font-weight: 400; }
+        .mypoint .section-content .point-info dl dd .amount {
+          font-size: 16px;
+          height: 25px;
+          font-weight: bold;
+          line-height: 25px;
+          font-family: 'Lato', sans-serif; }
+          .mypoint .section-content .point-info dl dd .amount span {
+            font-size: 13px;
+            font-weight: 400; }
+        .mypoint .section-content .point-info dl dd.t-orange {
+          color: #ec6708; }
+        .mypoint .section-content .point-info dl dd.t-gray {
+          color: #6a7289; }
+        .mypoint .section-content .point-info dl dd.t-green {
+          color: #aacf3a; }
+        @media (min-width: 768px) {
+          .mypoint .section-content .point-info dl dd .title {
+            font-size: 16px;
+            line-height: 20px; }
+          .mypoint .section-content .point-info dl dd .amount {
+            font-size: 24px;
+            line-height: 30px; }
+            .mypoint .section-content .point-info dl dd .amount span {
+              font-size: 16px; } }
 
 /*# sourceMappingURL=member.css.map */
