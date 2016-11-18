@@ -133,10 +133,17 @@
       "src": "zocial"
     },
     {
+<<<<<<< HEAD
+      "uid": "b035c28eba2b35c6ffe92aee8b0df507",
+      "css": "attention-circled",
+      "code": 59406,
+      "src": "fontawesome"
+=======
       "uid": "221947bea81f49a11b863c686a7bd235",
       "css": "search-1",
       "code": 59406,
       "src": "websymbols"
+>>>>>>> 14ae1e5200ae6304bb3c7c2ad47d46bc108d6c54
     }
   ]
 }
