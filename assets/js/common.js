@@ -18,9 +18,11 @@
     // 모바일 메뉴 관련 버튼
     $(document).on('click', '#header .btn-menu', function() {
         $('body').addClass('gnb-open');
+        $('#gnb-aside .btn-close').focus();
     });
     $(document).on('click', '#gnb-aside .btn-close', function() {
         $('body').removeClass('gnb-open');
+        $('#header .btn-menu').focus();
     });
     $(document).on('click', '#gnb-aside', function(e) {
         if ($(e.target).attr('id') === 'gnb-aside') {
@@ -55,13 +57,18 @@
     });
     
     $(window).on('scroll', function() {
-        //console.log( $('#gnb').scrollTop() );
-        console.log( $('#gnb').offset().top);
-        console.log( $('#gnb').position().top);
-        if ( $(this).scrollTop() > 200 ) {
-            $('#gnb').addClass('fixed');
-        } else {
-            $('#gnb').removeClass('fixed');
+        if ($('body').hasClass('sub')) {
+            if ($(this).scrollTop() > 200) {
+                $('#gnb').addClass('fixed');
+            } else {
+                $('#gnb').removeClass('fixed');
+            }
+        } else if ($('body').hasClass('main')) {
+            if ($(this).scrollTop() > 567) {
+                $('#gnb').addClass('fixed');
+            } else {
+                $('#gnb').removeClass('fixed');
+            }
         }
     });
 })(jQuery);

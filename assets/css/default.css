@@ -561,7 +561,7 @@ body.gnb-open {
   height: 230px;
   background-image: url(/assets/images/bg_header.jpg);
   background-size: 200% auto;
-  background-position: 50% 20%; }
+  background-position: 50% 50%; }
   @media (min-width: 768px) {
     #header {
       height: 380px;
@@ -752,7 +752,7 @@ body.gnb-open {
         #gnb .container > ul > li > a {
           display: block;
           width: 100%;
-          all: 48px;
+          height: 48px;
           color: #fff;
           background-color: #3e4347;
           text-align: center;
@@ -794,7 +794,7 @@ body.gnb-open {
       display: block; }
   #gnb.fixed {
     position: fixed;
-    top: 0;
+    top: 0 !important;
     background-image: url(/assets/images/bg_gnb.gif);
     background-repeat: repeat-x;
     background-size: auto 48px;

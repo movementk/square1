@@ -1,0 +1,212 @@
+@media (min-width: 1200px) {
+  body.main .container {
+    width: 1200px; } }
+
+#header {
+  height: 267px; }
+  #header .jumbo {
+    padding-top: 105px; }
+    #header .jumbo h1 {
+      font-weight: 100;
+      font-size: 40px;
+      line-height: 50px;
+      letter-spacing: -1px; }
+  @media (min-width: 768px) {
+    #header {
+      height: 473px; }
+      #header .jumbo {
+        padding-top: 140px; }
+        #header .jumbo h1 {
+          font-size: 95px;
+          line-height: 120px; } }
+  @media (min-width: 1200px) {
+    #header {
+      height: 844px; }
+      #header .jumbo {
+        padding-top: 200px; }
+        #header .jumbo h1 {
+          font-size: 105px;
+          line-height: 120px;
+          letter-spacing: -3px; }
+      #header #top-nav .logo {
+        margin-top: 100px; }
+      #header #gnb {
+        top: 567px; } }
+
+#content {
+  background-color: #ececec; }
+  @media (min-width: 1200px) {
+    #content {
+      margin-top: -100px; } }
+
+#shortcuts {
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #35455c; }
+  #shortcuts ul {
+    overflow: hidden; }
+    #shortcuts ul li {
+      float: left;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 50%; }
+      #shortcuts ul li a {
+        position: relative;
+        display: block;
+        padding-left: 25px;
+        color: rgba(255, 255, 255, 0.85);
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 33px;
+        border-top: 1px solid #4a6181;
+        border-bottom: 1px solid #202937; }
+        #shortcuts ul li a i {
+          position: absolute;
+          left: 0;
+          width: 25px;
+          text-align: center; }
+          #shortcuts ul li a i img {
+            width: 50%;
+            vertical-align: -2px; }
+      #shortcuts ul li:nth-of-type(1) a, #shortcuts ul li:nth-of-type(2) a {
+        border-top: 0; }
+      #shortcuts ul li:nth-of-type(5) a, #shortcuts ul li:nth-of-type(6) a {
+        border-bottom: 0; }
+  @media (min-width: 768px) {
+    #shortcuts {
+      padding-top: 35px;
+      padding-bottom: 35px;
+      height: 384px; }
+      #shortcuts ul li {
+        float: none;
+        padding-left: 40px;
+        padding-right: 40px;
+        width: 100%; }
+        #shortcuts ul li a {
+          padding-left: 40px;
+          font-size: 16px;
+          line-height: 50px; }
+          #shortcuts ul li a i {
+            width: 30px; }
+            #shortcuts ul li a i img {
+              width: auto; }
+        #shortcuts ul li:nth-of-type(2) a {
+          border-top: 1px solid #4a6181; }
+        #shortcuts ul li:nth-of-type(5) a {
+          border-bottom: 1px solid #202937; } }
+  @media (min-width: 992px) {
+    #shortcuts {
+      margin-left: -15px;
+      margin-right: -15px; } }
+  @media (min-width: 1200px) {
+    #shortcuts {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      height: 300px; }
+      #shortcuts ul li {
+        padding-left: 30px;
+        padding-right: 30px; }
+        #shortcuts ul li a {
+          padding-left: 30px;
+          font-size: 14px;
+          line-height: 41px; }
+          #shortcuts ul li a i {
+            width: 25px; }
+            #shortcuts ul li a i img {
+              width: 50%; } }
+
+#search-store {
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 15px 30px 20px;
+  background-color: #f57f26;
+  color: #fff;
+  text-align: center; }
+  #search-store h3 {
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: normal;
+    letter-spacing: -1px; }
+  #search-store p {
+    font-weight: thin;
+    font-size: 10px;
+    line-height: 12px; }
+  #search-store .form-area {
+    margin-top: 15px; }
+    #search-store .form-area .form-group {
+      position: relative;
+      padding-right: 23px;
+      border: 2px solid #fff; }
+      #search-store .form-area .form-group .form-control {
+        padding: 0 10px;
+        height: 23px;
+        background-color: transparent;
+        border: 0;
+        color: #fff; }
+      #search-store .form-area .form-group .btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0;
+        width: 23px;
+        height: 23px;
+        border: 0;
+        background-color: transparent; }
+        #search-store .form-area .form-group .btn i {
+          vertical-align: 3px;
+          font-size: 12px; }
+  @media (min-width: 768px) {
+    #search-store {
+      padding: 50px 40px 60px;
+      height: 384px; }
+      #search-store h3 {
+        margin-bottom: 35px;
+        font-size: 27px;
+        line-height: 36px; }
+      #search-store p {
+        font-size: 16px;
+        line-height: 23px; }
+      #search-store .form-area {
+        margin-top: 50px; }
+        #search-store .form-area .form-group {
+          padding-right: 53px; }
+          #search-store .form-area .form-group .form-control {
+            height: 53px; }
+          #search-store .form-area .form-group .btn {
+            width: 53px;
+            height: 53px; }
+            #search-store .form-area .form-group .btn i {
+              font-size: 24px;
+              vertical-align: 5px; } }
+  @media (min-width: 992px) {
+    #search-store {
+      margin-left: -15px;
+      margin-right: -15px; } }
+  @media (min-width: 1200px) {
+    #search-store {
+      padding: 45px 25px;
+      height: 300px; }
+      #search-store h3 {
+        margin-bottom: 25px;
+        font-size: 22px;
+        line-height: 28px; }
+      #search-store p {
+        font-size: 13px;
+        line-height: 18px; }
+      #search-store .form-area {
+        margin-top: 40px; }
+        #search-store .form-area .form-group {
+          padding-right: 41px; }
+          #search-store .form-area .form-group .form-control {
+            height: 41px; }
+          #search-store .form-area .form-group .btn {
+            width: 41px;
+            height: 41px; }
+            #search-store .form-area .form-group .btn i {
+              font-size: 18px;
+              vertical-align: 4px; } }
+
+/*# sourceMappingURL=main.css.map */
