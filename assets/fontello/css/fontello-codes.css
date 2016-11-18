@@ -13,8 +13,15 @@
 .icon-cancel-circled2:before { content: '\e80b'; } /* '' */
 .icon-dot:before { content: '\e80c'; } /* '' */
 .icon-calendar:before { content: '\e80d'; } /* '' */
+<<<<<<< HEAD
+.icon-attention-circled:before { content: '\e80e'; } /* '' */
+=======
 .icon-search-1:before { content: '\e80e'; } /* '' */
+<<<<<<< HEAD
 .icon-attention-circled:before { content: '\e80f'; } /* '' */
+=======
+>>>>>>> 14ae1e5200ae6304bb3c7c2ad47d46bc108d6c54
+>>>>>>> c57b206467c7afb9b70e742fc24370e957f194d6
 .icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-angle-double-left:before { content: '\f100'; } /* '' */
 .icon-angle-double-right:before { content: '\f101'; } /* '' */
