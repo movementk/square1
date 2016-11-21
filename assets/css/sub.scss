@@ -58,6 +58,7 @@
         }
     }
     .c-search {
+        height: 38px;
         margin-top: 10px;
         @media (min-width: $sm) {
             margin-top: 0;
@@ -231,6 +232,7 @@
 // 페이징
 .paging {
     text-align: center;
+    height: 30px;
     .pagination {
         display: inline-block;
         margin: 0;
@@ -1267,7 +1269,6 @@
                 }
                 td {
                     font-size: 12px;
-                    @include lato();
                     color: #666;
                     border: 0;
                     text-align: center;
@@ -1281,6 +1282,10 @@
                         text-overflow: ellipsis;
                         font-size: 12px;
                         color: #666;
+                    }
+                    &.date {
+                        font-weight: 600;
+                        @include lato();
                     }
                     &.t-content {
                         text-align: left;
@@ -1414,6 +1419,14 @@
                 width: 70%;
                 padding-left: 30px;
                 padding-right: 30px;
+            }
+        }
+        @media(min-width: $lg) {
+            dt {
+                width: 18%;
+            }
+            dd {
+                width: 82%;
             }
         }
     }

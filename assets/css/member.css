@@ -12,10 +12,11 @@
     margin-right: 5px;
     vertical-align: middle; }
 
-/* 회원관련 공통 부분 */
+/* member 공통 */
 .member #header {
   background-image: url(/assets/images/member/membership_top_bg.jpg);
-  background-size: cover; }
+  background-size: cover;
+  padding-bottom: 30px; }
 .member section .section-header {
   text-align: center;
   padding-top: 45px;
@@ -428,6 +429,11 @@
       content: "*";
       color: #f0585d;
       margin-right: 2px; }
+    .join .section-content .join-info .input-form.type-1 dl dt.card {
+      padding-left: 13px; }
+      @media (min-width: 768px) {
+        .join .section-content .join-info .input-form.type-1 dl dt.card {
+          padding-left: 16px; } }
   .join .section-content .join-info .input-form.type-1 dl dd .form-control {
     padding-left: 5px;
     padding-right: 5px;
@@ -568,6 +574,9 @@
 /* mypoint */
 .mypoint {
   padding-bottom: 82px; }
+  @media (min-width: 768px) {
+    .mypoint {
+      padding-bottom: 110px; } }
   .mypoint .section-header p i {
     font-style: normal;
     color: #ec6708; }
@@ -578,17 +587,25 @@
     box-shadow: 0 6px 30px 0 #e4e4e4; }
     @media (min-width: 768px) {
       .mypoint .section-content .point {
-        padding: 25px 52px; } }
+        padding: 25px 0 25px; } }
+    @media (min-width: 1200px) {
+      .mypoint .section-content .point {
+        padding: 25px 0 25px 40px; } }
     .mypoint .section-content .point .u-point {
       padding: 10px;
       padding-bottom: 20px;
       border-bottom: 1px solid #dfdfdf; }
       @media (min-width: 768px) {
         .mypoint .section-content .point .u-point {
-          padding-top: 60px;
+          padding-top: 80px;
+          padding-left: 52px;
           vertical-align: middle;
           text-align: left;
           border-bottom: 0; } }
+      @media (min-width: 1200px) {
+        .mypoint .section-content .point .u-point {
+          padding: 0;
+          padding-top: 15px; } }
       .mypoint .section-content .point .u-point .user {
         font-size: 13px;
         color: #333; }
@@ -615,21 +632,41 @@
     text-align: center; }
     @media (min-width: 768px) {
       .mypoint .section-content .point-info {
-        padding-top: 0;
+        text-align: left;
+        padding-top: 17px;
         border-left: 1px solid #dfdfdf; } }
+    @media (min-width: 1200px) {
+      .mypoint .section-content .point-info {
+        padding: 0;
+        padding-left: 60px; } }
     .mypoint .section-content .point-info dl {
       display: inline-block;
       overflow: hidden; }
+      @media (min-width: 768px) {
+        .mypoint .section-content .point-info dl {
+          padding-left: 70px; } }
+      @media (min-width: 1200px) {
+        .mypoint .section-content .point-info dl {
+          padding: 30px 0; } }
       .mypoint .section-content .point-info dl dt {
         float: left;
         clear: both;
         margin-right: 20px;
         margin-bottom: 30px; }
-        .mypoint .section-content .point-info dl dt:nth-of-type(3) {
-          margin-bottom: 0; }
         @media (min-width: 768px) {
           .mypoint .section-content .point-info dl dt {
             margin-bottom: 35px; } }
+        @media (min-width: 1200px) {
+          .mypoint .section-content .point-info dl dt {
+            margin-bottom: 0; } }
+        .mypoint .section-content .point-info dl dt.dt-mb {
+          margin-bottom: 0; }
+          @media (min-width: 768px) {
+            .mypoint .section-content .point-info dl dt.dt-mb {
+              margin-bottom: 17px; } }
+          @media (min-width: 1200px) {
+            .mypoint .section-content .point-info dl dt.dt-mb {
+              margin-bottom: 0; } }
       .mypoint .section-content .point-info dl dd {
         float: left;
         height: 50px;
@@ -660,8 +697,262 @@
             line-height: 20px; }
           .mypoint .section-content .point-info dl dd .amount {
             font-size: 24px;
-            line-height: 30px; }
+            line-height: 27px; }
             .mypoint .section-content .point-info dl dd .amount span {
               font-size: 16px; } }
+  .mypoint .section-content .point-history {
+    margin-top: 30px; }
+    @media (min-width: 768px) {
+      .mypoint .section-content .point-history {
+        margin-top: 50px; } }
+    .mypoint .section-content .point-history .table-wrap .table {
+      border: 0;
+      margin-bottom: 0; }
+      .mypoint .section-content .point-history .table-wrap .table thead tr th {
+        width: 25%;
+        font-size: 12px;
+        color: #222;
+        font-weight: 400;
+        text-align: center;
+        padding: 14px 0;
+        border: 0; }
+        @media (min-width: 768px) {
+          .mypoint .section-content .point-history .table-wrap .table thead tr th {
+            font-size: 14px; } }
+      .mypoint .section-content .point-history .table-wrap .table tbody tr td {
+        width: 25%;
+        font-size: 12px;
+        color: #666;
+        font-weight: 300;
+        text-align: center;
+        padding: 14px 0;
+        border: 0;
+        border-bottom: 1px solid #dfdfdf;
+        background-color: #fff; }
+        .mypoint .section-content .point-history .table-wrap .table tbody tr td.date {
+          font-family: 'Lato', sans-serif;
+          font-weight: 400; }
+        .mypoint .section-content .point-history .table-wrap .table tbody tr td:last-child {
+          font-family: 'Lato', sans-serif;
+          text-align: right;
+          padding-right: 10px; }
+          @media (min-width: 768px) {
+            .mypoint .section-content .point-history .table-wrap .table tbody tr td:last-child {
+              padding-right: 35px; } }
+        .mypoint .section-content .point-history .table-wrap .table tbody tr td.use-point {
+          color: #da0909; }
+        @media (min-width: 768px) {
+          .mypoint .section-content .point-history .table-wrap .table tbody tr td {
+            font-size: 14px; } }
+        @media (min-width: 992px) {
+          .mypoint .section-content .point-history .table-wrap .table tbody tr td {
+            padding: 18px 0; } }
+    .mypoint .section-content .point-history .paging {
+      margin-top: 45px; }
+      @media (min-width: 768px) {
+        .mypoint .section-content .point-history .paging {
+          margin-top: 60px; } }
+
+/* edit-form */
+.edit {
+  padding-bottom: 80px; }
+  @media (min-width: 992px) {
+    .edit {
+      padding-bottom: 120px; } }
+  .edit .section-content .edit-form h3 {
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      .edit .section-content .edit-form h3 {
+        font-size: 16px;
+        margin-bottom: 20px; } }
+  .edit .section-content .edit-form .input-form dl dt {
+    font-size: 13px; }
+    .edit .section-content .edit-form .input-form dl dt.bold-before:before {
+      content: "*";
+      color: #f0585d;
+      margin-right: 2px; }
+    .edit .section-content .edit-form .input-form dl dt.card {
+      padding-left: 21px; }
+      @media (min-width: 768px) {
+        .edit .section-content .edit-form .input-form dl dt.card {
+          padding-left: 42px; } }
+    @media (min-width: 768px) {
+      .edit .section-content .edit-form .input-form dl dt {
+        font-size: 14px; } }
+  .edit .section-content .edit-form .input-form dl dd {
+    font-size: 12px;
+    color: #999;
+    padding-left: 21px;
+    line-height: 30px; }
+    .edit .section-content .edit-form .input-form dl dd .attention {
+      display: none;
+      font-size: 12px;
+      color: #666; }
+      @media (min-width: 768px) {
+        .edit .section-content .edit-form .input-form dl dd .attention {
+          display: inline-block;
+          padding-left: 10px; } }
+      @media (min-width: 992px) {
+        .edit .section-content .edit-form .input-form dl dd .attention {
+          padding-left: 30px; } }
+    .edit .section-content .edit-form .input-form dl dd .form-control {
+      font-size: 12px;
+      padding-left: 5px;
+      display: inline-block; }
+    @media (min-width: 768px) {
+      .edit .section-content .edit-form .input-form dl dd.user-pw ::-webkit-input-placeholder {
+        /* WebKit browsers */
+        color: transparent; }
+      .edit .section-content .edit-form .input-form dl dd.user-pw :-moz-placeholder {
+        /* Mozilla Firefox 4 to 18 */
+        color: transparent; }
+      .edit .section-content .edit-form .input-form dl dd.user-pw ::-moz-placeholder {
+        /* Mozilla Firefox 19+ */
+        color: transparent; }
+      .edit .section-content .edit-form .input-form dl dd.user-pw :-ms-input-placeholder {
+        /* Internet Explorer 10+ */
+        color: transparent; } }
+    .edit .section-content .edit-form .input-form dl dd.user-mail .form-control {
+      display: inline-block; }
+    .edit .section-content .edit-form .input-form dl dd.user-mail > input {
+      width: 180px;
+      margin-right: 7px; }
+    .edit .section-content .edit-form .input-form dl dd.user-mail > select {
+      width: 100px !important;
+      margin-right: 0 !important; }
+      @media (min-width: 992px) {
+        .edit .section-content .edit-form .input-form dl dd.user-mail > select {
+          margin-left: 30px !important; } }
+    .edit .section-content .edit-form .input-form dl dd.user-mail > span {
+      display: none; }
+    @media (min-width: 768px) {
+      .edit .section-content .edit-form .input-form dl dd.user-mail input {
+        width: 150px;
+        margin: 0; }
+      .edit .section-content .edit-form .input-form dl dd.user-mail select {
+        width: 70px;
+        margin-left: 7px; }
+      .edit .section-content .edit-form .input-form dl dd.user-mail span {
+        margin: 0 2px;
+        display: inline-block; } }
+    .edit .section-content .edit-form .input-form dl dd.phone .form-control {
+      display: inline-block;
+      width: 90px; }
+    .edit .section-content .edit-form .input-form dl dd.phone > select {
+      width: 66px !important; }
+    @media (min-width: 768px) {
+      .edit .section-content .edit-form .input-form dl dd {
+        font-size: 14px; } }
+  .edit .section-content .edit-form .btn-area {
+    margin-top: 30px; }
+
+/* member-leave */
+.member-leave {
+  padding-bottom: 110px; }
+  @media (min-width: 768px) {
+    .member-leave {
+      padding-bottom: 80px; } }
+  @media (min-width: 992px) {
+    .member-leave {
+      padding-bottom: 135px; } }
+  .member-leave .section-content h3 {
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      .member-leave .section-content h3 {
+        font-size: 16px;
+        margin-bottom: 20px; } }
+  .member-leave .section-content .attention-point {
+    margin-bottom: 45px;
+    padding: 20px;
+    border: 1px solid #dfdfdf;
+    background-color: #fff; }
+    @media (min-width: 768px) {
+      .member-leave .section-content .attention-point {
+        margin-bottom: 60px;
+        padding: 33px 30px; } }
+    .member-leave .section-content .attention-point .dot-list li {
+      font-size: 12px;
+      line-height: 22px;
+      margin-bottom: 5px; }
+      .member-leave .section-content .attention-point .dot-list li i {
+        color: #ec6708;
+        font-style: normal; }
+      .member-leave .section-content .attention-point .dot-list li:last-child {
+        margin-bottom: 0; }
+    @media (min-width: 768px) {
+      .member-leave .section-content .attention-point .dot-list li {
+        font-size: 14px;
+        margin-bottom: 0;
+        line-height: 30px; } }
+  .member-leave .section-content .reason h4 label {
+    font-size: 14px;
+    color: #222;
+    font-weight: 500;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      .member-leave .section-content .reason h4 label {
+        font-size: 16px;
+        margin-bottom: 20px; } }
+  .member-leave .section-content .reason .leave-form {
+    padding: 20px;
+    border: 1px solid #dfdfdf;
+    background-color: #f3f3f3; }
+    .member-leave .section-content .reason .leave-form .form-control {
+      width: 100%;
+      height: 200px;
+      font-size: 12px;
+      padding: 5px;
+      line-height: 22px;
+      overflow-y: scroll; }
+    @media (min-width: 768px) {
+      .member-leave .section-content .reason .leave-form {
+        padding: 30px; }
+        .member-leave .section-content .reason .leave-form .form-control {
+          height: 220px; } }
+  .member-leave .section-content .btn-area {
+    margin-top: 30px; }
+
+/* terms-info */
+/* service-terms , privacy , mail-refusal */
+/* 이용약관및 개인정보취급방침 공통 */
+.terms-info {
+  padding-bottom: 100px; }
+  @media (min-width: 768px) {
+    .terms-info {
+      padding-bottom: 80px; } }
+  @media (min-width: 992px) {
+    .terms-info {
+      padding-bottom: 120px; } }
+  .terms-info .section-content h3 {
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      .terms-info .section-content h3 {
+        font-size: 16px;
+        margin-bottom: 20px; } }
+  .terms-info .section-content .terms {
+    overflow-y: scroll;
+    height: 240px;
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+    padding: 20px;
+    border: 1px solid #dfdfdf;
+    background-color: #fff; }
+    @media (min-width: 768px) {
+      .terms-info .section-content .terms {
+        font-size: 13px;
+        height: 650px;
+        padding: 25px 20px; } }
+
+/* mail-refusal */
+.mail-refusal .section-content .terms {
+  overflow: visible;
+  height: inherit; }
 
 /*# sourceMappingURL=member.css.map */
