@@ -21,80 +21,26 @@
         </header>
         <main id="content">
             <div class="container">
-                <section class="join">
+                <section class="edit">
                     <div class="section-header">
-                        <h2>회원가입</h2>
+                        <h2>회원정보 수정</h2>
                         <hr>
                         <p>
-                            스퀘어원 회원가입을 하시면<br class="visible-xs"> 
-                            더많은 혜택을 이용하실 수 있습니다.
+                            변경된 고객님의 회원정보를 입력해주세요
                         </p>
                     </div>
                     <div class="section-content">
-                        <nav class="procedure">
-                            <ol>
-                                <li>
-                                    <p class="pcd-img">
-                                        <img src="/assets/images/member/procedure_non_img01.gif" alt="약관동의">
-                                    </p>
-                                    <h3>01.<br class="visible-xs"> 약관동의</h3>
-                                </li>
-                                <li>
-                                    <p class="pcd-img">
-                                        <img src="/assets/images/member/procedure_non_img02.gif" alt="실명확인">
-                                    </p>
-                                    <h3>02.<br class="visible-xs"> 실명확인</h3>
-                                </li>
-                                <li class="active">
-                                    <p class="pcd-img">
-                                        <img src="/assets/images/member/procedure_img03.gif" alt="정보입력">
-                                    </p>
-                                    <h3>03.<br class="visible-xs"> 정보입력</h3>
-                                </li>
-                                <li>
-                                    <p class="pcd-img">
-                                        <img src="/assets/images/member/procedure_non_img04.gif" alt="가입완료">
-                                    </p>
-                                    <h3>04.<br class="visible-xs"> 가입완료</h3>
-                                </li>
-                            </ol>
-                        </nav>
-                        <div class="join-info">
-                            <h4>정보입력</h4>
-                            <p>는 필수 입력사항 입니다.</p>
+                        <div class="edit-form">
+                            <h3>회워정보수정</h3>
                             <form>
                                 <div class="input-form type-1">
                                     <dl>
-                                        <dt class="bold-before">
-                                            <label for="u-name">이름</label>
-                                        </dt>
-                                        <dd>
-                                            <input type="text" id="u-name" class="form-control">
-                                        </dd>
-                                        <dt class="bold-before">
-                                            <label for="user-id">아이디</label>
-                                        </dt>
-                                        <dd class="user-dd user-id">
-                                            <input type="text" id="user-id" class="form-control" placeholder="※ 사용하실 아이디를 입력해 주세요.">
-                                            <p class="btn-basics">
-                                                <a href="#" class="btn" role="button">중복확인</a>
-                                            </p>
-                                            <p class="attention">
-                                                ※ 사용하실 아이디를 입력해 주세요.
-                                            </p>
-                                        </dd>
-                                        <dt class="card">
-                                            <label for="point-card">포인트카드번호</label>
-                                        </dt>
-                                        <dd class="user-dd">
-                                            <input type="text" id="point-card" class="form-control" placeholder="※ 포인트카드번호를 입력해 주세요.">
-                                            <p class="btn-basics">
-                                                <a href="#" class="btn" role="button">중복확인</a>
-                                            </p>
-                                            <p class="attention">
-                                                ※ 포인트카드번호를 입력해 주세요.
-                                            </p>
-                                        </dd>
+                                        <dt class="bold-before"> 이름</dt>
+                                        <dd>스퀘어원</dd>
+                                        <dt class="bold-before"> 아이디</dt>
+                                        <dd class="user-dd user-id">SQUARE1</dd>
+                                        <dt class="card"> 포인트카드번호</dt>
+                                        <dd class="user-dd">1234-5678-9012-3456</dd>
                                         <dt class="bold-before">
                                             <label for="user-pw">비밀번호</label>
                                         </dt>
@@ -114,15 +60,13 @@
                                             <label for="email">E-MAIL</label>
                                         </dt>
                                         <dd class="user-mail">
-                                            <input type="text" id="email" class="form-control">
+                                            <input type="text" id="email" class="form-control" placeholder="SQUARE1">
                                             <span>@</span>
-                                            <input type="text" id="email2" class="form-control hidden-xs">
+                                            <input type="text" id="email2" class="form-control hidden-xs" placeholder="@squre1.com">
                                             <select class="form-control">
                                                 <option value="">선택하세요</option>
                                             </select>
                                         </dd>
-                                        
-                                        
                                         <dt class="bold-before">
                                             휴대폰번호
                                         </dt>
@@ -132,9 +76,9 @@
                                                 <option value="">010</option>
                                             </select> &nbsp;&nbsp;-&nbsp;&nbsp;
                                             <label for="u-phone-2" class="sr-only">두번째 번호</label>
-                                            <input type="text" id="u-phone-2" class="form-control"> &nbsp;&nbsp;-&nbsp;&nbsp;
+                                            <input type="text" id="u-phone-2" class="form-control" placeholder="4567"> &nbsp;&nbsp;-&nbsp;&nbsp;
                                             <label for="u-phone-3" class="sr-only">마지막 번호</label>
-                                            <input type="text" id="u-phone-3" class="form-control">
+                                            <input type="text" id="u-phone-3" class="form-control" placeholder="4000">
                                         </dd>
                                         <dt class="bold-before">
                                             이메일수신동의
