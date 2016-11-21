@@ -18,11 +18,12 @@
     }
 }
 
-/* 회원관련 공통 부분 */
+/* member 공통 */
 .member {
     #header {
         background-image: url(/assets/images/member/membership_top_bg.jpg);
         background-size: cover;
+        padding-bottom: 30px;
     }
     section {
         .section-header {
@@ -538,6 +539,12 @@
                                 margin-right: 2px;
                             }
                         }
+                        &.card {
+                            padding-left: 13px;
+                            @media(min-width: $sm) {
+                                padding-left: 16px;
+                            }
+                        }
                     }
                     dd {
                         .form-control {
@@ -727,6 +734,9 @@
 /* mypoint */
 .mypoint {
     padding-bottom: 82px;
+    @media(min-width: $sm) {
+        padding-bottom: 110px;
+    }
     .section-header {
         p {
             i {
@@ -742,17 +752,25 @@
             padding: 25px 10px 28px;
             box-shadow: 0 6px 30px 0 #e4e4e4;
             @media(min-width: $sm) {
-                padding: 25px 52px; 
+                padding: 25px 0 25px; 
+            }
+            @media(min-width: $lg) {
+                padding: 25px 0 25px 40px;
             }
             .u-point {
                 padding: 10px;
                 padding-bottom: 20px;
                 border-bottom: 1px solid #dfdfdf;
                 @media(min-width: $sm) {
-                    padding-top: 60px;
+                    padding-top: 80px;
+                    padding-left: 52px;
                     vertical-align: middle;
                     text-align: left;
                     border-bottom: 0;
+                }
+                @media(min-width: $lg) {
+                    padding: 0;
+                    padding-top: 15px;
                 }
                 .user {
                     font-size: 13px;
@@ -785,22 +803,42 @@
             padding-top: 20px;
             text-align: center;
             @media(min-width: $sm) {
-                padding-top: 0;
+                text-align: left;
+                padding-top: 17px;
                 border-left: 1px solid #dfdfdf;
+            }
+            @media(min-width: $lg) {
+                padding: 0;
+                padding-left: 60px;
             }
             dl {
                 display: inline-block;
                 overflow: hidden;
+                @media(min-width: $sm) {
+                    padding-left: 70px;
+                }
+                @media(min-width: $lg) {
+                    padding: 30px 0;
+                }
                 dt {
                     float: left;
                     clear: both;
                     margin-right: 20px;
                     margin-bottom: 30px;
-                    &:nth-of-type(3) {
-                        margin-bottom: 0;
-                    }
                     @media(min-width: $sm) {
                         margin-bottom: 35px;
+                    }
+                    @media(min-width: $lg) {
+                        margin-bottom: 0;
+                    }
+                    &.dt-mb {
+                        margin-bottom: 0;
+                        @media(min-width: $sm) {
+                            margin-bottom: 17px;
+                        }
+                        @media(min-width: $lg) {
+                            margin-bottom: 0;
+                        }
                     }
                 }
                 dd {
@@ -840,44 +878,353 @@
                         }
                         .amount {
                             font-size: 24px;
-                            line-height: 30px;
+                            line-height: 27px;
                             span {
                                 font-size: 16px;
                             }
                         }
                     }
                 }
+            }
+        }
+        .point-history {
+            margin-top: 30px;
+            @media(min-width: $sm) {
+                margin-top: 50px;
+            }
+            .table-wrap {
+                .table {
+                    border: 0;
+                    margin-bottom: 0;
+                    thead {
+                        tr {
+                            th {
+                                width: 25%;
+                                font-size: 12px;
+                                color: #222;
+                                font-weight: 400;
+                                text-align: center;
+                                padding: 14px 0;
+                                border: 0;
+                                @media(min-width: $sm) {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                width: 25%;
+                                font-size: 12px;
+                                color: #666;
+                                font-weight: 300;
+                                text-align: center;
+                                padding: 14px 0;
+                                border: 0;
+                                border-bottom: 1px solid #dfdfdf;
+                                background-color: #fff;
+                                &.date {
+                                    @include lato();
+                                    font-weight: 400;
+                                }
+                                &:last-child {
+                                    @include lato();
+                                    text-align: right;
+                                    padding-right: 10px;
+                                    @media(min-width: $sm) {
+                                        padding-right: 35px;
+                                    }
+                                }
+                                &.use-point {
+                                    color: #da0909;
+                                }
+                                @media(min-width: $sm) {
+                                    font-size: 14px;
+                                }
+                                @media(min-width: $md) {
+                                    padding: 18px 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .paging {
+                margin-top: 45px;
                 @media(min-width: $sm) {
-                    
+                    margin-top: 60px;
                 }
             }
         }
     }
 }
 
+/* edit-form */
+.edit {
+    padding-bottom: 80px;
+    @media(min-width: $md) {
+        padding-bottom: 120px;
+    }
+    .section-content {
+        .edit-form {
+            h3 {
+                font-size: 14px;
+                color: #222;
+                margin-bottom: 15px;
+                @media(min-width: $sm) {
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                }
+            }
+            .input-form {
+                dl {
+                    dt {
+                        font-size: 13px;
+                        &.bold-before {
+                            &:before {
+                                content: "*";
+                                color: #f0585d;
+                                margin-right: 2px;
+                            }
+                        }
+                        &.card {
+                            padding-left: 21px;
+                            @media(min-width: $sm) {
+                                padding-left: 42px;
+                            }
+                        }
+                        @media(min-width: $sm) {
+                            font-size: 14px;
+                        }
+                    }
+                    dd {
+                        font-size: 12px;
+                        color: #999;
+                        padding-left: 21px;
+                        line-height: 30px;
+                        .attention {
+                            display: none;
+                            font-size: 12px;
+                            color: #666;
+                            @media(min-width: $sm) {
+                                display: inline-block;
+                                padding-left: 10px;
+                            }
+                            @media(min-width: $md) {
+                                padding-left: 30px;
+                            }
+                        }
+                        .form-control {
+                            font-size: 12px;
+                            padding-left: 5px;
+                            display: inline-block;
+                        }
+                        &.user-pw {
+                            @media(min-width: $sm) {
+                                ::-webkit-input-placeholder { /* WebKit browsers */
+                                    color: transparent;
+                                }
+                                :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+                                   color: transparent;
+                                }
+                                ::-moz-placeholder { /* Mozilla Firefox 19+ */
+                                   color: transparent;
+                                }
+                                :-ms-input-placeholder { /* Internet Explorer 10+ */
+                                   color: transparent;
+                                }
+                            }
+                        }
+                        &.user-mail {
+                            .form-control {
+                                display: inline-block;
+                            }
+                            > input {
+                                width: 180px;
+                                margin-right: 7px;
+                            }
+                            > select {
+                                width: 100px !important;
+                                margin-right: 0 !important;
+                                @media(min-width: $md) {
+                                    margin-left: 30px !important;
+                                }
+                            }
+                            > span {
+                                display: none;
+                            }
+                            @media(min-width: $sm) {
+                                input {
+                                    width: 150px;
+                                    margin: 0;
+                                }
+                                select {
+                                    width: 70px;
+                                    margin-left: 7px;
+                                }
+                                span {
+                                    margin: 0 2px;
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                        &.phone {
+                            .form-control {
+                                display: inline-block;
+                                width: 90px;
+                            }
+                            > select {
+                                width: 66px !important;
+                            }
+                        }
+                        @media(min-width: $sm) {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                margin-top: 30px;
+            }
+        }
+    }
+}
 
+/* member-leave */
+.member-leave {
+    padding-bottom: 110px;
+    @media(min-width: $sm) {
+        padding-bottom: 80px;
+    }
+    @media(min-width: $md) {
+        padding-bottom: 135px;
+    }
+    .section-content {
+        h3 {
+            font-size: 14px;
+            color: #222;
+            margin-bottom: 15px;
+            @media(min-width: $sm) {
+                font-size: 16px;
+                margin-bottom: 20px;
+            }
+        }
+        .attention-point {
+            margin-bottom: 45px;
+            padding: 20px;
+            border: 1px solid #dfdfdf;
+            background-color: #fff;
+            @media(min-width: $sm) {
+                margin-bottom: 60px;
+                padding: 33px 30px;
+            }
+            .dot-list {
+                li {
+                    font-size: 12px;
+                    line-height: 22px;
+                    margin-bottom: 5px;
+                    i {
+                        color: $orange;
+                        font-style: normal;
+                    }
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+                @media(min-width: $sm) {
+                    li {
+                        font-size: 14px;
+                        margin-bottom: 0;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+        .reason {
+            h4 {
+                label {
+                    font-size: 14px;
+                    color: #222;
+                    font-weight: 500;
+                    margin-bottom: 15px;
+                    @media(min-width: $sm) {
+                        font-size: 16px;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+            .leave-form {
+                padding: 20px;
+                border: 1px solid #dfdfdf;
+                background-color: #f3f3f3;
+                .form-control {
+                    width: 100%;
+                    height: 200px;
+                    font-size: 12px;
+                    padding: 5px;
+                    line-height: 22px;
+                    overflow-y: scroll;
+                }
+                @media(min-width: $sm) {
+                    padding: 30px;
+                    .form-control {
+                        height: 220px;
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 30px;
+        }
+    }
+}
 
+/* terms-info */
+/* service-terms , privacy , mail-refusal */
+/* 이용약관및 개인정보취급방침 공통 */
+.terms-info {
+    padding-bottom: 100px;
+    @media(min-width: $sm) {
+        padding-bottom: 80px;
+    }
+    @media(min-width: $md) {
+        padding-bottom: 120px;
+    }
+    .section-content {
+        h3 {
+            font-size: 14px;
+            color: #222;
+            margin-bottom: 15px;
+            @media(min-width: $sm) {
+                font-size: 16px;
+                margin-bottom: 20px;
+            }
+        }
+        .terms {
+            overflow-y: scroll;
+            height: 240px;
+            font-size: 12px;
+            color: #666;
+            line-height: 20px;
+            padding: 20px;
+            border: 1px solid #dfdfdf;
+            background-color: #fff;
+            @media(min-width: $sm) {
+                font-size: 13px;
+                height: 650px;
+                padding: 25px 20px;
+            }
+        }
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* mail-refusal */
+.mail-refusal {
+    .section-content {
+        .terms {
+            overflow: visible;
+            height: inherit;
+        }
+    }
+}
