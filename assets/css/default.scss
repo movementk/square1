@@ -46,7 +46,8 @@ address {
     }
 }
 
-.container {
+.container,
+.container-fluid {
     padding-left: 5px;
     padding-right: 5px;
     .row {
@@ -80,6 +81,9 @@ address {
         }
     }
     @media (min-width: $md) {
+        //width: 750px;
+    }
+    @media (min-width: $lg) {
         padding-left: 15px;
         padding-right: 15px;
         .row {
@@ -565,7 +569,7 @@ body.gnb-open {
 
 // 헤더
 #header {
-    //height: 230px;
+    height: 230px;
     background-image: url(/assets/images/bg_header.jpg);
     background-size: 200% auto;
     background-position: 50% 50%;

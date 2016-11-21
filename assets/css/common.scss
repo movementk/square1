@@ -16,3 +16,12 @@ $orange: #ec6708;
 @mixin roboto() {
     font-family: 'Roboto', sans-serif;
 }
+
+@mixin font($fs, $lh) {
+    @if $fs != '' {
+        font-size: $fs;
+    }
+    @if $lh != '' {
+        line-height: $lh;
+    }
+}

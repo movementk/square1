@@ -32,7 +32,6 @@
         <ul>
             <li><a href="#">오시는 길</a></li>
             <li><a href="#">전화문의</a></li>
-<!--            <li><a href="#">PC버전</a></li>-->
         </ul>
     </nav>
 </footer>

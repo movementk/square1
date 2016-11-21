@@ -1,7 +1,7 @@
 <nav id="gnb" class="visible-lg">
     <div class="container">
         <ul>
-            <li>
+            <li class="active">
                 <a href="#">스퀘어원 소개</a>
                 <div>
                     <ul>
