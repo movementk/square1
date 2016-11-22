@@ -15,8 +15,7 @@
 /* member 공통 */
 .member #header {
   background-image: url(/assets/images/member/membership_top_bg.jpg);
-  background-size: cover;
-  padding-bottom: 30px; }
+  background-size: cover; }
 .member section .section-header {
   text-align: center;
   padding-top: 45px;

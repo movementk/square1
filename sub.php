@@ -92,7 +92,7 @@
                         <a href="#" class="btn" role="button">중복확인</a>
                     </p>
                 </div>
-                <div class="board-list">
+                <nav class="board-list">
                     <ul class="row">
                         <li class="col-xs-4 col-sm-2 active">
                             <a href="#">ALL</a>
@@ -113,7 +113,7 @@
                             <a href="#">기타</a>
                         </li>
                     </ul>
-                </div>
+                </nav>
                 <div style="margin: 30px 0;">
                     <div class="calendar-form">
                         <form>
