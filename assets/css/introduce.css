@@ -1,19 +1,49 @@
-.sub.introduce .page-header {
+@import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+.sub.introduce.company .page-summary {
+  text-align: center; }
+  .sub.introduce.company .page-summary h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height: 30px;
+    color: #ec6708;
+    font-weight: 300;
+    letter-spacing: -2px; }
+  .sub.introduce.company .page-summary p {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #333;
+    word-break: keep-all; }
+  @media (min-width: 768px) {
+    .sub.introduce.company .page-summary h3 {
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: 30px;
+      line-height: 45px; }
+    .sub.introduce.company .page-summary p {
+      font-size: 16px;
+      line-height: 26px; } }
+  @media (min-width: 1200px) {
+    .sub.introduce.company .page-summary h3 {
+      margin-top: 10px;
+      margin-bottom: 30px; } }
+
+.sub.introduce.company.square1 .page-header {
   background-image: url(/assets/images/introduce/bg_company.gif);
   background-repeat: no-repeat;
   background-position: 30% 100%;
   background-size: 200% auto; }
   @media (min-width: 768px) {
-    .sub.introduce .page-header {
+    .sub.introduce.company.square1 .page-header {
       background-position: 50% 100%;
       background-size: 150% auto; } }
   @media (min-width: 992px) {
-    .sub.introduce .page-header {
+    .sub.introduce.company.square1 .page-header {
       background-size: 100% auto; } }
-.sub.introduce .summary {
+.sub.introduce.company.square1 .summary {
   margin-top: 40px;
   text-align: left; }
-  .sub.introduce .summary h3 {
+  .sub.introduce.company.square1 .summary h3 {
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: 22px;
@@ -21,43 +51,43 @@
     color: #ec6708;
     font-weight: 300;
     letter-spacing: -2px; }
-  .sub.introduce .summary .detials {
+  .sub.introduce.company.square1 .summary .detials {
     color: #333; }
   @media (min-width: 768px) {
-    .sub.introduce .summary {
+    .sub.introduce.company.square1 .summary {
       margin-top: 90px; }
-      .sub.introduce .summary h3 {
+      .sub.introduce.company.square1 .summary h3 {
         font-size: 30px;
         line-height: 45px; }
-      .sub.introduce .summary .figure {
+      .sub.introduce.company.square1 .summary .figure {
         margin-top: 50px; }
-      .sub.introduce .summary .detials {
+      .sub.introduce.company.square1 .summary .detials {
         margin-top: 25px;
         font-size: 16px;
         line-height: 26px; } }
   @media (min-width: 992px) {
-    .sub.introduce .summary .figure {
+    .sub.introduce.company.square1 .summary .figure {
       margin-top: 20px; } }
   @media (min-width: 1200px) {
-    .sub.introduce .summary {
+    .sub.introduce.company.square1 .summary {
       margin-top: 160px;
       margin-bottom: 160px; }
-      .sub.introduce .summary h3 {
+      .sub.introduce.company.square1 .summary h3 {
         margin-right: -30px; }
-      .sub.introduce .summary .detials {
+      .sub.introduce.company.square1 .summary .detials {
         margin-top: 5px;
         margin-right: -30px; }
-      .sub.introduce .summary .figure {
+      .sub.introduce.company.square1 .summary .figure {
         margin-top: 60px;
         margin-left: 50px; } }
-.sub.introduce .feature {
+.sub.introduce.company.square1 .feature {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #ec6708;
   color: #fff; }
-  .sub.introduce .feature ul li {
+  .sub.introduce.company.square1 .feature ul li {
     padding-right: 15px; }
-    .sub.introduce .feature ul li span {
+    .sub.introduce.company.square1 .feature ul li span {
       overflow: hidden;
       display: block;
       height: 35px;
@@ -65,62 +95,229 @@
       font-size: 70px;
       line-height: 60px;
       font-weight: bold; }
-    .sub.introduce .feature ul li h4 {
+    .sub.introduce.company.square1 .feature ul li h4 {
       margin-top: 10px;
       margin-bottom: 10px;
       font-size: 20px;
       line-height: 30px; }
-    .sub.introduce .feature ul li p {
+    .sub.introduce.company.square1 .feature ul li p {
       font-size: 12px;
       line-height: 22px;
       word-break: keep-all; }
-    .sub.introduce .feature ul li:nth-of-type(2n+1) {
+    .sub.introduce.company.square1 .feature ul li:nth-of-type(2n+1) {
       clear: both; }
-    .sub.introduce .feature ul li:nth-of-type(2) ~ li {
+    .sub.introduce.company.square1 .feature ul li:nth-of-type(2) ~ li {
       margin-top: 40px; }
   @media (min-width: 768px) {
-    .sub.introduce .feature {
+    .sub.introduce.company.square1 .feature {
       padding-top: 55px;
       padding-bottom: 55px; }
-      .sub.introduce .feature ul li {
+      .sub.introduce.company.square1 .feature ul li {
         padding-right: 0; }
-        .sub.introduce .feature ul li span {
+        .sub.introduce.company.square1 .feature ul li span {
           height: 40px;
           font-size: 80px;
           line-height: 65px; }
-        .sub.introduce .feature ul li h4 {
+        .sub.introduce.company.square1 .feature ul li h4 {
           margin-top: 25px;
           margin-bottom: 25px;
           font-size: 24px;
           line-height: 30px; }
-        .sub.introduce .feature ul li p {
+        .sub.introduce.company.square1 .feature ul li p {
           font-size: 14px;
           line-height: 24px; } }
   @media (min-width: 768px) {
-    .sub.introduce .feature {
+    .sub.introduce.company.square1 .feature {
       padding-top: 110px;
       padding-bottom: 110px; }
-      .sub.introduce .feature ul li {
+      .sub.introduce.company.square1 .feature ul li {
         padding-right: 15px; }
-        .sub.introduce .feature ul li:nth-of-type(2n+1) {
+        .sub.introduce.company.square1 .feature ul li:nth-of-type(2n+1) {
           clear: none; }
-        .sub.introduce .feature ul li:nth-of-type(2) ~ li {
+        .sub.introduce.company.square1 .feature ul li:nth-of-type(2) ~ li {
           margin-top: 0; } }
-.sub.introduce .figure ul {
-  /*overflow: hidden;*/ }
-  .sub.introduce .figure ul li {
-    /*float: left;
-    width: 50%;
-    &:nth-of-type(2n+1) {
-        clear: both;
-    }*/ }
-    .sub.introduce .figure ul li p img {
-      width: 100%; }
+.sub.introduce.company.square1 .figure ul li p img {
+  width: 100%; }
 @media (min-width: 768px) {
-  .sub.introduce .figure ul {
+  .sub.introduce.company.square1 .figure ul {
     overflow: hidden; }
-    .sub.introduce .figure ul li {
+    .sub.introduce.company.square1 .figure ul li {
       float: left;
       width: 50%; } }
+
+@media (min-width: 1200px) {
+  .sub.introduce.company.concept #content {
+    background-image: url(/assets/images/introduce/bg_concept.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 70%; } }
+.sub.introduce.company.concept .page-summary {
+  margin-bottom: 40px; }
+  @media (min-width: 768px) {
+    .sub.introduce.company.concept .page-summary {
+      margin-bottom: 50px; } }
+  @media (min-width: 1200px) {
+    .sub.introduce.company.concept .page-summary {
+      margin-bottom: 80px; } }
+.sub.introduce.company.concept .concept-container {
+  padding-left: 10px;
+  padding-right: 10px; }
+.sub.introduce.company.concept .concept-content {
+  display: table;
+  table-layout: fixed;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 240px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .sub.introduce.company.concept .concept-content div {
+    display: table-cell;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; }
+    .sub.introduce.company.concept .concept-content div span {
+      font-family: 'Lato', sans-serif;
+      font-size: 50px;
+      font-weight: 300;
+      color: #fff;
+      opacity: .2; }
+    .sub.introduce.company.concept .concept-content div p {
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: 300;
+      color: #fff; }
+      .sub.introduce.company.concept .concept-content div p i {
+        display: block;
+        font-style: normal;
+        line-height: 24px; }
+      .sub.introduce.company.concept .concept-content div p b {
+        display: block;
+        font-size: 26px;
+        line-height: 30px; }
+  .sub.introduce.company.concept .concept-content.concept-1 {
+    background-image: url(/assets/images/introduce/bg_concept_1.jpg); }
+    .sub.introduce.company.concept .concept-content.concept-1 div:last-child {
+      display: none; }
+    .sub.introduce.company.concept .concept-content.concept-1 div p b {
+      color: #ec6708; }
+  .sub.introduce.company.concept .concept-content.concept-2 {
+    background-position: 50% 80%;
+    background-image: url(/assets/images/introduce/bg_concept_2.jpg); }
+    .sub.introduce.company.concept .concept-content.concept-2 div {
+      background-color: rgba(0, 0, 0, 0.5); }
+      .sub.introduce.company.concept .concept-content.concept-2 div:last-child {
+        display: none; }
+      .sub.introduce.company.concept .concept-content.concept-2 div p b {
+        color: #7092e1; }
+  .sub.introduce.company.concept .concept-content.concept-3 {
+    background-image: url(/assets/images/introduce/bg_concept_3.jpg); }
+    .sub.introduce.company.concept .concept-content.concept-3 div {
+      background-color: rgba(0, 0, 0, 0.5); }
+      .sub.introduce.company.concept .concept-content.concept-3 div:first-child {
+        display: none; }
+      .sub.introduce.company.concept .concept-content.concept-3 div p b {
+        color: #faac1a; }
+  .sub.introduce.company.concept .concept-content.concept-4 {
+    background-image: url(/assets/images/introduce/bg_concept_4.jpg); }
+    .sub.introduce.company.concept .concept-content.concept-4 div:first-child {
+      display: none; }
+    .sub.introduce.company.concept .concept-content.concept-4 div p b {
+      color: #aacf3a; }
+  @media (min-width: 768px) {
+    .sub.introduce.company.concept .concept-content {
+      margin-bottom: 25px;
+      height: 354px; }
+      .sub.introduce.company.concept .concept-content div span {
+        font-size: 70px; }
+      .sub.introduce.company.concept .concept-content div p i {
+        font-size: 30px;
+        line-height: 36px; }
+      .sub.introduce.company.concept .concept-content div p b {
+        margin-top: 10px;
+        font-size: 36px;
+        line-height: 40px; }
+      .sub.introduce.company.concept .concept-content.concept-2 {
+        background-image: none;
+        box-shadow: 0 -1px 5px 5px rgba(0, 0, 0, 0.03); }
+        .sub.introduce.company.concept .concept-content.concept-2 div {
+          background-color: #fff; }
+          .sub.introduce.company.concept .concept-content.concept-2 div:last-child {
+            display: table-cell;
+            background-image: url(/assets/images/introduce/bg_concept_2.jpg); }
+          .sub.introduce.company.concept .concept-content.concept-2 div span {
+            color: #000;
+            opacity: .1; }
+          .sub.introduce.company.concept .concept-content.concept-2 div p i {
+            color: #666; }
+          .sub.introduce.company.concept .concept-content.concept-2 div p b {
+            color: #204499; }
+      .sub.introduce.company.concept .concept-content.concept-3 {
+        background-image: none;
+        box-shadow: 0 -1px 5px 5px rgba(0, 0, 0, 0.03); }
+        .sub.introduce.company.concept .concept-content.concept-3 div {
+          background-color: #fff; }
+          .sub.introduce.company.concept .concept-content.concept-3 div:first-child {
+            display: table-cell;
+            background-image: url(/assets/images/introduce/bg_concept_3.jpg); }
+          .sub.introduce.company.concept .concept-content.concept-3 div span {
+            color: #000;
+            opacity: .1; }
+          .sub.introduce.company.concept .concept-content.concept-3 div p i {
+            color: #666; } }
+  @media (min-width: 1200px) {
+    .sub.introduce.company.concept .concept-content {
+      margin-bottom: 30px;
+      height: 430px; }
+      .sub.introduce.company.concept .concept-content div p {
+        margin-top: 20px; }
+        .sub.introduce.company.concept .concept-content div p b {
+          margin-top: 10px;
+          font-size: 39px;
+          line-height: 45px; }
+      .sub.introduce.company.concept .concept-content.concept-1 div:last-child {
+        display: table-cell; }
+      .sub.introduce.company.concept .concept-content.concept-4 div:first-child {
+        display: table-cell; } }
+.sub.introduce.company.concept .concept-slogan {
+  margin-bottom: 10px;
+  background-color: #344359; }
+  .sub.introduce.company.concept .concept-slogan .slogan-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+    text-align: center; }
+    .sub.introduce.company.concept .concept-slogan .slogan-content i {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px; }
+      .sub.introduce.company.concept .concept-slogan .slogan-content i span {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400; }
+    .sub.introduce.company.concept .concept-slogan .slogan-content .bar {
+      display: block;
+      margin: 20px auto;
+      width: 37px;
+      height: 3px;
+      background-color: #fff; }
+    .sub.introduce.company.concept .concept-slogan .slogan-content p {
+      font-size: 30px;
+      line-height: 36px;
+      font-family: 'Jeju Myeongjo', serif; }
+  @media (min-width: 768px) {
+    .sub.introduce.company.concept .concept-slogan {
+      margin-bottom: 25px; }
+      .sub.introduce.company.concept .concept-slogan .slogan-content {
+        padding-top: 90px;
+        padding-bottom: 90px; }
+        .sub.introduce.company.concept .concept-slogan .slogan-content i {
+          font-size: 27px; }
+        .sub.introduce.company.concept .concept-slogan .slogan-content p {
+          font-size: 45px;
+          line-height: 50px; } }
+  @media (min-width: 768px) {
+    .sub.introduce.company.concept .concept-slogan {
+      margin-bottom: 30px; } }
 
 /*# sourceMappingURL=introduce.css.map */

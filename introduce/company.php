@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="/assets/css/sub.css">
 <link rel="stylesheet" href="/assets/css/introduce.css">
 </head>
-<body class="sub introduce company">
+<body class="sub introduce company square1">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb_aside.php'); ?>
     <div id="wrapper">
         <div id="top-bn">
@@ -29,9 +29,9 @@
                         </button>
                         <nav>
                             <ul>
-                                <li class="active"><a href="#">SQUARE1</a></li>
-                                <li><a href="#">SQUARE1 CONCEPT</a></li>
-                                <li><a href="#">SQUARE1 BI</a></li>
+                                <li class="active"><a href="/introduce/company.php">SQUARE1</a></li>
+                                <li><a href="/introduce/concept.php">SQUARE1 CONCEPT</a></li>
+                                <li><a href="/introduce/bi.php">SQUARE1 BI</a></li>
                             </ul>
                         </nav>
                     </div>

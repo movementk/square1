@@ -5,9 +5,9 @@
                 <a href="#">스퀘어원 소개</a>
                 <div>
                     <ul>
-                        <li><a href="#">SQUARE1 소개</a></li>
-                        <li><a href="#">SQUARE1의 특별함</a></li>
-                        <li><a href="#">오시는길</a></li>
+                        <li><a href="/introduce/company.php">SQUARE1 소개</a></li>
+                        <li><a href="/introduce/special.php">SQUARE1의 특별함</a></li>
+                        <li><a href="/introduce/location.php">오시는길</a></li>
                     </ul>
                 </div>
             </li>
