@@ -721,4 +721,87 @@
     .write .section-content .input-form .btn-area {
       margin-top: 30px; } }
 
+/* confirm */
+.confirm .section-content .confirm-form {
+  padding: 170px 10px 60px;
+  border: 1px solid #dfdfdf;
+  background-color: #fff;
+  background-image: url(/assets/images/community/lock_bg.gif);
+  background-repeat: no-repeat;
+  background-position: 50% 60px; }
+  @media (min-width: 768px) {
+    .confirm .section-content .confirm-form {
+      padding-top: 190px;
+      padding-bottom: 70px;
+      background-position: 50% 72px; } }
+  @media (min-width: 768px) {
+    .confirm .section-content .confirm-form {
+      margin: 0 auto;
+      width: 830px; } }
+  .confirm .section-content .confirm-form h4 {
+    font-size: 24px;
+    color: #ec6708;
+    text-align: center;
+    font-weight: 400; }
+    @media (min-width: 768px) {
+      .confirm .section-content .confirm-form h4 {
+        font-size: 27px; } }
+  .confirm .section-content .confirm-form .circle {
+    margin-top: 15px;
+    text-align: center; }
+    .confirm .section-content .confirm-form .circle i {
+      width: 13px;
+      height: 13px;
+      display: inline-block;
+      text-align: center;
+      margin: 0 2px;
+      background-color: #ec6708;
+      border-radius: 50%; }
+    @media (min-width: 768px) {
+      .confirm .section-content .confirm-form .circle {
+        margin-top: 20px; }
+        .confirm .section-content .confirm-form .circle i {
+          width: 14px;
+          height: 14px; } }
+  .confirm .section-content .confirm-form .c-txt {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-top: 5px; }
+    @media (min-width: 768px) {
+      .confirm .section-content .confirm-form .c-txt {
+        margin-top: 11px; } }
+  .confirm .section-content .confirm-form .form-group {
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+    padding-right: 100px; }
+    @media (min-width: 768px) {
+      .confirm .section-content .confirm-form .form-group {
+        width: 360px;
+        margin-top: 45px; } }
+    .confirm .section-content .confirm-form .form-group .form-control {
+      width: 180px;
+      height: 39px; }
+      @media (min-width: 768px) {
+        .confirm .section-content .confirm-form .form-group .form-control {
+          width: 220px; } }
+    .confirm .section-content .confirm-form .form-group .btn-basics {
+      position: absolute;
+      top: 0;
+      right: 0; }
+      .confirm .section-content .confirm-form .form-group .btn-basics .btn-gray {
+        width: 90px;
+        height: 39px;
+        font-size: 13px;
+        color: #fff;
+        text-align: center;
+        line-height: 39px;
+        padding: 0;
+        background-color: #666; }
+        @media (min-width: 768px) {
+          .confirm .section-content .confirm-form .form-group .btn-basics .btn-gray {
+            width: 125px; } }
+
 /*# sourceMappingURL=community.css.map */
