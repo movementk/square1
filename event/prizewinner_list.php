@@ -1,8 +1,8 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 <link rel="stylesheet" href="/assets/css/sub.css">
-<link rel="stylesheet" href="/assets/css/community.css">
+<link rel="stylesheet" href="/assets/css/event.css">
 </head>
-<body class="sub community">
+<body class="sub event">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb_aside.php'); ?>
     <div id="wrapper">
         <div id="top-bn">
@@ -11,31 +11,49 @@
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/top_nav.php'); ?>
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb.php'); ?>
             <div class="jumbo">
-                <h1><small>커뮤니티</small>COMMUNITY</h1>
+                <h1><small>이벤트&amp;뉴스</small>EVENT &amp; NEWS</h1>
                 <p>
-                    스퀘어원 고객님의 편의를 위한<br>
-                    정보와 서비스 내용을 안내드립니다.
+                    복합 문화 소비공간 스퀘어원만의 이벤트 소식과<br>
+                    보도자료를 전해드립니다.
                 </p>
             </div>
         </header>
         <main id="content">
             <nav id="lnb" class="hidden-xs">
                 <div class="container">
-                    <ul>
-                        <li class="active"><a href="/community/press_list.php">보도자료</a></li>
-                        <li><a href="/event/">이벤트 캘린더</a></li>
-                        <li><a href="/event/brand_event.php">브랜드 이벤트</a></li>
-                        <li><a href="/event/">SQUARE1 이벤트</a></li>
-                        <li><a href="/event/">문화홀 공연/전시</a></li>
-                    </ul>
+                    <div class="container">
+                        <ul>
+                            <li><a href="/community/press_list.php">보도자료</a></li>
+                            <li><a href="/event/brand_event.php">브랜드 이벤트</a></li>
+                            <li class="active"><a href="/event/square1_event.php">SQUARE1 이벤트</a></li>
+                            <li><a href="/event/art_hall.php">문화홀 공연/전시</a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
+            <div class="page-header has-snb"><!-- SNB를 포함할 경우 has-snb 클래스 추가-->
+                <h1><span class="square1">SQUARE<i>1</i></span> 이벤트</h1>
+                <div class="snb">
+                    <div class="container">
+                        <button class="btn btn-block" type="button">
+                            당첨자 발표
+                        </button>
+                        <nav>
+                            <ul>
+                                <li><a href="#">진행 중 이벤트</a></li>
+                                <li class="active"><a href="#">당첨자 발표</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
             <div class="container">
-                <section class="notice press-list">
+                <section class="prizewinner-list">
                     <div class="section-header">
-                        <h2>SQUARE<i>1</i> 보도자료</h2>
-                        <h3>스퀘어원의 새로운 소식을<br class="visible-xs"> 알려드립니다.</h3>
-                        <p>고객님의 편의를 위한 스퀘어원의<br class="visible-xs"> 정보를 전해드립니다.</p>
+                        <h2>스퀘어원의 이벤트 소식을<br class="visible-xs"> 한번에 보실 수 있습니다.</h2>
+                        <p>
+                            복합 문화 소비공간 스퀘어원만의<br class="visible-xs"> 다양한 이벤트를 경험해 보세요~
+                        </p>
                     </div>
                     <div class="section-content">
                         <div class="search-form">
@@ -65,31 +83,31 @@
                                 <tbody>
                                     <tr>
                                         <td>100</td>
-                                        <td class="t-content"><a href="#">4F 전문식당가 리뉴얼/매장이동 안내입니다.</a></td>
+                                        <td class="t-content"><a href="#">골드바 40돈의 주인공 당첨자 발표</a></td>
                                         <td class="date">2016-10-06</td>
                                         <td>123</td>
                                     </tr>
                                     <tr>
                                         <td>99</td>
-                                        <td class="t-content"><a href="#">바르미 샤브샤브 칼국수 입점 오픈 안내</a></td>
+                                        <td class="t-content"><a href="#">LOVE&amp;THANKS 경품 페스티벌 당첨자 발표</a></td>
                                         <td class="date">2016-10-06</td>
                                         <td>15</td>
                                     </tr>
                                     <tr>
                                         <td>98</td>
-                                        <td class="t-content"><a href="#">포베이 입점 오픈 안내</a></td>
+                                        <td class="t-content"><a href="#">발렌타인데이 LOVE이벤트 당첨자발표</a></td>
                                         <td class="date">2016-10-06</td>
                                         <td>77</td>
                                     </tr>
                                     <tr>
                                         <td>97</td>
-                                        <td class="t-content"><a href="#">4F 푸드코너 리뉴얼 공사 안내</a></td>
+                                        <td class="t-content"><a href="#">새해 소원을 말해봐 당첨자 발표</a></td>
                                         <td class="date">2016-10-06</td>
                                         <td>23</td>
                                     </tr>
                                     <tr>
                                         <td>96</td>
-                                        <td class="t-content"><a href="#">더제이케이키친박스 입점 오픈 안내</a></td>
+                                        <td class="t-content"><a href="#">cool summer! 캠핑 경품 이벤트 당첨자 발표</a></td>
                                         <td class="date">2016-10-06</td>
                                         <td>96</td>
                                     </tr>

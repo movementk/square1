@@ -258,13 +258,7 @@
             border: 1px solid #ddd;
             background-color: #fff;
             @media(min-width: $sm) {
-                padding: 33px 30px;
-            }
-            @media(min-width: $md) {
-                padding-right: 266px;
-            }
-            @media(min-width: $lg) {
-                padding-right: 465px;
+                padding: 35px 0;
             }
             dl {
                 dt {
@@ -305,6 +299,8 @@
                     }
                 }
                 @media(min-width: $sm) {
+                    max-width: 458px;
+                    margin: 0 auto;
                     overflow: hidden;
                     dt {
                         float: left;
@@ -322,7 +318,6 @@
                     }
                     dd {
                         float: left;
-                        width: 68.8%;
                         .form-control {
                             width: 250px;
                             margin-bottom: 20px;
@@ -346,10 +341,10 @@
                 }
             }
             .reference {
+                display: block;
                 margin-top: 10px;
                 @media(min-width: $sm) {
-                    margin: 0;
-                    margin-left: 200px;
+                    margin-top: 0;
                 }
             }
         }
@@ -593,39 +588,6 @@
                         &.user-pw {
                             .form-control {
                                 display: inline-block;
-                            }
-                        }
-                        &.user-mail {
-                            .form-control {
-                                display: inline-block;
-                            }
-                            > input {
-                                width: 180px;
-                                margin-right: 7px;
-                            }
-                            > select {
-                                width: 100px !important;
-                                margin-right: 0 !important;
-                                @media(min-width: $md) {
-                                    margin-left: 30px !important;
-                                }
-                            }
-                            > span {
-                                display: none;
-                            }
-                            @media(min-width: $sm) {
-                                input {
-                                    width: 150px;
-                                    margin: 0;
-                                }
-                                select {
-                                    width: 70px;
-                                    margin-left: 7px;
-                                }
-                                span {
-                                    margin: 0 2px;
-                                    display: inline-block;
-                                }
                             }
                         }
                         &.phone {
@@ -1032,39 +994,6 @@
                                 }
                                 :-ms-input-placeholder { /* Internet Explorer 10+ */
                                    color: transparent;
-                                }
-                            }
-                        }
-                        &.user-mail {
-                            .form-control {
-                                display: inline-block;
-                            }
-                            > input {
-                                width: 180px;
-                                margin-right: 7px;
-                            }
-                            > select {
-                                width: 100px !important;
-                                margin-right: 0 !important;
-                                @media(min-width: $md) {
-                                    margin-left: 30px !important;
-                                }
-                            }
-                            > span {
-                                display: none;
-                            }
-                            @media(min-width: $sm) {
-                                input {
-                                    width: 150px;
-                                    margin: 0;
-                                }
-                                select {
-                                    width: 70px;
-                                    margin-left: 7px;
-                                }
-                                span {
-                                    margin: 0 2px;
-                                    display: inline-block;
                                 }
                             }
                         }
