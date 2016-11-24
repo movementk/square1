@@ -149,6 +149,12 @@
       "css": "attention-circled",
       "code": 59407,
       "src": "fontawesome"
+    },
+    {
+      "uid": "f156d14a32cd7d5bc5a5f70382ab04ec",
+      "css": "upload",
+      "code": 59408,
+      "src": "typicons"
     }
   ]
 }

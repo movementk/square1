@@ -73,33 +73,28 @@
                     <li>
                         <a href="#">커뮤니티</a>
                         <ul>
-                            <li><a href="/community/notice.php">공지사항</a></li>
+                            <li><a href="/community/notice_list.php">공지사항</a></li>
                             <li><a href="#">보도자료</a></li>
                             <li><a href="#">온라인전단</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#">이벤트&amp;뉴스</a>
+                        <a href="#">이벤트</a>
                         <ul>
-                            <li><a href="#">보도자료</a></li>
-                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">이벤트캘린더</a></li>
+                            <li><a href="#">브랜드이벤트</a></li>
+                            <li><a href="#">SQUARE1이벤트</a></li>
+                            <li><a href="#">문화홀 공연/전시</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#">고객센터</a>
                         <ul>
-                            <li><a href="/community/lost.php">분실물 센터안내</a></li>
-                            <li><a href="/community/culture_hall.php">대관신청안내</a></li>
-                            <li><a href="/community/faq.php">FAQ</a></li>
-                            <li><a href="/community/qna.php">Q&amp;A</a></li>
+                            <li><a href="/center/lost.php">분실물 센터안내</a></li>
+                            <li><a href="/center/culture_hall.php">대관신청안내</a></li>
+                            <li><a href="/center/faq_list.php">FAQ</a></li>
+                            <li><a href="/center/qna_list.php">Q&amp;A</a></li>
                             <li><a href="#">고객의 소리</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">회원관련</a>
-                        <ul>
-                            <li><a href="#">TEST1</a></li>
-                            <li><a href="#">TEST1</a></li>
                         </ul>
                     </li>
                 </ul>
