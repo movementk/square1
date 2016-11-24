@@ -25,9 +25,9 @@
                     <ul>
                         <li><a href="/community/notice.php">공지사항</a></li>
                         <li class="active"><a href="/community/lost.php">분실물센터안내</a></li>
-                        <li><a href="#">대관신청안내</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Q&amp;A</a></li>
+                        <li><a href="/community/culture_hall.php">대관신청안내</a></li>
+                        <li><a href="/community/faq.php">FAQ</a></li>
+                        <li><a href="/community/qna.php">Q&amp;A</a></li>
                         <li><a href="#">고객의소리</a></li>
                     </ul>
                 </div>
