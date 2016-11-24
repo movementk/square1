@@ -1,8 +1,8 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 <link rel="stylesheet" href="/assets/css/sub.css">
-<link rel="stylesheet" href="/assets/css/community.css">
+<link rel="stylesheet" href="/assets/css/center.css">
 </head>
-<body class="sub community">
+<body class="sub center">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb_aside.php'); ?>
     <div id="wrapper">
         <div id="top-bn">
@@ -22,11 +22,11 @@
             <nav id="lnb" class="hidden-xs">
                 <div class="container">
                     <ul>
-                        <li><a href="/community/notice.php">공지사항</a></li>
-                        <li><a href="/community/lost.php">분실물센터안내</a></li>
-                        <li><a href="/community/culture_hall.php">대관신청안내</a></li>
-                        <li><a href="/community/faq.php">FAQ</a></li>
-                        <li class="active"><a href="/community/qna.php">Q&amp;A</a></li>
+                        <li><a href="/community/notice_list.php">공지사항</a></li>
+                        <li><a href="/center/lost.php">분실물센터안내</a></li>
+                        <li><a href="/center/culture_hall.php">대관신청안내</a></li>
+                        <li><a href="/center/faq_list.php">FAQ</a></li>
+                        <li class="active"><a href="/center/qna_list.php">Q&amp;A</a></li>
                         <li><a href="#">고객의소리</a></li>
                     </ul>
                 </div>

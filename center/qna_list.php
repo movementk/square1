@@ -1,8 +1,8 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 <link rel="stylesheet" href="/assets/css/sub.css">
-<link rel="stylesheet" href="/assets/css/community.css">
+<link rel="stylesheet" href="/assets/css/center.css">
 </head>
-<body class="sub community">
+<body class="sub center">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb_aside.php'); ?>
     <div id="wrapper">
         <div id="top-bn">
@@ -22,21 +22,28 @@
             <nav id="lnb" class="hidden-xs">
                 <div class="container">
                     <ul>
-                        <li class="active"><a href="/community/notice.php">공지사항</a></li>
-                        <li><a href="/community/lost.php">분실물센터안내</a></li>
-                        <li><a href="/community/culture_hall.php">대관신청안내</a></li>
-                        <li><a href="/community/faq.php">FAQ</a></li>
-                        <li><a href="/community/qna.php">Q&amp;A</a></li>
+                        <li><a href="/community/notice_list.php">공지사항</a></li>
+                        <li><a href="/center/lost.php">분실물센터안내</a></li>
+                        <li><a href="/center/culture_hall.php">대관신청안내</a></li>
+                        <li><a href="/center/faq_list.php">FAQ</a></li>
+                        <li class="active"><a href="/center/qna_list.php">Q&amp;A</a></li>
                         <li><a href="#">고객의소리</a></li>
                     </ul>
                 </div>
             </nav>
             <div class="container">
-                <section class="notice">
+                <section class="qna">
                     <div class="section-header">
-                        <h2>SQUARE<i>1</i> 공지사항</h2>
-                        <h3>스퀘어원의 새로운 소식을<br class="visible-xs"> 알려드립니다.</h3>
-                        <p>고객님의 편의를 위한 스퀘어원의<br class="visible-xs"> 정보를 전해드립니다.</p>
+                        <h2>SQUARE<i>1</i> Q&amp;A</h2>
+                        <h3>
+                            스퀘어원과 관련된 궁금한 사항은<br>
+                            무엇이든 물어보세요.
+                        </h3>
+                        <p>
+                            고객님의 편의를 위한 제안ㆍ건의ㆍ만족ㆍ불만족 등과<br class="visible-xs">
+                            관련된 고객님의 소중한 의견을 남겨주시면<br>
+                            접수후 빠른 대응을 하도록하겠습니다.
+                        </p>
                     </div>
                     <div class="section-content">
                         <div class="search-form">
@@ -66,31 +73,31 @@
                                 <tbody>
                                     <tr>
                                         <td>100</td>
-                                        <td class="t-content"><a href="#">4F 전문식당가 리뉴얼/매장이동 안내입니다.</a></td>
+                                        <td class="t-content"><a href="#">안녕하세요. 문의드립니다.</a></td>
                                         <td class="date">2016-10-06</td>
                                         <td>123</td>
                                     </tr>
                                     <tr>
                                         <td>99</td>
-                                        <td class="t-content"><a href="#">바르미 샤브샤브 칼국수 입점 오픈 안내</a></td>
+                                        <td class="t-content"><a href="#">이벤트 관련 문의드립니다.</a></td>
                                         <td class="date">2016-10-06</td>
                                         <td>15</td>
                                     </tr>
                                     <tr>
                                         <td>98</td>
-                                        <td class="t-content"><a href="#">포베이 입점 오픈 안내</a></td>
+                                        <td class="t-content"><a href="#">안녕하세요~~</a></td>
                                         <td class="date">2016-10-06</td>
                                         <td>77</td>
                                     </tr>
                                     <tr>
                                         <td>97</td>
-                                        <td class="t-content"><a href="#">4F 푸드코너 리뉴얼 공사 안내</a></td>
+                                        <td class="t-content"><a href="#">연락부탁 드립니다.</a></td>
                                         <td class="date">2016-10-06</td>
                                         <td>23</td>
                                     </tr>
                                     <tr>
                                         <td>96</td>
-                                        <td class="t-content"><a href="#">더제이케이키친박스 입점 오픈 안내</a></td>
+                                        <td class="t-content"><a href="#">멤버쉽 서브스에 대하여 문의 릴게 있습니다. 연락부탁드립니다.</a></td>
                                         <td class="date">2016-10-06</td>
                                         <td>96</td>
                                     </tr>

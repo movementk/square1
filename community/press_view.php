@@ -11,7 +11,7 @@
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/top_nav.php'); ?>
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb.php'); ?>
             <div class="jumbo">
-                <h1><small>고객센터</small>CUSTOMER</h1>
+                <h1><small>커뮤니티</small>COMMUNITY</h1>
                 <p>
                     스퀘어원 고객님의 편의를 위한<br>
                     정보와 서비스 내용을 안내드립니다.
@@ -22,28 +22,18 @@
             <nav id="lnb" class="hidden-xs">
                 <div class="container">
                     <ul>
-                        <li><a href="/community/notice.php">공지사항</a></li>
-                        <li><a href="/community/lost.php">분실물센터안내</a></li>
-                        <li><a href="/community/culture_hall.php">대관신청안내</a></li>
-                        <li><a href="/community/faq.php">FAQ</a></li>
-                        <li class="active"><a href="/community/qna.php">Q&amp;A</a></li>
-                        <li><a href="#">고객의소리</a></li>
+                        <li><a href="/community/notice_list.php">공지사항</a></li>
+                        <li class="active"><a href="/community/press_list.php">보도자료</a></li>
+                        <li><a href="/community/pr_list.php">온라인전단</a></li>
                     </ul>
                 </div>
             </nav>
             <div class="container">
-                <section class="view">
+                <section class="notice_view">
                     <div class="section-header">
-                        <h2>SQUARE<i>1</i> Q&amp;A</h2>
-                        <h3>
-                            스퀘어원과 관련된 궁금한 사항은<br>
-                            무엇이든 물어보세요.
-                        </h3>
-                        <p>
-                            고객님의 편의를 위한 제안ㆍ건의ㆍ만족ㆍ불만족 등과<br class="visible-xs">
-                            관련된 고객님의 소중한 의견을 남겨주시면<br>
-                            접수후 빠른 대응을 하도록하겠습니다.
-                        </p>
+                        <h2>SQUARE<i>1</i> 보도자료</h2>
+                        <h3>스퀘어원의 새로운 소식을<br class="visible-xs"> 알려드립니다.</h3>
+                        <p>고객님의 편의를 위한 스퀘어원의<br class="visible-xs"> 정보를 전해드립니다.</p>
                     </div>
                     <div class="section-content">
                         <article class="content-view">
