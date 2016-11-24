@@ -8,9 +8,9 @@
         <div>
             <div class="member">
                 <ul>
-                    <li><a href="#">HOME</a></li>
+                    <li><a href="/">HOME</a></li>
                     <li><a href="/member/login.php">LOGIN</a></li>
-                    <li><a href="#">JOIN</a></li>
+                    <li><a href="/member/terms.php">JOIN</a></li>
                 </ul>
             </div>
             <div class="quick">
@@ -51,32 +51,48 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li>
+                    <li class="active">
                         <a href="#">스퀘어원 소개</a>
                         <ul>
-                            <li><a href="#">TEST1</a></li>
-                            <li><a href="#">TEST1</a></li>
+                            <li><a href="/introduce/company.php">SQUARE1 소개</a></li>
+                            <li><a href="/introduce/special.php">SQUARE1의 특별함</a></li>
+                            <li><a href="/introduce/location.php">오시는길</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#">매장/이용안내</a>
                         <ul>
-                            <li><a href="#">TEST1</a></li>
-                            <li><a href="#">TEST1</a></li>
+                            <li><a href="#">카테고리별 안내</a></li>
+                            <li><a href="#">층별안내</a></li>
+                            <li><a href="#">편의시설안내</a></li>
+                            <li><a href="#">영업시간안내</a></li>
+                            <li><a href="#">포인트카드</a></li>
+                            <li><a href="#">주차시설안내</a></li>
                         </ul>
                     </li>
-                    <li class="active">
+                    <li>
+                        <a href="#">커뮤니티</a>
+                        <ul>
+                            <li><a href="/community/notice.php">공지사항</a></li>
+                            <li><a href="#">보도자료</a></li>
+                            <li><a href="#">온라인전단</a></li>
+                        </ul>
+                    </li>
+                    <li>
                         <a href="#">이벤트&amp;뉴스</a>
                         <ul>
                             <li><a href="#">보도자료</a></li>
                             <li><a href="#">이벤트</a></li>
                         </ul>
                     </li>
-                    <li class="active">
+                    <li>
                         <a href="#">고객센터</a>
                         <ul>
-                            <li><a href="#">TEST1</a></li>
-                            <li><a href="#">TEST1</a></li>
+                            <li><a href="/community/lost.php">분실물 센터안내</a></li>
+                            <li><a href="/community/culture_hall.php">대관신청안내</a></li>
+                            <li><a href="/community/faq.php">FAQ</a></li>
+                            <li><a href="/community/qna.php">Q&amp;A</a></li>
+                            <li><a href="#">고객의 소리</a></li>
                         </ul>
                     </li>
                     <li>

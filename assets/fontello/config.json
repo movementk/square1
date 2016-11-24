@@ -133,27 +133,21 @@
       "src": "zocial"
     },
     {
-      "uid": "b035c28eba2b35c6ffe92aee8b0df507",
-      "css": "attention-circled",
+      "uid": "221947bea81f49a11b863c686a7bd235",
+      "css": "search-1",
       "code": 59406,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "f156d14a32cd7d5bc5a5f70382ab04ec",
-      "css": "upload",
-      "code": 59407,
-      "src": "typicons"
-    },
-    {
-      "uid": "21115bb09fa242341cb91ed34710aa13",
-      "css": "attach",
-      "code": 59408,
       "src": "websymbols"
     },
     {
-      "uid": "7277ded7695b2a307a5f9d50097bb64c",
-      "css": "print",
-      "code": 59409,
+      "uid": "4c1ef492f1d2c39a2250ae457cee2a6e",
+      "css": "instagram",
+      "code": 61805,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "b035c28eba2b35c6ffe92aee8b0df507",
+      "css": "attention-circled",
+      "code": 59407,
       "src": "fontawesome"
     }
   ]
