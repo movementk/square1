@@ -212,13 +212,7 @@
     background-color: #fff; }
     @media (min-width: 768px) {
       .find .section-content .find-form {
-        padding: 33px 30px; } }
-    @media (min-width: 992px) {
-      .find .section-content .find-form {
-        padding-right: 266px; } }
-    @media (min-width: 1200px) {
-      .find .section-content .find-form {
-        padding-right: 465px; } }
+        padding: 35px 0; } }
     .find .section-content .find-form dl dt {
       margin-bottom: 10px; }
       .find .section-content .find-form dl dt label {
@@ -249,6 +243,8 @@
         display: none; }
     @media (min-width: 768px) {
       .find .section-content .find-form dl {
+        max-width: 458px;
+        margin: 0 auto;
         overflow: hidden; }
         .find .section-content .find-form dl dt {
           float: left;
@@ -262,8 +258,7 @@
           .find .section-content .find-form dl dt.mt-dt {
             margin: 0; }
         .find .section-content .find-form dl dd {
-          float: left;
-          width: 68.8%; }
+          float: left; }
           .find .section-content .find-form dl dd .form-control {
             width: 250px;
             margin-bottom: 20px; }
@@ -280,11 +275,11 @@
               margin: 0 2px;
               display: inline-block; } }
     .find .section-content .find-form .reference {
+      display: block;
       margin-top: 10px; }
       @media (min-width: 768px) {
         .find .section-content .find-form .reference {
-          margin: 0;
-          margin-left: 200px; } }
+          margin-top: 0; } }
 
 /* terms */
 .terms {
@@ -467,29 +462,6 @@
       width: 250px !important; } }
   .join .section-content .join-info .input-form.type-1 dl dd.user-pw .form-control {
     display: inline-block; }
-  .join .section-content .join-info .input-form.type-1 dl dd.user-mail .form-control {
-    display: inline-block; }
-  .join .section-content .join-info .input-form.type-1 dl dd.user-mail > input {
-    width: 180px;
-    margin-right: 7px; }
-  .join .section-content .join-info .input-form.type-1 dl dd.user-mail > select {
-    width: 100px !important;
-    margin-right: 0 !important; }
-    @media (min-width: 992px) {
-      .join .section-content .join-info .input-form.type-1 dl dd.user-mail > select {
-        margin-left: 30px !important; } }
-  .join .section-content .join-info .input-form.type-1 dl dd.user-mail > span {
-    display: none; }
-  @media (min-width: 768px) {
-    .join .section-content .join-info .input-form.type-1 dl dd.user-mail input {
-      width: 150px;
-      margin: 0; }
-    .join .section-content .join-info .input-form.type-1 dl dd.user-mail select {
-      width: 70px;
-      margin-left: 7px; }
-    .join .section-content .join-info .input-form.type-1 dl dd.user-mail span {
-      margin: 0 2px;
-      display: inline-block; } }
   .join .section-content .join-info .input-form.type-1 dl dd.phone .form-control {
     display: inline-block;
     width: 90px; }
@@ -813,29 +785,6 @@
       .edit .section-content .edit-form .input-form dl dd.user-pw :-ms-input-placeholder {
         /* Internet Explorer 10+ */
         color: transparent; } }
-    .edit .section-content .edit-form .input-form dl dd.user-mail .form-control {
-      display: inline-block; }
-    .edit .section-content .edit-form .input-form dl dd.user-mail > input {
-      width: 180px;
-      margin-right: 7px; }
-    .edit .section-content .edit-form .input-form dl dd.user-mail > select {
-      width: 100px !important;
-      margin-right: 0 !important; }
-      @media (min-width: 992px) {
-        .edit .section-content .edit-form .input-form dl dd.user-mail > select {
-          margin-left: 30px !important; } }
-    .edit .section-content .edit-form .input-form dl dd.user-mail > span {
-      display: none; }
-    @media (min-width: 768px) {
-      .edit .section-content .edit-form .input-form dl dd.user-mail input {
-        width: 150px;
-        margin: 0; }
-      .edit .section-content .edit-form .input-form dl dd.user-mail select {
-        width: 70px;
-        margin-left: 7px; }
-      .edit .section-content .edit-form .input-form dl dd.user-mail span {
-        margin: 0 2px;
-        display: inline-block; } }
     .edit .section-content .edit-form .input-form dl dd.phone .form-control {
       display: inline-block;
       width: 90px; }

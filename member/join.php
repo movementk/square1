@@ -113,16 +113,9 @@
                                         <dt class="bold-before">
                                             <label for="email">E-MAIL</label>
                                         </dt>
-                                        <dd class="user-mail">
+                                        <dd>
                                             <input type="text" id="email" class="form-control">
-                                            <span>@</span>
-                                            <input type="text" id="email2" class="form-control hidden-xs">
-                                            <select class="form-control">
-                                                <option value="">선택하세요</option>
-                                            </select>
                                         </dd>
-                                        
-                                        
                                         <dt class="bold-before">
                                             휴대폰번호
                                         </dt>

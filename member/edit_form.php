@@ -31,7 +31,7 @@
                     </div>
                     <div class="section-content">
                         <div class="edit-form">
-                            <h3>회워정보수정</h3>
+                            <h3>회원정보수정</h3>
                             <form>
                                 <div class="input-form type-1">
                                     <dl>
@@ -59,13 +59,8 @@
                                         <dt class="bold-before">
                                             <label for="email">E-MAIL</label>
                                         </dt>
-                                        <dd class="user-mail">
-                                            <input type="text" id="email" class="form-control" placeholder="SQUARE1">
-                                            <span>@</span>
-                                            <input type="text" id="email2" class="form-control hidden-xs" placeholder="@squre1.com">
-                                            <select class="form-control">
-                                                <option value="">선택하세요</option>
-                                            </select>
+                                        <dd>
+                                            <input type="text" id="email" class="form-control" placeholder="SQUARE1@square1.com">
                                         </dd>
                                         <dt class="bold-before">
                                             휴대폰번호

@@ -36,18 +36,11 @@
                                         <dt><label for="u-name">이름</label></dt>
                                         <dd><input type="text" id="u-name" class="form-control"></dd>
                                         <dt class="mt-dt"><label for="u-mail">E-MAIL</label></dt>
-                                        <dd class="email">
+                                        <dd>
                                             <input type="email" id="u-mail" class="form-control">
-                                            <span>@</span>
-                                            <input type="email" id="email-1" class="form-control hidden-xs">
-                                            <label for="email-1" class="sr-only">도메인</label>
-                                            <select class="form-control">
-                                                <option value="">선택하세요</option>
-                                                <option value="">naver.com</option>
-                                            </select>
+                                            <p class="reference">가입하신 이메일 주소로 아이디가 발송됩니다.</p>
                                         </dd>
                                     </dl>
-                                    <p class="reference">가입하신 이메일 주소로 아이디가 발송됩니다.</p>
                                 </div>
                                 <div class="btn-area">
                                     <p>
@@ -65,20 +58,13 @@
                                         <dt><label for="u-name2">이름</label></dt>
                                         <dd><input type="text" id="u-name2" class="form-control"></dd>
                                         <dt class="mt-dt"><label for="u-id">아이디</label></dt>
-                                        <dd><input type="email" id="u-id" class="form-control"></dd>
+                                        <dd><input type="text" id="u-id" class="form-control"></dd>
                                         <dt class="mt-dt"><label for="u-mail2">E-MAIL</label></dt>
-                                        <dd class="email">
+                                        <dd>
                                             <input type="email" id="u-mail2" class="form-control">
-                                            <span>@</span>
-                                            <input type="email" id="u-mail2-1" class="form-control hidden-xs">
-                                            <label for="u-mail2-1" class="sr-only">도메인</label>
-                                            <select class="form-control">
-                                                <option value="">선택하세요</option>
-                                                <option value="">naver.com</option>
-                                            </select>
+                                            <p class="reference">가입하신 이메일 주소로 아이디가 발송됩니다.</p>
                                         </dd>
                                     </dl>
-                                    <p class="reference">가입하신 이메일 주소로 아이디가 발송됩니다.</p>
                                 </div>
                                 <div class="btn-area">
                                     <p>

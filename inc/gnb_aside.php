@@ -74,8 +74,8 @@
                         <a href="#">커뮤니티</a>
                         <ul>
                             <li><a href="/community/notice_list.php">공지사항</a></li>
-                            <li><a href="#">보도자료</a></li>
-                            <li><a href="#">온라인전단</a></li>
+                            <li><a href="/community/press_list.php">보도자료</a></li>
+                            <li><a href="/community/pr_list.php">온라인전단</a></li>
                         </ul>
                     </li>
                     <li>
