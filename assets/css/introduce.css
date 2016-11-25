@@ -319,4 +319,101 @@
     .sub.introduce.company.concept .concept-slogan {
       margin-bottom: 30px; } }
 
+.sub.introduce.company.bi .page-summary {
+  margin-bottom: 40px; }
+  .sub.introduce.company.bi .page-summary h3 {
+    font-family: 'Jeju Myeongjo', serif; }
+  .sub.introduce.company.bi .page-summary p .red {
+    color: #ec6708; }
+  .sub.introduce.company.bi .page-summary p .blue {
+    color: #204499; }
+  .sub.introduce.company.bi .page-summary p .orange {
+    color: #faac1a; }
+  .sub.introduce.company.bi .page-summary p .green {
+    color: #aacf3a; }
+.sub.introduce.company.bi .bi-content {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 25px;
+  border-top: 1px solid #ccc; }
+  .sub.introduce.company.bi .bi-content .row {
+    padding-left: 0;
+    padding-right: 0; }
+  .sub.introduce.company.bi .bi-content header {
+    margin-left: -5px;
+    margin-right: -5px; }
+    .sub.introduce.company.bi .bi-content header h4 {
+      margin-top: -1px;
+      padding-top: 10px;
+      width: 140px;
+      font-family: 'Lato', sans-serif;
+      color: #ec6708;
+      font-size: 24px;
+      line-height: 45px;
+      border-top: 1px solid #ec6708;
+      letter-spacing: -1px; }
+  .sub.introduce.company.bi .bi-content .details {
+    margin-left: -5px;
+    margin-right: -5px; }
+    .sub.introduce.company.bi .bi-content .details p {
+      letter-spacing: -1px; }
+      .sub.introduce.company.bi .bi-content .details p + p {
+        margin-top: 25px; }
+  .sub.introduce.company.bi .bi-content .figure {
+    margin-top: 15px; }
+    .sub.introduce.company.bi .bi-content .figure .img-responsive {
+      margin: 0 auto; }
+  @media (min-width: 768px) {
+    .sub.introduce.company.bi .bi-content {
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 40px; }
+      .sub.introduce.company.bi .bi-content header {
+        margin-left: -10px;
+        margin-right: -20px; }
+        .sub.introduce.company.bi .bi-content header h4 {
+          padding-top: 30px;
+          padding-left: 15px;
+          width: 186px;
+          font-size: 30px; }
+      .sub.introduce.company.bi .bi-content .details {
+        margin-left: -20px;
+        margin-top: 35px; }
+      .sub.introduce.company.bi .bi-content .figure {
+        margin-top: 25px;
+        margin-left: -20px; }
+      .sub.introduce.company.bi .bi-content.bi-logo .figure-2 {
+        margin-left: 0; } }
+  @media (min-width: 992px) {
+    .sub.introduce.company.bi .bi-content.bi-logo .figure-2 {
+      overflow: hidden;
+      height: 190px;
+      border-top: 1px solid #dfdfdf;
+      border-bottom: 1px solid #dfdfdf; }
+      .sub.introduce.company.bi .bi-content.bi-logo .figure-2 .img-responsive {
+        margin-top: -8px; } }
+  @media (min-width: 1200px) {
+    .sub.introduce.company.bi .bi-content {
+      margin-bottom: 65px; }
+      .sub.introduce.company.bi .bi-content header h4 {
+        padding-top: 55px;
+        width: 200px; }
+      .sub.introduce.company.bi .bi-content .details {
+        margin-top: 60px;
+        margin-left: 0; }
+      .sub.introduce.company.bi .bi-content .figure {
+        margin-top: 40px;
+        margin-left: 0; }
+      .sub.introduce.company.bi .bi-content.bi-logo .figure-1 {
+        overflow: hidden;
+        height: 242px;
+        border-top: 1px solid #dfdfdf;
+        border-bottom: 1px solid #dfdfdf; }
+        .sub.introduce.company.bi .bi-content.bi-logo .figure-1 .img-responsive {
+          margin-top: -12px; }
+      .sub.introduce.company.bi .bi-content.bi-logo .figure-2 {
+        height: auto;
+        border-top: 0;
+        border-bottom: 0; } }
+
 /*# sourceMappingURL=introduce.css.map */
