@@ -17,6 +17,10 @@ $orange: #ec6708;
     font-family: 'Roboto', sans-serif;
 }
 
+@mixin jjmj() {
+    font-family: 'Jeju Myeongjo', serif;
+}
+
 @mixin font($fs, $lh) {
     @if $fs != '' {
         font-size: $fs;
