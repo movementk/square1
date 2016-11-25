@@ -2,8 +2,10 @@
   background-color: #f8f8f8; }
   .sub #content .form-control {
     border: 1px solid #dedede; }
-  .sub #content .btn {
+  .sub #content .btn, .sub #content .btn-sm, .sub #content .btn-xs {
     border-radius: 0; }
+    .sub #content .btn:hover, .sub #content .btn:focus, .sub #content .btn-sm:hover, .sub #content .btn-sm:focus, .sub #content .btn-xs:hover, .sub #content .btn-xs:focus {
+      text-decoration: none; }
 
 .calendar-form {
   text-align: center; }
