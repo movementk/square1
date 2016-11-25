@@ -6,8 +6,11 @@
         .form-control {
             border: 1px solid #dedede;
         }
-        .btn {
+        .btn,.btn-sm,.btn-xs {
             border-radius: 0;
+            &:hover,&:focus {
+                text-decoration: none;
+            }
         }
     }
 }

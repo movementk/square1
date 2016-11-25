@@ -19,18 +19,7 @@
             </div>
         </header>
         <main id="content">
-            <nav id="lnb" class="hidden-xs">
-                <div class="container">
-                    <div class="container">
-                        <ul>
-                            <li><a href="/community/press_list.php">보도자료</a></li>
-                            <li><a href="/event/brand_event.php">브랜드 이벤트</a></li>
-                            <li class="active"><a href="/event/square1_event.php">SQUARE1 이벤트</a></li>
-                            <li><a href="/event/art_hall.php">문화홀 공연/전시</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+            <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/lnb4.php'); ?>
             <div class="page-header has-snb"><!-- SNB를 포함할 경우 has-snb 클래스 추가-->
                 <h1><span class="square1">SQUARE<i>1</i></span> 이벤트</h1>
                 <div class="snb">

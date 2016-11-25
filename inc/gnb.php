@@ -38,7 +38,6 @@
                 <a href="#">이벤트</a>
                 <div>
                     <ul>
-                        <li><a href="#">이벤트캘린더</a></li>
                         <li><a href="#">브랜드이벤트</a></li>
                         <li><a href="#">SQUARE1이벤트</a></li>
                         <li><a href="#">문화홀 공연/전시</a></li>

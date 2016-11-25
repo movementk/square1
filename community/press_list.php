@@ -19,17 +19,7 @@
             </div>
         </header>
         <main id="content">
-            <nav id="lnb" class="hidden-xs">
-                <div class="container">
-                    <ul>
-                        <li class="active"><a href="/community/press_list.php">보도자료</a></li>
-                        <li><a href="/event/">이벤트 캘린더</a></li>
-                        <li><a href="/event/brand_event.php">브랜드 이벤트</a></li>
-                        <li><a href="/event/">SQUARE1 이벤트</a></li>
-                        <li><a href="/event/">문화홀 공연/전시</a></li>
-                    </ul>
-                </div>
-            </nav>
+            <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/lnb3.php'); ?>
             <div class="container">
                 <section class="notice press-list">
                     <div class="section-header">
