@@ -903,6 +903,8 @@ body.gnb-open {
 // 대메뉴 제목
 .jumbo {
     padding-top: 90px;
+    padding-left: 5px;
+    padding-right: 5px;
     text-align: center;
     color: #fff;
     h1 {
@@ -920,6 +922,8 @@ body.gnb-open {
     }
     @media (min-width: $sm) {
         padding-top: 120px;
+        padding-left: 0;
+        padding-right: 0;
         h1 {
             margin-bottom: 30px;
             font-size: 65px;

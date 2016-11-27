@@ -984,6 +984,8 @@ body.gnb-open {
 
 .jumbo {
   padding-top: 90px;
+  padding-left: 5px;
+  padding-right: 5px;
   text-align: center;
   color: #fff; }
   .jumbo h1 {
@@ -998,7 +1000,9 @@ body.gnb-open {
     font-weight: 300; }
   @media (min-width: 768px) {
     .jumbo {
-      padding-top: 120px; }
+      padding-top: 120px;
+      padding-left: 0;
+      padding-right: 0; }
       .jumbo h1 {
         margin-bottom: 30px;
         font-size: 65px;
