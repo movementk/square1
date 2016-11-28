@@ -106,6 +106,11 @@
                             color: $orange;
                         }
                     }
+                    &.active {
+                        a {
+                            color: $orange;
+                        }
+                    }
                 }
             }
         }
@@ -478,3 +483,326 @@
         }
     }
 }
+
+/* point */
+.point {
+    .summary {
+        padding-bottom: 45px;
+        @media(min-width: $md) {
+            padding-bottom: 120px;
+        }
+        .point-card {
+            margin-bottom: 40px;
+            padding: 40px 10px;
+            box-shadow: 0 3px 10px 0px #ccc;
+            background-color: #fff;
+            @media(min-width: $sm) {
+                padding-top: 45px;
+                padding-bottom: 45px;
+            }
+            @media(min-width: $md) {
+                margin-bottom: 45px;
+            }
+            h2 {
+                font-size: 22px;
+                color: $orange;
+                line-height: 30px;
+                font-weight: 300;
+                text-align: center;
+                @media(min-width: $sm) {
+                    font-size: 30px;
+                    line-height: 45px;
+                }
+                @media(min-width: $md) {
+                    text-align: left;
+                    margin-bottom: 25px;
+                }
+            }
+            .card-img {
+                margin: 30px 0 40px;
+                padding: 0 27px;
+                img {
+                    margin: 0 auto;
+                }
+                @media(min-width: $sm) {
+                    margin-top: 40px;
+                    margin-bottom: 0;
+                }
+                @media(min-width: $md) {
+                    margin: 0;
+                    padding-top: 15px;
+                }
+            }
+            .my-point {
+                @media(min-width: $sm) {
+                    margin-top: 40px;
+                }
+                @media(min-width: $md) {
+                    margin: 0;
+                }
+                p {
+                    font-size: 13px;
+                    color: #333;
+                    line-height: 24px;
+                    margin-bottom: 15px;
+                    i {
+                        font-style: normal;
+                        color: $orange;
+                    }
+                    @media(min-width: $sm) {
+                        font-size: 16px;
+                        line-height: 28px;
+                    }
+                }
+                a {
+                    font-size: 13px;
+                    color: $orange;
+                    padding-left: 25px;
+                    background-image: url(/assets/images/store/icon_point.gif);
+                    background-repeat: no-repeat;
+                    background-size: 18px;
+                    background-position: 0 0;
+                    &:hover, &:focus {
+                        text-decoration: none;
+                    }
+                    @media(min-width: $sm) {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .card-information {
+            background-color: #fff;
+            .article-list {
+                .c-details {
+                    .info-txt {
+                        font-size: 13px;
+                        color: #666;
+                        line-height: 24px;
+                        font-weight: 300;
+                        @media(min-width: $sm) {
+                            font-size: 15px;
+                            line-height: 28px;
+                        }
+                    }
+                    .attention {
+                        margin-top: 20px;
+                        dt {
+                            display: inline;
+                            font-size: 12px;
+                            color: #888;
+                            font-weight: 300;
+                            line-height: 22px;
+                            &:before {
+                                content: "*";
+                                padding-right: 3px;
+                            }
+                        }
+                        dd {
+                            display: inline;
+                            font-size: 12px;
+                            color: #888;
+                            font-weight: 300;
+                            line-height: 22px;
+                            &:before {
+                                content: ":";
+                                padding-right: 3px;
+                            }
+                        }
+                        @media(min-width: $sm) {
+                            margin-top: 10px;
+                            dt {
+                                font-size: 13px;
+                            }
+                            dd {
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                    .table-wrap {
+                        .table {
+                            margin-bottom: 0;
+                        }
+                    }
+                    .dot-list {
+                        li {
+                            dl {
+                                overflow: hidden;
+                                dt {
+                                    float: left;
+                                    clear: both;
+                                    width: 100px;
+                                    font-size: 13px;
+                                    color: #333;
+                                    font-weight: 300;
+                                    line-height: 26px;
+                                }
+                                dd {
+                                    float: left;
+                                    font-size: 13px;
+                                    color: #666;
+                                    font-weight: 300;
+                                    line-height: 26px;
+                                }
+                                @media(min-width: $sm) {
+                                    dt {
+                                        width: 165px;
+                                        font-size: 15px;
+                                        line-height: 30px;
+                                    }
+                                    dd {
+                                        font-size: 15px;
+                                        line-height: 30px;
+                                    }
+                                }
+                            }
+                            @media(min-width: $sm) {
+                                line-height: 30px;
+                            }
+                        }
+                    }
+                    .point-txt {
+                        font-size: 12px;
+                        color: #888;
+                        &:before {
+                            content: "*";
+                            color: #888;
+                            padding-right: 3px;
+                        }
+                        @media(min-width: $sm) {
+                            font-size: 13px;
+                            line-height: 28px;
+                        }
+                    }
+                    .dot-dl {
+                        overflow: hidden;
+                        dt {
+                            width: 35%;
+                            float: left;
+                            clear: both;
+                            font-size: 13px;
+                            color: #333;
+                            line-height: 24px;
+                            font-weight: 300;
+                            vertical-align: top;
+                            &:before {
+                                font-family: "fontello";
+                                content: "\E80C";
+                                padding-right: 5px;
+                                color: #ec6708;
+                            }
+                        }
+                        dd {
+                            width: 65%;
+                            float: left;
+                            font-size: 13px;
+                            color: #666;
+                            line-height: 24px;
+                            font-weight: 300;
+                            margin-bottom: 30px;
+                            vertical-align: top;
+                            &.mb-zero {
+                                margin-bottom: 0;
+                            }
+                        }
+                        @media(min-width: 600px) {
+                            dt {
+                                width: 25%;
+                            }
+                            dd {
+                                width: 75%;
+                            }
+                        }
+                        @media(min-width: $sm) {
+                            dt {
+                                font-size: 15px;
+                                line-height: 30px;
+                            }
+                            dd {
+                                font-size: 15px;
+                                line-height: 30px;
+                            }
+                        }
+                        @media(min-width: $md) {
+                            dt {
+                                width: 15%;
+                            }
+                            dd {
+                                width: 85%;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                    &.point-benefit {
+                        p {
+                            margin-bottom: 20px;
+                            @media(min-width: $sm) {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* parking */
+.parking {
+    #content {
+        padding-bottom: 45px;
+        @media(min-width: $md) {
+            padding-bottom: 120px;
+        }
+        .parking-map {
+            margin-top: 40px;
+            padding: 15px 10px 30px;
+            background-color: #fff;
+            box-shadow: 0 3px 10px 0px #ccc;
+            img {
+                margin: 0 auto;
+            }
+        }
+        .parking-info {
+            padding: 0 10px;
+            background-color: #fff;
+            .summary {
+                padding: 30px 0;
+                border-bottom: 1px solid #dfdfdf;
+            }
+            .fare {
+                padding: 30px 0;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

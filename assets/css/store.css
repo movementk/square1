@@ -82,6 +82,8 @@
         line-height: 36px; }
         .sub.store.category .category-tabs nav ul li a:hover, .sub.store.category .category-tabs nav ul li a:focus {
           color: #ec6708; }
+      .sub.store.category .category-tabs nav ul li.active a {
+        color: #ec6708; }
   .sub.store.category .category-tabs.open .btn:after {
     content: '\F106'; }
   .sub.store.category .category-tabs.open nav {
@@ -339,5 +341,229 @@
   @media (min-width: 768px) {
     .sub.store.hours .store-hours {
       margin-top: 60px; } }
+
+/* point */
+.point .summary {
+  padding-bottom: 45px; }
+  @media (min-width: 992px) {
+    .point .summary {
+      padding-bottom: 120px; } }
+  .point .summary .point-card {
+    margin-bottom: 40px;
+    padding: 40px 10px;
+    box-shadow: 0 3px 10px 0px #ccc;
+    background-color: #fff; }
+    @media (min-width: 768px) {
+      .point .summary .point-card {
+        padding-top: 45px;
+        padding-bottom: 45px; } }
+    @media (min-width: 992px) {
+      .point .summary .point-card {
+        margin-bottom: 45px; } }
+    .point .summary .point-card h2 {
+      font-size: 22px;
+      color: #ec6708;
+      line-height: 30px;
+      font-weight: 300;
+      text-align: center; }
+      @media (min-width: 768px) {
+        .point .summary .point-card h2 {
+          font-size: 30px;
+          line-height: 45px; } }
+      @media (min-width: 992px) {
+        .point .summary .point-card h2 {
+          text-align: left;
+          margin-bottom: 25px; } }
+    .point .summary .point-card .card-img {
+      margin: 30px 0 40px;
+      padding: 0 27px; }
+      .point .summary .point-card .card-img img {
+        margin: 0 auto; }
+      @media (min-width: 768px) {
+        .point .summary .point-card .card-img {
+          margin-top: 40px;
+          margin-bottom: 0; } }
+      @media (min-width: 992px) {
+        .point .summary .point-card .card-img {
+          margin: 0;
+          padding-top: 15px; } }
+    @media (min-width: 768px) {
+      .point .summary .point-card .my-point {
+        margin-top: 40px; } }
+    @media (min-width: 992px) {
+      .point .summary .point-card .my-point {
+        margin: 0; } }
+    .point .summary .point-card .my-point p {
+      font-size: 13px;
+      color: #333;
+      line-height: 24px;
+      margin-bottom: 15px; }
+      .point .summary .point-card .my-point p i {
+        font-style: normal;
+        color: #ec6708; }
+      @media (min-width: 768px) {
+        .point .summary .point-card .my-point p {
+          font-size: 16px;
+          line-height: 28px; } }
+    .point .summary .point-card .my-point a {
+      font-size: 13px;
+      color: #ec6708;
+      padding-left: 25px;
+      background-image: url(/assets/images/store/icon_point.gif);
+      background-repeat: no-repeat;
+      background-size: 18px;
+      background-position: 0 0; }
+      .point .summary .point-card .my-point a:hover, .point .summary .point-card .my-point a:focus {
+        text-decoration: none; }
+      @media (min-width: 768px) {
+        .point .summary .point-card .my-point a {
+          font-size: 14px; } }
+  .point .summary .card-information {
+    background-color: #fff; }
+    .point .summary .card-information .article-list .c-details .info-txt {
+      font-size: 13px;
+      color: #666;
+      line-height: 24px;
+      font-weight: 300; }
+      @media (min-width: 768px) {
+        .point .summary .card-information .article-list .c-details .info-txt {
+          font-size: 15px;
+          line-height: 28px; } }
+    .point .summary .card-information .article-list .c-details .attention {
+      margin-top: 20px; }
+      .point .summary .card-information .article-list .c-details .attention dt {
+        display: inline;
+        font-size: 12px;
+        color: #888;
+        font-weight: 300;
+        line-height: 22px; }
+        .point .summary .card-information .article-list .c-details .attention dt:before {
+          content: "*";
+          padding-right: 3px; }
+      .point .summary .card-information .article-list .c-details .attention dd {
+        display: inline;
+        font-size: 12px;
+        color: #888;
+        font-weight: 300;
+        line-height: 22px; }
+        .point .summary .card-information .article-list .c-details .attention dd:before {
+          content: ":";
+          padding-right: 3px; }
+      @media (min-width: 768px) {
+        .point .summary .card-information .article-list .c-details .attention {
+          margin-top: 10px; }
+          .point .summary .card-information .article-list .c-details .attention dt {
+            font-size: 13px; }
+          .point .summary .card-information .article-list .c-details .attention dd {
+            font-size: 13px; } }
+    .point .summary .card-information .article-list .c-details .table-wrap .table {
+      margin-bottom: 0; }
+    .point .summary .card-information .article-list .c-details .dot-list li dl {
+      overflow: hidden; }
+      .point .summary .card-information .article-list .c-details .dot-list li dl dt {
+        float: left;
+        clear: both;
+        width: 100px;
+        font-size: 13px;
+        color: #333;
+        font-weight: 300;
+        line-height: 26px; }
+      .point .summary .card-information .article-list .c-details .dot-list li dl dd {
+        float: left;
+        font-size: 13px;
+        color: #666;
+        font-weight: 300;
+        line-height: 26px; }
+      @media (min-width: 768px) {
+        .point .summary .card-information .article-list .c-details .dot-list li dl dt {
+          width: 165px;
+          font-size: 15px;
+          line-height: 30px; }
+        .point .summary .card-information .article-list .c-details .dot-list li dl dd {
+          font-size: 15px;
+          line-height: 30px; } }
+    @media (min-width: 768px) {
+      .point .summary .card-information .article-list .c-details .dot-list li {
+        line-height: 30px; } }
+    .point .summary .card-information .article-list .c-details .point-txt {
+      font-size: 12px;
+      color: #888; }
+      .point .summary .card-information .article-list .c-details .point-txt:before {
+        content: "*";
+        color: #888;
+        padding-right: 3px; }
+      @media (min-width: 768px) {
+        .point .summary .card-information .article-list .c-details .point-txt {
+          font-size: 13px;
+          line-height: 28px; } }
+    .point .summary .card-information .article-list .c-details .dot-dl {
+      overflow: hidden; }
+      .point .summary .card-information .article-list .c-details .dot-dl dt {
+        width: 35%;
+        float: left;
+        clear: both;
+        font-size: 13px;
+        color: #333;
+        line-height: 24px;
+        font-weight: 300;
+        vertical-align: top; }
+        .point .summary .card-information .article-list .c-details .dot-dl dt:before {
+          font-family: "fontello";
+          content: "\E80C";
+          padding-right: 5px;
+          color: #ec6708; }
+      .point .summary .card-information .article-list .c-details .dot-dl dd {
+        width: 65%;
+        float: left;
+        font-size: 13px;
+        color: #666;
+        line-height: 24px;
+        font-weight: 300;
+        margin-bottom: 30px;
+        vertical-align: top; }
+        .point .summary .card-information .article-list .c-details .dot-dl dd.mb-zero {
+          margin-bottom: 0; }
+      @media (min-width: 600px) {
+        .point .summary .card-information .article-list .c-details .dot-dl dt {
+          width: 25%; }
+        .point .summary .card-information .article-list .c-details .dot-dl dd {
+          width: 75%; } }
+      @media (min-width: 768px) {
+        .point .summary .card-information .article-list .c-details .dot-dl dt {
+          font-size: 15px;
+          line-height: 30px; }
+        .point .summary .card-information .article-list .c-details .dot-dl dd {
+          font-size: 15px;
+          line-height: 30px; } }
+      @media (min-width: 992px) {
+        .point .summary .card-information .article-list .c-details .dot-dl dt {
+          width: 15%; }
+        .point .summary .card-information .article-list .c-details .dot-dl dd {
+          width: 85%;
+          margin-bottom: 0; } }
+    .point .summary .card-information .article-list .c-details.point-benefit p {
+      margin-bottom: 20px; }
+
+/* parking */
+.parking #content {
+  padding-bottom: 45px; }
+  @media (min-width: 992px) {
+    .parking #content {
+      padding-bottom: 120px; } }
+  .parking #content .parking-map {
+    margin-top: 40px;
+    padding: 15px 10px 30px;
+    background-color: #fff;
+    box-shadow: 0 3px 10px 0px #ccc; }
+    .parking #content .parking-map img {
+      margin: 0 auto; }
+  .parking #content .parking-info {
+    padding: 0 10px;
+    background-color: #fff; }
+    .parking #content .parking-info .summary {
+      padding: 30px 0;
+      border-bottom: 1px solid #dfdfdf; }
+    .parking #content .parking-info .fare {
+      padding: 30px 0; }
 
 /*# sourceMappingURL=store.css.map */
