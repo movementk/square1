@@ -376,3 +376,105 @@
         }
     }
 }
+
+//편의시설
+.sub.store.place {
+    .amenity-list {
+        margin-top: 40px;
+        margin-bottom: 45px;
+    }
+    @media (min-width: $sm) {
+        .amenity-list {
+            margin-top: 55px;
+            margin-bottom: 65px;
+        }
+    }
+    @media (min-width: $sm) {
+        .amenity-list {
+            margin-top: 85px;
+            margin-bottom: 120px;
+        }
+    }
+}
+
+//영업시간
+.sub.store.hours {
+    .square1-hours {
+        position: relative;
+        margin-top: 40px;
+        background-color: $orange;
+        text-align: center;
+        background-image: url(/assets/images/store/bg_watch.gif);
+        background-size: 10% auto;
+        .container {
+            div {
+                padding-top: 30px;
+                padding-bottom: 120px;
+                background-image: url(/assets/images/store/ico_watch_big.png);
+                background-position: 50% 230%;
+                background-size: 178px 178px;
+                background-repeat: no-repeat;
+                h3 {
+                    @include font(18px, 45px);
+                    color: #fff;
+                    font-weight: lighter;
+                    text-shadow: 3px 2px 2px rgba(#000, .2);
+                    b { 
+                        i {
+                            font-style: normal;
+                        }
+                    }
+                }
+                p {
+                    color: #fff;
+                    font-size: 20px;
+                    font-size: 35px;
+                    line-height: 45px;
+                    @include lato();
+                    text-shadow: 3px 2px 2px rgba(#000, .2);
+                    small {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        @media (min-width: $sm) {
+            margin-top: 55px;
+            background-size: auto auto;
+            .container {
+                div {
+                    padding-top: 50px;
+                    padding-bottom: 150px;
+                    background-size: 249px 249px;
+                    background-position: 50% 205px;
+                    h3 {
+                        font-size: 24px;
+                        line-height: 60px;
+                        b {
+                            i {
+                                font-size: 1.5em;
+                            }
+                        }
+                    }
+                    p {
+                        font-size: 50px;
+                        line-height: 60px;
+                        small {
+                            font-size: 35px;
+                        }
+                    }
+                }
+            }
+        }
+        @media (min-width: $lg) {
+            margin-top: 85px;
+        }
+    }
+    .store-hours {
+        margin-top: 45px;
+        margin-bottom: 80px;
+        @media (min-width: $sm) {
+            margin-top: 60px;
+        }
+    }
+}

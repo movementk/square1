@@ -268,4 +268,76 @@
       .sub.store.floor .store-list .btn-area {
         margin-top: 40px; } }
 
+.sub.store.place .amenity-list {
+  margin-top: 40px;
+  margin-bottom: 45px; }
+@media (min-width: 768px) {
+  .sub.store.place .amenity-list {
+    margin-top: 55px;
+    margin-bottom: 65px; } }
+@media (min-width: 768px) {
+  .sub.store.place .amenity-list {
+    margin-top: 85px;
+    margin-bottom: 120px; } }
+
+.sub.store.hours .square1-hours {
+  position: relative;
+  margin-top: 40px;
+  background-color: #ec6708;
+  text-align: center;
+  background-image: url(/assets/images/store/bg_watch.gif);
+  background-size: 10% auto; }
+  .sub.store.hours .square1-hours .container div {
+    padding-top: 30px;
+    padding-bottom: 120px;
+    background-image: url(/assets/images/store/ico_watch_big.png);
+    background-position: 50% 230%;
+    background-size: 178px 178px;
+    background-repeat: no-repeat; }
+    .sub.store.hours .square1-hours .container div h3 {
+      font-size: 18px;
+      line-height: 45px;
+      color: #fff;
+      font-weight: lighter;
+      text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.2); }
+      .sub.store.hours .square1-hours .container div h3 b i {
+        font-style: normal; }
+    .sub.store.hours .square1-hours .container div p {
+      color: #fff;
+      font-size: 20px;
+      font-size: 35px;
+      line-height: 45px;
+      font-family: 'Lato', sans-serif;
+      text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.2); }
+      .sub.store.hours .square1-hours .container div p small {
+        font-size: 20px; }
+  @media (min-width: 768px) {
+    .sub.store.hours .square1-hours {
+      margin-top: 55px;
+      background-size: auto auto; }
+      .sub.store.hours .square1-hours .container div {
+        padding-top: 50px;
+        padding-bottom: 150px;
+        background-size: 249px 249px;
+        background-position: 50% 205px; }
+        .sub.store.hours .square1-hours .container div h3 {
+          font-size: 24px;
+          line-height: 60px; }
+          .sub.store.hours .square1-hours .container div h3 b i {
+            font-size: 1.5em; }
+        .sub.store.hours .square1-hours .container div p {
+          font-size: 50px;
+          line-height: 60px; }
+          .sub.store.hours .square1-hours .container div p small {
+            font-size: 35px; } }
+  @media (min-width: 1200px) {
+    .sub.store.hours .square1-hours {
+      margin-top: 85px; } }
+.sub.store.hours .store-hours {
+  margin-top: 45px;
+  margin-bottom: 80px; }
+  @media (min-width: 768px) {
+    .sub.store.hours .store-hours {
+      margin-top: 60px; } }
+
 /*# sourceMappingURL=store.css.map */
