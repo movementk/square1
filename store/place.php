@@ -21,7 +21,7 @@
         <main id="content">
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/lnb2.php'); ?>
             <div class="page-header">
-                <h1><span class="square1">SQUARE<i>1</i></span> 층별안내</h1>
+                <h1><span class="square1">SQUARE<i>1</i></span> 편의시설안내</h1>
             </div>
             <!-- 컨텐츠 영역 -->
             <div class="page-summary">

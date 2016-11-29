@@ -169,6 +169,48 @@
   @media (min-width: 768px) {
     .culture-hall .section-header small {
       font-size: 14px; } }
+.culture-hall .section-content .privacy {
+  margin-bottom: 45px; }
+  .culture-hall .section-content .privacy:nth-of-type(3) {
+    margin-bottom: 0; }
+  @media (min-width: 768px) {
+    .culture-hall .section-content .privacy {
+      margin-bottom: 78px; } }
+  .culture-hall .section-content .privacy h4 {
+    font-size: 14px;
+    color: #222;
+    margin-bottom: 15px; }
+    @media (min-width: 768px) {
+      .culture-hall .section-content .privacy h4 {
+        font-size: 16px;
+        margin-bottom: 20px; } }
+  .culture-hall .section-content .privacy .article-content {
+    width: 100%;
+    height: 165px;
+    font-size: 13px;
+    color: #666;
+    line-height: 18px;
+    overflow-y: scroll;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #dfdfdf;
+    background-color: #fff; }
+    @media (min-width: 768px) {
+      .culture-hall .section-content .privacy .article-content {
+        padding: 27px 20px;
+        height: 350px; } }
+  .culture-hall .section-content .privacy .check-box label {
+    font-size: 13px;
+    color: #666;
+    font-weight: 300;
+    vertical-align: top;
+    margin-bottom: 0; }
+    .culture-hall .section-content .privacy .check-box label:last-child {
+      margin-left: 80px; }
+    .culture-hall .section-content .privacy .check-box label input[type=checkbox] {
+      margin-top: -2px;
+      margin-right: 5px;
+      vertical-align: middle; }
 .culture-hall .section-content .input-form dl dt i {
   font-size: 13px;
   color: #999;
@@ -303,12 +345,17 @@
           margin-right: 40px;
           font-family: 'Lato', sans-serif; }
         .faq .section-content .panel-group .panel .panel-heading a h3 {
+          position: relative;
           float: left;
+          width: 93px;
           display: block;
           font-size: 13px;
           color: #333;
           line-height: 24px; }
           .faq .section-content .panel-group .panel .panel-heading a h3:after {
+            position: absolute;
+            top: 0;
+            right: 10px;
             content: 'Q';
             width: 26px;
             height: 26px;
@@ -316,15 +363,14 @@
             font-size: 15px;
             color: #fff;
             text-align: center;
-            margin: 0 10px;
             border-radius: 50%;
             background-color: #ec6708; }
             @media (min-width: 768px) {
               .faq .section-content .panel-group .panel .panel-heading a h3:after {
-                margin-left: 40px;
-                margin-right: 20px; } }
+                right: 20xp; } }
           @media (min-width: 768px) {
             .faq .section-content .panel-group .panel .panel-heading a h3 {
+              width: 110px;
               font-size: 14px; } }
         .faq .section-content .panel-group .panel .panel-heading a p {
           float: left;

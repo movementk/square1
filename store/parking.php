@@ -40,12 +40,26 @@
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
                             <div class="summary">
-                                
+                                <h4><i class="icon-cab"></i> SQUARE1 주차안내</h4>
+                                <ul class="dot-list">
+                                    <li>SQUARE1 주차장 입구는 총 4곳으로 구성되어 있습니다.</li>
+                                    <li>1층 ~ 3층 주차장은 매장으로 직출입이 가능합니다.</li>
+                                </ul>
                             </div>
                         </div>
                         <div class="col-xs-12 col-md-6">
                             <div class="fare">
-                                
+                                <h4><i class="icon-cab"></i> SQUARE1 주차요금 안내</h4>
+                                <ul class="dot-list">
+                                    <li>
+                                        최초 30분 무료. 초과 시 10분당 500원<br>
+                                        (무료 주차는 당일 영수증에 한함)
+                                    </li>
+                                    <li>
+                                        영수증 3만원 미만 - 3시간 무료 / 영수증 3만원  이상 - 5시간 무료
+                                    </li>
+                                    <li>스퀘어원, CGV, 홈플러스 영수증 합산 가능</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
