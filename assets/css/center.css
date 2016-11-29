@@ -342,7 +342,7 @@
           float: left;
           font-size: 14px;
           font-style: normal;
-          margin-right: 40px;
+          width: 40px;
           font-family: 'Lato', sans-serif; }
         .faq .section-content .panel-group .panel .panel-heading a h3 {
           position: relative;

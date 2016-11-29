@@ -517,8 +517,194 @@
     }
 }
 
-
-
+/* event-view */
+.event-view {
+    .content-view {
+        .article-header {
+            font-size: 16px;
+            color: #222;
+            padding: 30px 15px;
+            border-top: 2px solid $orange;
+            border-bottom: 1px solid #dfdfdf;
+            @media(min-width: $sm) {
+                font-size: 18px;
+                padding: 40px 30px;
+            }
+        }
+        .article-content {
+            .content {
+                font-size: 13px;
+                color: #4e4e4e;
+                line-height: 25px;
+                padding: 45px 11px 95px;
+                border-bottom: 1px solid #dfdfdf;
+                @media(min-width: $sm) {
+                    font-size: 15px;
+                    padding: 48px 30px 120px;
+                }
+            }
+            .user-info {
+                padding: 18px 10px;
+                border-bottom: 1px solid #dfdfdf;
+                @media(min-width: $sm) {
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    overflow: hidden;
+                }
+                ul {
+                    overflow: hidden;
+                    @media(min-width: $sm) {
+                        float: left;
+                    }
+                    li {
+                        float: left;
+                        dl {
+                            display: inline-block;
+                            dt {
+                                font-size: 13px;
+                                color: #666;
+                                font-weight: 300;
+                                margin-right: 7px;
+                                display: inline-block;
+                            }
+                            dd {
+                                font-size: 13px;
+                                color: #666;
+                                font-weight: 300;
+                                display: inline-block;
+                            }
+                            @media(min-width: $sm) {
+                                dt {
+                                    font-size: 14px;
+                                }
+                                dd {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                        &:after {
+                            font-size: 10px;
+                            content: "|";
+                            color: #e1e1e1;
+                            margin: 0 7px;
+                            @media(min-width: $sm) {
+                                font-size: 12px;
+                                margin: 0 15px;
+                            }
+                        }
+                        &:last-child:after {
+                            margin: 0;
+                            content: '';
+                        }
+                    }
+                }
+                .print {
+                    float: right;
+                    a {
+                        font-size: 14px;
+                        color: #666;
+                        i {
+                            font-size: 18px;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+            .attach {
+                padding: 18px 10px;
+                border-bottom: 1px solid #dfdfdf;
+                @media(min-width: $sm) {
+                    padding-left: 30px;
+                    padding-right: 30px;
+                }
+                dl {
+                    dt {
+                        display: inline-block;
+                        font-size: 13px;
+                        color: #222;
+                        font-weight: 400;
+                        margin-right: 20px;
+                        i {
+                            margin-right: 5px;
+                        }
+                    }
+                    dd {
+                        display: inline-block;
+                        font-size: 14px;
+                        color: #4e4e4e;
+                        margin-right: 10px;
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                    }
+                    @media(min-width: $sm) {
+                        dt {
+                            font-size: 14px;
+                            margin-right: 75px;
+                        }
+                        dd {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                margin-top: 30px;
+                p {
+                    .btn-sm {
+                        display: inline-block;
+                        width: 100px;
+                        height: 34px;
+                        font-size: 13px;
+                        line-height: 34px;
+                        text-align: center;
+                        padding: 0;
+                        border-radius: 0;
+                        margin-right: 2px;
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                        &:hover, &:focus {
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .basic-btn {
+                    margin-top: 10px;
+                    .btn-gray {
+                        margin: 0 auto;
+                        display: block;
+                        width: 310px;
+                        height: 34px;
+                        font-size: 13px;
+                        color: #fff;
+                        line-height: 34px;
+                        text-align: center;
+                        padding: 0;
+                        background-color: #666;
+                    }
+                }
+                @media(min-width: $sm) {
+                    overflow: hidden;
+                    margin-top: 40px;
+                    p {
+                        float: left;
+                        .btn-sm {
+                            margin-right: 10px;
+                        }
+                    }
+                    .basic-btn {
+                        float: right;
+                        margin: 0;
+                        .btn-gray {
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 
