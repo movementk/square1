@@ -33,6 +33,13 @@
                             <button type="button" class="btn btn-global-search"><i class="icon-search"></i></button>
                         </div>
                     </form>
+                    <div class="results">
+                        <ul>
+                            <li><a href="#">CUU</a></li>
+                            <li><a href="#">GS24</a></li>
+                            <li><a href="#">SEVEN TWELVE</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

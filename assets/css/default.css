@@ -840,6 +840,8 @@ body.gnb-open {
       border-radius: 0;
       background-color: transparent;
       color: #999; }
+    #top-nav .search-area .results {
+      background-color: #fff; }
   #top-nav.search-open .btn-toggle-search:before {
     font-family: 'fontello';
     content: '\E806'; }
@@ -1362,5 +1364,50 @@ body.gnb-open {
           font-size: 26px;
           line-height: 38px;
           vertical-align: 0; } }
+
+#sns-quick {
+  display: none;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  margin-top: -50px;
+  width: 50px; }
+  @media (min-width: 1200px) {
+    #sns-quick {
+      display: block; } }
+  #sns-quick ul li a {
+    position: relative;
+    left: 0;
+    display: block;
+    width: 175px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    -webkit-transition: left .2s;
+    transition: left .2s; }
+    #sns-quick ul li a:hover, #sns-quick ul li a:focus {
+      left: -125px; }
+    #sns-quick ul li a:before {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      margin-right: 15px;
+      font-family: 'fontello';
+      text-align: center;
+      font-size: 1.5em;
+      vertical-align: middle; }
+    #sns-quick ul li a.facebook {
+      background-color: #3c5a99; }
+      #sns-quick ul li a.facebook:before {
+        content: '\F09A'; }
+    #sns-quick ul li a.instagram {
+      margin-top: 1px;
+      background-color: #3e4347; }
+      #sns-quick ul li a.instagram:before {
+        content: '\F16D'; }
 
 /*# sourceMappingURL=default.css.map */

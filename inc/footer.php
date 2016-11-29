@@ -35,3 +35,9 @@
         </ul>
     </nav>
 </footer>
+<nav id="sns-quick">
+    <ul>
+        <li><a class="facebook" href="#">FACEBOOK</a></li>
+        <li><a class="instagram" href="#">INSTAGRAM</a></li>
+    </ul>
+</nav>

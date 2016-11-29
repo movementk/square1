@@ -135,6 +135,27 @@
         </main>
         <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
     </div>
+    
+    <!-- 팝업 -->
+    <div id="popup" class="modal" tabindex="-1" role="dialog" data-show="true" data-backdrop="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <ul class="popup-list">
+                        <li><a href="#"><img src="/assets/images/img_popup_dummy.jpg" alt=""></a></li>
+                        <li><a href="#"><img src="/assets/images/logo.png" alt=""></a></li>
+                        <li><a href="#"><img src="/assets/images/img_banner2_1_lg.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="modal-foot">
+                    <label><input type="checkbox"> 오늘 하루 열지 않기</label>
+                    <button type="button" class="btn btn-link btn-default" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // 팝업 -->
+    
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script>
         (function($) {
@@ -146,6 +167,19 @@
                     return "<span class='sr-only'>"+ slideIndex +"</span>"
                 }
             });
+            $('#popup').on('shown.bs.modal', function (e) {
+                $('body').css('padding-right', 0);
+                $('#popup .popup-list').bxSlider({
+                    auto: true,
+                    autoHover: true,
+                    adaptiveHeight: true,
+                    controls: false,
+                    buildPager: function(slideIndex) {
+                        return "<span class='sr-only'>"+ slideIndex +"</span>"
+                    }
+                });
+            });
+            $('#popup').modal();
         })(jQuery);
     </script>
 </body>
