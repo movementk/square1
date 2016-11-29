@@ -43,6 +43,16 @@
                         </small>
                     </div>
                     <div class="section-content">
+                        <article class="privacy">
+                            <h4>개인정보취급방침</h4>
+                            <div class="article-content">
+                                개인정보취급방침 노출영역
+                            </div>
+                            <div class="check-box">
+                                <label><input type="checkbox">동의합니다.</label>
+                                <label><input type="checkbox">동의하지 않습니다.</label>
+                            </div>
+                        </article>
                         <div class="input-form type-1">
                             <form>
                                 <dl>

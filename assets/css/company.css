@@ -474,6 +474,9 @@
             width: 13px; }
         .location .section-content .map-info .pn-icon a i.icon-print {
           background-color: #acacac; }
+    @media (min-width: 1200px) {
+      .location .section-content .map-info .pn-icon {
+        padding-right: 0; } }
   .location .section-content .map-info .maps img {
     display: block;
     margin: 0 auto; }

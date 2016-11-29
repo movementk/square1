@@ -552,18 +552,83 @@
       padding-bottom: 120px; } }
   .parking #content .parking-map {
     margin-top: 40px;
-    padding: 15px 10px 30px;
+    margin-bottom: 40px;
+    padding: 15px 10px 40px;
     background-color: #fff;
     box-shadow: 0 3px 10px 0px #ccc; }
     .parking #content .parking-map img {
       margin: 0 auto; }
+    @media (min-width: 768px) {
+      .parking #content .parking-map {
+        margin-top: 70px;
+        padding: 55px; } }
   .parking #content .parking-info {
     padding: 0 10px;
     background-color: #fff; }
+    @media (min-width: 768px) {
+      .parking #content .parking-info {
+        padding: 0 25px; } }
+    @media (min-width: 992px) {
+      .parking #content .parking-info {
+        padding: 0; } }
     .parking #content .parking-info .summary {
       padding: 30px 0;
       border-bottom: 1px solid #dfdfdf; }
+      @media (min-width: 768px) {
+        .parking #content .parking-info .summary {
+          padding: 45px 0; } }
+      @media (min-width: 992px) {
+        .parking #content .parking-info .summary {
+          border-bottom: 0;
+          padding: 60px 45px 35px 45px; } }
+      .parking #content .parking-info .summary h4 {
+        font-size: 14px;
+        color: #ec6708;
+        margin-bottom: 25px; }
+        @media (min-width: 768px) {
+          .parking #content .parking-info .summary h4 {
+            font-size: 16px; } }
+      .parking #content .parking-info .summary .dot-list li {
+        font-size: 13px;
+        line-height: 24px;
+        color: #666;
+        font-weight: 300;
+        margin-bottom: 20px; }
+        .parking #content .parking-info .summary .dot-list li:last-child {
+          margin-bottom: 0; }
+        @media (min-width: 768px) {
+          .parking #content .parking-info .summary .dot-list li {
+            font-size: 15px;
+            margin-bottom: 0;
+            line-height: 30px; } }
     .parking #content .parking-info .fare {
       padding: 30px 0; }
+      @media (min-width: 768px) {
+        .parking #content .parking-info .fare {
+          padding: 45px 0; } }
+      @media (min-width: 992px) {
+        .parking #content .parking-info .fare {
+          border-bottom: 0;
+          padding: 60px 45px 35px 45px; } }
+      .parking #content .parking-info .fare h4 {
+        font-size: 14px;
+        color: #ec6708;
+        margin-bottom: 25px; }
+        @media (min-width: 768px) {
+          .parking #content .parking-info .fare h4 {
+            font-size: 16px; } }
+      .parking #content .parking-info .fare .dot-list li {
+        font-size: 13px;
+        line-height: 24px;
+        color: #666;
+        font-weight: 300;
+        margin-bottom: 20px; }
+        .parking #content .parking-info .fare .dot-list li:last-child {
+          margin-bottom: 0; }
+        @media (min-width: 768px) {
+          .parking #content .parking-info .fare .dot-list li {
+            font-size: 15px;
+            margin-bottom: 0;
+            line-height: 30px; } }
 
 /*# sourceMappingURL=store.css.map */
