@@ -15,12 +15,12 @@
                 <a href="#">매장/이용안내</a>
                 <div>
                     <ul>
-                        <li><a href="#">카테고리별 안내</a></li>
-                        <li><a href="#">층별안내</a></li>
-                        <li><a href="#">편의시설안내</a></li>
-                        <li><a href="#">영업시간안내</a></li>
-                        <li><a href="#">포인트카드</a></li>
-                        <li><a href="#">주차시설안내</a></li>
+                        <li><a href="/store/category.php">카테고리별 안내</a></li>
+                        <li><a href="/store/floor.php">층별안내</a></li>
+                        <li><a href="/store/place.php">편의시설안내</a></li>
+                        <li><a href="/store/hours.php">영업시간안내</a></li>
+                        <li><a href="/store/point.php">포인트카드</a></li>
+                        <li><a href="/store/parking.php">주차시설안내</a></li>
                     </ul>
                 </div>
             </li>
@@ -38,9 +38,9 @@
                 <a href="#">이벤트</a>
                 <div>
                     <ul>
-                        <li><a href="#">브랜드이벤트</a></li>
-                        <li><a href="#">SQUARE1이벤트</a></li>
-                        <li><a href="#">문화홀 공연/전시</a></li>
+                        <li><a href="/event/brand_event.php">브랜드이벤트</a></li>
+                        <li><a href="/event/square1_event.php">SQUARE1이벤트</a></li>
+                        <li><a href="/event/art_hall.php">문화홀 공연/전시</a></li>
                     </ul>
                 </div>
             </li>
@@ -52,7 +52,7 @@
                         <li><a href="/center/culture_hall.php">대관신청안내</a></li>
                         <li><a href="/center/faq_list.php">FAQ</a></li>
                         <li><a href="/center/qna_list.php">Q&amp;A</a></li>
-                        <li><a href="#">고객의 소리</a></li>
+                        <li><a href="/center/guest_write.php">고객의 소리</a></li>
                     </ul>
                 </div>
             </li>
