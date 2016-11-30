@@ -1,6 +1,7 @@
 .sub {
   background-color: #f8f8f8; }
   .sub #content .form-control {
+    font-weight: 300;
     border: 1px solid #dedede; }
   .sub #content .btn, .sub #content .btn-sm, .sub #content .btn-xs {
     border-radius: 0; }
@@ -319,9 +320,6 @@
             font-size: 13px;
             color: #ec6708;
             margin-right: 6px; }
-            @media (min-width: 768px) {
-              .category-list ul li .category-item .details dl dd i {
-                font-size: 16px; } }
           .category-list ul li .category-item .details dl dd a {
             color: #333; }
             .category-list ul li .category-item .details dl dd a:hover, .category-list ul li .category-item .details dl dd a:focus {
@@ -416,201 +414,211 @@
   .amenity-list > ul > li {
     padding-left: -5px !important;
     padding-right: -5px !important; }
-    .amenity-list > ul > li > a {
+    .amenity-list > ul > li > div {
       display: block;
       margin-bottom: 10px;
       padding: 26px 20px 39px;
       background-color: #fff;
       border: 5px solid #fff; }
-      .amenity-list > ul > li > a:hover, .amenity-list > ul > li > a:focus {
-        text-decoration: none;
-        border-color: #e06513; }
-      .amenity-list > ul > li > a .a-header {
+      .amenity-list > ul > li > div:hover {
+        border-color: #ec6708; }
+      .amenity-list > ul > li > div .a-header {
         padding-left: 90px;
         padding-bottom: 30px;
         border-bottom: 1px solid #dfdfdf;
         background-repeat: no-repeat; }
-        .amenity-list > ul > li > a .a-header h3 {
+        .amenity-list > ul > li > div .a-header h3 {
           font-size: 20px;
           color: #666;
+          font-weight: 400;
           margin-bottom: 10px; }
-          .amenity-list > ul > li > a .a-header h3 small {
+          .amenity-list > ul > li > div .a-header h3 small {
             display: block;
             font-size: 10px;
             color: #f57f26;
             font-family: 'Myriad Pro', sans-serif;
             margin-bottom: 7px; }
-        .amenity-list > ul > li > a .a-header p {
+        .amenity-list > ul > li > div .a-header p {
           font-size: 13px;
           color: #666;
+          font-weight: 300;
           line-height: 22px;
           letter-spacing: -.5px; }
-          .amenity-list > ul > li > a .a-header p i {
+          .amenity-list > ul > li > div .a-header p i {
+            font-weight: 12px;
             font-style: normal;
-            color: #f57f26; }
-      .amenity-list > ul > li > a dl {
+            color: #f57f26;
+            font-weight: 300; }
+      .amenity-list > ul > li > div dl {
         overflow: hidden;
         padding-top: 21px;
         padding-left: 8px; }
-        .amenity-list > ul > li > a dl dt {
+        .amenity-list > ul > li > div dl dt {
           float: left;
           clear: both;
           width: 80px;
           font-size: 13px;
           color: #333;
           line-height: 24px;
-          font-weight: 400; }
-        .amenity-list > ul > li > a dl dd {
+          font-weight: 300; }
+        .amenity-list > ul > li > div dl dd {
           float: left;
           font-size: 13px;
-          color: #666;
           line-height: 24px;
-          font-weight: 400;
-          margin-right: 15px; }
-          .amenity-list > ul > li > a dl dd i {
-            font-size: 13px;
-            color: #ec6708;
-            display: inline; }
-            @media (min-width: 768px) {
-              .amenity-list > ul > li > a dl dd i {
-                font-size: 16px; } }
-          .amenity-list > ul > li > a dl dd.clear {
+          margin-right: 15px;
+          font-weight: 300; }
+          .amenity-list > ul > li > div dl dd a {
+            font-weight: 300;
+            color: #666; }
+            .amenity-list > ul > li > div dl dd a:hover, .amenity-list > ul > li > div dl dd a:focus {
+              color: #ec6708;
+              text-decoration: none; }
+            .amenity-list > ul > li > div dl dd a i {
+              font-size: 13px;
+              color: #ec6708;
+              display: inline; }
+              @media (min-width: 768px) {
+                .amenity-list > ul > li > div dl dd a i {
+                  font-size: 16px; } }
+          .amenity-list > ul > li > div dl dd.clear {
             clear: both;
             margin-left: 80px; }
-      .amenity-list > ul > li > a.a-info1 .a-header {
+      .amenity-list > ul > li > div.a-info1 .a-header {
         background-image: url(/assets/images/sub/amenity_bg01.gif);
         background-size: 55px;
         background-position: 13px 7px; }
-      .amenity-list > ul > li > a.a-info2 .a-header {
+      .amenity-list > ul > li > div.a-info2 .a-header {
         background-image: url(/assets/images/sub/amenity_bg02.gif);
         background-size: 55px 50px;
         background-position: 12px 7px; }
-      .amenity-list > ul > li > a.a-info3 .a-header {
+      .amenity-list > ul > li > div.a-info3 .a-header {
         background-image: url(/assets/images/sub/amenity_bg03.gif);
         background-size: 59px 58px;
         background-position: 11px 5px; }
-      .amenity-list > ul > li > a.a-info4 .a-header {
+      .amenity-list > ul > li > div.a-info4 .a-header {
         background-image: url(/assets/images/sub/amenity_bg04.gif);
         background-size: 44px 56px;
         background-position: 18px 7px; }
-      .amenity-list > ul > li > a.a-info5 .a-header {
+      .amenity-list > ul > li > div.a-info5 .a-header {
         background-image: url(/assets/images/sub/amenity_bg05.gif);
         background-size: 60px 48px;
         background-position: 10px 10px; }
-      .amenity-list > ul > li > a.a-info6 .a-header {
+      .amenity-list > ul > li > div.a-info6 .a-header {
         background-image: url(/assets/images/sub/amenity_bg06.gif);
         background-size: 55px 61px;
         background-position: 13px 3px; }
-      .amenity-list > ul > li > a.a-info7 .a-header {
+      .amenity-list > ul > li > div.a-info7 .a-header {
         background-image: url(/assets/images/sub/amenity_bg07.gif);
         background-size: 55px 45px;
         background-position: 13px 11px; }
-      .amenity-list > ul > li > a.a-info8 .a-header {
+      .amenity-list > ul > li > div.a-info8 .a-header {
         background-image: url(/assets/images/sub/amenity_bg08.gif);
         background-size: 67px 45px;
         background-position: 7px 11px; }
-      .amenity-list > ul > li > a.a-info9 {
+      .amenity-list > ul > li > div.a-info9 {
         margin-bottom: 0; }
-        .amenity-list > ul > li > a.a-info9 .a-header {
+        .amenity-list > ul > li > div.a-info9 .a-header {
           background-image: url(/assets/images/sub/amenity_bg09.gif);
           background-size: 55px;
           background-position: 13px 7px; }
       @media (min-width: 768px) {
-        .amenity-list > ul > li > a {
+        .amenity-list > ul > li > div {
           padding: 0;
           padding-left: 25px;
           padding-right: 25px;
           margin-bottom: 20px; }
-          .amenity-list > ul > li > a .a-header {
+          .amenity-list > ul > li > div .a-header {
             padding: 0;
             padding-top: 146px;
             height: 323px;
             text-align: center; }
-            .amenity-list > ul > li > a .a-header h3 {
+            .amenity-list > ul > li > div .a-header h3 {
               font-size: 30px;
               margin-bottom: 20px; }
-              .amenity-list > ul > li > a .a-header h3 small {
-                font-size: 16px;
+              .amenity-list > ul > li > div .a-header h3 small {
+                font-size: 11px;
                 margin-bottom: 5px; }
-            .amenity-list > ul > li > a .a-header p {
+            .amenity-list > ul > li > div .a-header p {
               font-size: 16px;
               line-height: 27px; }
-          .amenity-list > ul > li > a dl {
+              .amenity-list > ul > li > div .a-header p i {
+                font-size: 13px; }
+          .amenity-list > ul > li > div dl {
             height: 123px;
             padding-top: 31px; }
-            .amenity-list > ul > li > a dl dt {
+            .amenity-list > ul > li > div dl dt {
               font-size: 16px;
               line-height: 28px;
               width: 94px; }
-            .amenity-list > ul > li > a dl dd {
+            .amenity-list > ul > li > div dl dd {
               font-size: 16px;
               line-height: 28px; }
-              .amenity-list > ul > li > a dl dd.clear {
+              .amenity-list > ul > li > div dl dd.clear {
                 margin-left: 94px; }
-          .amenity-list > ul > li > a.a-info1 .a-header {
+          .amenity-list > ul > li > div.a-info1 .a-header {
             background-size: 64px;
             background-position: 50% 43px; }
-          .amenity-list > ul > li > a.a-info2 .a-header {
+          .amenity-list > ul > li > div.a-info2 .a-header {
             background-size: 67px 64px;
             background-position: 50% 48px; }
-          .amenity-list > ul > li > a.a-info3 .a-header {
+          .amenity-list > ul > li > div.a-info3 .a-header {
             background-size: 69px 68px;
             background-position: 50% 47px; }
-          .amenity-list > ul > li > a.a-info4 .a-header {
+          .amenity-list > ul > li > div.a-info4 .a-header {
             background-size: 52px 66px;
             background-position: 50% 43px; }
-          .amenity-list > ul > li > a.a-info5 .a-header {
+          .amenity-list > ul > li > div.a-info5 .a-header {
             background-size: 70px 56px;
             background-position: 50% 50px; }
-          .amenity-list > ul > li > a.a-info6 .a-header {
+          .amenity-list > ul > li > div.a-info6 .a-header {
             background-size: 64px 71px;
             background-position: 50% 45px; }
-          .amenity-list > ul > li > a.a-info7 .a-header {
+          .amenity-list > ul > li > div.a-info7 .a-header {
             background-size: 65px 53px;
             background-position: 50% 50px; }
-          .amenity-list > ul > li > a.a-info8 .a-header {
+          .amenity-list > ul > li > div.a-info8 .a-header {
             background-size: 79px 53px;
             background-position: 50% 50px; }
-          .amenity-list > ul > li > a.a-info9 .a-header {
+          .amenity-list > ul > li > div.a-info9 .a-header {
             margin-bottom: 0;
             background-size: 64px;
             background-position: 50% 46px; } }
       @media (min-width: 992px) {
-        .amenity-list > ul > li > a {
+        .amenity-list > ul > li > div {
           margin-bottom: 30px; }
-          .amenity-list > ul > li > a .a-header {
+          .amenity-list > ul > li > div .a-header {
             padding-top: 154px;
             height: 340px; }
-          .amenity-list > ul > li > a dl {
+          .amenity-list > ul > li > div dl {
             height: 128px;
             padding-top: 35px; }
-          .amenity-list > ul > li > a.a-info1 .a-header {
+          .amenity-list > ul > li > div.a-info1 .a-header {
             background-size: 67px;
             background-position: 50% 50px; }
-          .amenity-list > ul > li > a.a-info2 .a-header {
+          .amenity-list > ul > li > div.a-info2 .a-header {
             background-size: 71px 67px;
             background-position: 50% 50px; }
-          .amenity-list > ul > li > a.a-info3 .a-header {
+          .amenity-list > ul > li > div.a-info3 .a-header {
             background-size: 73px 72px;
             background-position: 50% 51px; }
-          .amenity-list > ul > li > a.a-info4 .a-header {
+          .amenity-list > ul > li > div.a-info4 .a-header {
             background-size: 55px 69px;
             background-position: 50% 46px; }
-          .amenity-list > ul > li > a.a-info5 .a-header {
+          .amenity-list > ul > li > div.a-info5 .a-header {
             background-size: 74px 59px;
             background-position: 50% 52px; }
-          .amenity-list > ul > li > a.a-info6 .a-header {
+          .amenity-list > ul > li > div.a-info6 .a-header {
             background-size: 67px 75px;
             background-position: 50% 48px; }
-          .amenity-list > ul > li > a.a-info7 .a-header {
+          .amenity-list > ul > li > div.a-info7 .a-header {
             margin-bottom: 0;
             background-size: 68px 56px;
             background-position: 50% 53px; }
-          .amenity-list > ul > li > a.a-info8 .a-header {
+          .amenity-list > ul > li > div.a-info8 .a-header {
             margin-bottom: 0;
             background-size: 83px 56px;
             background-position: 50% 53px; }
-          .amenity-list > ul > li > a.a-info9 .a-header {
+          .amenity-list > ul > li > div.a-info9 .a-header {
             margin-bottom: 0;
             background-size: 67px;
             background-position: 50% 48px; } }
@@ -657,7 +665,7 @@
       color: #222;
       padding-left: 90px;
       line-height: 20px;
-      font-weight: bold; }
+      font-weight: 400; }
       .store-hours ul li .details-time .b-time i {
         font-style: normal;
         color: #555; }

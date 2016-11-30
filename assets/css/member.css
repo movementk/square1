@@ -107,6 +107,31 @@
       display: inline-block;
       clear: both; }
 
+/* mypage tab header 공통부분 */
+.member.mypage #content .page-header h2 {
+  font-size: 27px;
+  font-family: 'Lato', sans-serif;
+  color: #ec6708; }
+  @media (min-width: 768px) {
+    .member.mypage #content .page-header h2 {
+      font-size: 33px; } }
+.member.mypage #content .page-header hr {
+  display: block;
+  width: 48px;
+  margin: 18px auto;
+  border-top: 3px solid #ec6708; }
+.member.mypage #content .page-header p {
+  font-size: 13px;
+  color: #111;
+  line-height: 24px; }
+  @media (min-width: 768px) {
+    .member.mypage #content .page-header p {
+      font-size: 16px;
+      line-height: 28px; } }
+  .member.mypage #content .page-header p i {
+    font-style: normal;
+    color: #ec6708; }
+
 /* Login */
 .login {
   padding-bottom: 60px; }
@@ -162,6 +187,7 @@
       .login .section-content .dot-list li {
         font-size: 12xpx;
         color: #666;
+        font-weight: 300;
         line-height: 20px;
         margin-bottom: 20px; }
         .login .section-content .dot-list li:last-child {
@@ -175,6 +201,7 @@
         @media (min-width: 768px) {
           .login .section-content .dot-list li {
             position: relative;
+            font-size: 14px;
             margin-bottom: 0;
             line-height: 30px; }
             .login .section-content .dot-list li a {
@@ -548,9 +575,6 @@
   @media (min-width: 768px) {
     .mypoint {
       padding-bottom: 110px; } }
-  .mypoint .section-header p i {
-    font-style: normal;
-    color: #ec6708; }
   .mypoint .section-content .point {
     text-align: center;
     background-color: #fff;
@@ -902,5 +926,172 @@
 .mail-refusal .section-content .terms {
   overflow: visible;
   height: inherit; }
+
+/* inquiry-list */
+.inquiry-list {
+  padding-bottom: 80px; }
+  @media (min-width: 768px) {
+    .inquiry-list {
+      padding-bottom: 120px; } }
+  .inquiry-list .inquiry-content .table-wrap {
+    margin-top: 18px !important; }
+    @media (min-width: 768px) {
+      .inquiry-list .inquiry-content .table-wrap {
+        margin-top: 60px !important; } }
+  .inquiry-list .inquiry-content .paging {
+    margin-top: 45px; }
+    @media (min-width: 768px) {
+      .inquiry-list .inquiry-content .paging {
+        margin-top: 60px; } }
+
+/* inquiry-view */
+.inquiry-view {
+  padding-bottom: 80px; }
+  @media (min-width: 768px) {
+    .inquiry-view {
+      padding-bottom: 120px; } }
+  .inquiry-view .content-view .article-header {
+    font-size: 16px;
+    color: #222;
+    padding: 25px 15px;
+    border-top: 2px solid #ec6708;
+    border-bottom: 1px solid #dfdfdf; }
+    @media (min-width: 768px) {
+      .inquiry-view .content-view .article-header {
+        font-size: 18px;
+        padding: 35px 30px; } }
+  .inquiry-view .content-view .article-content .content {
+    font-size: 13px;
+    color: #4e4e4e;
+    line-height: 25px;
+    padding: 45px 11px 95px;
+    border-bottom: 1px solid #dfdfdf; }
+    @media (min-width: 768px) {
+      .inquiry-view .content-view .article-content .content {
+        font-size: 15px;
+        padding: 48px 30px 120px; } }
+  .inquiry-view .content-view .article-content .user-info {
+    padding: 15px 10px;
+    border-bottom: 1px solid #dfdfdf; }
+    @media (min-width: 768px) {
+      .inquiry-view .content-view .article-content .user-info {
+        padding-left: 30px;
+        padding-right: 30px;
+        overflow: hidden; } }
+    .inquiry-view .content-view .article-content .user-info ul {
+      overflow: hidden; }
+      @media (min-width: 768px) {
+        .inquiry-view .content-view .article-content .user-info ul {
+          float: left; } }
+      .inquiry-view .content-view .article-content .user-info ul li {
+        float: left; }
+        .inquiry-view .content-view .article-content .user-info ul li dl {
+          display: inline-block; }
+          .inquiry-view .content-view .article-content .user-info ul li dl dt {
+            font-size: 13px;
+            color: #666;
+            font-weight: 300;
+            margin-right: 7px;
+            display: inline-block; }
+          .inquiry-view .content-view .article-content .user-info ul li dl dd {
+            font-size: 13px;
+            color: #666;
+            font-weight: 300;
+            display: inline-block; }
+          @media (min-width: 768px) {
+            .inquiry-view .content-view .article-content .user-info ul li dl dt {
+              font-size: 14px; }
+            .inquiry-view .content-view .article-content .user-info ul li dl dd {
+              font-size: 14px; } }
+        .inquiry-view .content-view .article-content .user-info ul li:after {
+          font-size: 10px;
+          content: "|";
+          color: #e1e1e1;
+          margin: 0 7px; }
+          @media (min-width: 768px) {
+            .inquiry-view .content-view .article-content .user-info ul li:after {
+              font-size: 12px;
+              margin: 0 15px; } }
+        .inquiry-view .content-view .article-content .user-info ul li:last-child:after {
+          margin: 0;
+          content: ''; }
+    .inquiry-view .content-view .article-content .user-info .print {
+      float: right; }
+      .inquiry-view .content-view .article-content .user-info .print a {
+        font-size: 14px;
+        color: #666; }
+        .inquiry-view .content-view .article-content .user-info .print a i {
+          font-size: 18px;
+          margin-right: 5px; }
+  .inquiry-view .content-view .article-content .attach {
+    padding: 15px 10px;
+    border-bottom: 1px solid #dfdfdf; }
+    @media (min-width: 768px) {
+      .inquiry-view .content-view .article-content .attach {
+        padding-left: 30px;
+        padding-right: 30px; } }
+    .inquiry-view .content-view .article-content .attach dl dt {
+      display: inline-block;
+      font-size: 13px;
+      color: #222;
+      font-weight: 400;
+      margin-right: 20px; }
+      .inquiry-view .content-view .article-content .attach dl dt i {
+        margin-right: 5px; }
+    .inquiry-view .content-view .article-content .attach dl dd {
+      display: inline-block;
+      font-size: 14px;
+      color: #4e4e4e;
+      margin-right: 10px; }
+      .inquiry-view .content-view .article-content .attach dl dd:last-child {
+        margin-right: 0; }
+    @media (min-width: 768px) {
+      .inquiry-view .content-view .article-content .attach dl dt {
+        font-size: 14px;
+        margin-right: 75px; }
+      .inquiry-view .content-view .article-content .attach dl dd {
+        font-size: 14px; } }
+  .inquiry-view .content-view .article-content .btn-area {
+    margin-top: 30px; }
+    .inquiry-view .content-view .article-content .btn-area p .btn-sm {
+      display: inline-block;
+      width: 100px;
+      height: 34px;
+      font-size: 13px;
+      line-height: 34px;
+      text-align: center;
+      padding: 0;
+      border-radius: 0;
+      margin-right: 2px; }
+      .inquiry-view .content-view .article-content .btn-area p .btn-sm:last-child {
+        margin-right: 0; }
+      .inquiry-view .content-view .article-content .btn-area p .btn-sm:hover, .inquiry-view .content-view .article-content .btn-area p .btn-sm:focus {
+        text-decoration: none; }
+    .inquiry-view .content-view .article-content .btn-area .basic-btn {
+      margin-top: 10px; }
+      .inquiry-view .content-view .article-content .btn-area .basic-btn .btn-gray {
+        margin: 0 auto;
+        display: block;
+        width: 310px;
+        height: 34px;
+        font-size: 13px;
+        color: #fff;
+        line-height: 34px;
+        text-align: center;
+        padding: 0;
+        background-color: #666; }
+    @media (min-width: 768px) {
+      .inquiry-view .content-view .article-content .btn-area {
+        overflow: hidden;
+        margin-top: 40px; }
+        .inquiry-view .content-view .article-content .btn-area p {
+          float: left; }
+          .inquiry-view .content-view .article-content .btn-area p .btn-sm {
+            margin-right: 10px; }
+        .inquiry-view .content-view .article-content .btn-area .basic-btn {
+          float: right;
+          margin: 0; }
+          .inquiry-view .content-view .article-content .btn-area .basic-btn .btn-gray {
+            width: 100px; } }
 
 /*# sourceMappingURL=member.css.map */

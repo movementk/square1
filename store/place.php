@@ -36,7 +36,7 @@
                 <div class="amenity-list">
                     <ul class="row">
                         <li class="col-xs-12 col-sm-6 col-md-4">
-                            <a href="#" class="a-info1">
+                            <div class="a-info1">
                                 <div class="a-header">
                                     <h3>
                                         <small>INFORMATION</small>
@@ -50,15 +50,15 @@
                                 <dl>
                                     <dt>위치</dt>
                                     <dd>
-                                        1층 <i class="icon-location"></i>
+                                        <a href="#">1층 <i class="icon-location"></i></a>
                                     </dd>
                                     <dt>운영시간</dt>
                                     <dd>10:30 ~ 22:00</dd>
                                 </dl>
-                            </a>
+                            </div>
                         </li>
                         <li class="col-xs-12 col-sm-6 col-md-4">
-                            <a href="#" class="a-info2">
+                            <div class="a-info2">
                                 <div class="a-header">
                                     <h3>
                                         <small>STROLLER RENTAL</small>
@@ -66,7 +66,7 @@
                                     </h3>
                                     <p>
                                         유아동반 고객의 편안한<br class="visible-xs">
-                                        쇼핑을 위해<br class="hidden-xs"> 유모차를 무료로<br class="visible-xs">
+                                        쇼핑을 위해<br class="hidden-xs"> 유모차를 무료로<br  class="visible-xs">
                                         대여해드립니다.<br>
                                         <i>(24개월 이상 유아 대여불가)</i>
                                     </p>
@@ -74,15 +74,15 @@
                                 <dl>
                                     <dt>위치</dt>
                                     <dd>
-                                        1층 <i class="icon-location"></i>
+                                        <a href="#">1층 <i class="icon-location"></i></a>
                                     </dd>
                                     <dt>운영시간</dt>
                                     <dd>10:30 ~ 22:00</dd>
                                 </dl>
-                            </a>
+                            </div>
                         </li>
                         <li class="col-xs-12 col-sm-6 col-md-4">
-                            <a href="#" class="a-info3">
+                            <div class="a-info3">
                                 <div class="a-header">
                                     <h3>
                                         <small>NURSING ROOM</small>
@@ -97,22 +97,22 @@
                                 <dl>
                                     <dt>위치</dt>
                                     <dd>
-                                        1층 <i class="icon-location"></i>
+                                        <a href="#">1층 <i class="icon-location"></i></a>
                                     </dd>
                                     <dd>
-                                        2층 <i class="icon-location"></i>
+                                        <a href="#">2층 <i class="icon-location"></i></a>
                                     </dd>
                                     <dd class="clear">
-                                        3층 <i class="icon-location"></i>
+                                        <a href="#">3층 <i class="icon-location"></i></a>
                                     </dd>
                                     <dd>
-                                        4층 <i class="icon-location"></i>
+                                        <a href="#">4층 <i class="icon-location"></i></a>
                                     </dd>
                                 </dl>
-                            </a>
+                            </div>
                         </li>
                         <li class="col-xs-12 col-sm-6 col-md-4">
-                            <a href="#" class="a-info4">
+                            <div class="a-info4">
                                 <div class="a-header">
                                     <h3>
                                         <small>HANDICAPPED ONLY</small>
@@ -126,22 +126,22 @@
                                 <dl>
                                     <dt>위치</dt>
                                     <dd>
-                                        1층 <i class="icon-location"></i>
+                                        <a href="#">1층 <i class="icon-location"></i></a>
                                     </dd>
                                     <dd>
-                                        2층 <i class="icon-location"></i>
+                                        <a href="#">2층 <i class="icon-location"></i></a>
                                     </dd>
                                     <dd class="clear">
-                                        3층 <i class="icon-location"></i>
+                                        <a href="#">3층 <i class="icon-location"></i></a>
                                     </dd>
                                     <dd>
-                                        4층 <i class="icon-location"></i>
+                                        <a href="#">4층 <i class="icon-location"></i></a>
                                     </dd>
                                 </dl>
-                            </a>
+                            </div>
                         </li>
                         <li class="col-xs-12 col-sm-6 col-md-4">
-                            <a href="#" class="a-info5">
+                            <div class="a-info5">
                                 <div class="a-header">
                                     <h3>
                                         <small>ATM</small>
@@ -155,18 +155,18 @@
                                 <dl>
                                     <dt>위치</dt>
                                     <dd>
-                                        1층 <i class="icon-location"></i>
+                                        <a href="#">1층 <i class="icon-location"></i></a>
                                     </dd>
                                     <dd>
-                                        4층 <i class="icon-location"></i>
+                                        <a href="#">4층 <i class="icon-location"></i></a>
                                     </dd>
                                     <dt>운영시간</dt>
                                     <dd>10:30 ~ 22:00</dd>
                                 </dl>
-                            </a>
+                            </div>
                         </li>
                         <li class="col-xs-12 col-sm-6 col-md-4">
-                            <a href="#" class="a-info6">
+                            <div class="a-info6">
                                 <div class="a-header">
                                     <h3>
                                         <small>CLOTHING ALTERATION SERVICE</small>
@@ -180,15 +180,15 @@
                                 <dl>
                                     <dt>위치</dt>
                                     <dd>
-                                        1층 <i class="icon-location"></i>
+                                        <a href="#">1층 <i class="icon-location"></i></a>
                                     </dd>
                                     <dt>운영시간</dt>
                                     <dd>10:30 ~ 22:00</dd>
                                 </dl>
-                            </a>
+                            </div>
                         </li>
                         <li class="col-xs-12 col-sm-6 col-md-4">
-                            <a href="#" class="a-info7">
+                            <div class="a-info7">
                                 <div class="a-header">
                                     <h3>
                                         <small>POINTCARD DESK</small>
@@ -202,15 +202,15 @@
                                 <dl>
                                     <dt>위치</dt>
                                     <dd>
-                                        1층 <i class="icon-location"></i>
+                                        <a href="#">1층 <i class="icon-location"></i></a>
                                     </dd>
                                     <dt>운영시간</dt>
                                     <dd>10:30 ~ 22:00</dd>
                                 </dl>
-                            </a>
+                            </div>
                         </li>
                         <li class="col-xs-12 col-sm-6 col-md-4">
-                            <a href="#" class="a-info8">
+                            <div class="a-info8">
                                 <div class="a-header">
                                     <h3>
                                         <small>LOCKER</small>
@@ -224,19 +224,19 @@
                                 <dl>
                                     <dt>위치</dt>
                                     <dd>
-                                        1층 <i class="icon-location"></i>
+                                        <a href="#">1층 <i class="icon-location"></i></a>
                                     </dd>
                                     <dd>
-                                        2층 <i class="icon-location"></i>
+                                        <a href="#">2층 <i class="icon-location"></i></a>
                                     </dd>
                                     <dd class="clear">
-                                        3층 <i class="icon-location"></i>
+                                        <a href="#">3층 <i class="icon-location"></i></a>
                                     </dd>
                                 </dl>
-                            </a>
+                            </div>
                         </li>
                         <li class="col-xs-12 col-sm-6 col-md-4">
-                            <a href="#" class="a-info9">
+                            <div class="a-info9">
                                 <div class="a-header">
                                     <h3>
                                         <small>SMOKING AREA</small>
@@ -250,10 +250,10 @@
                                 <dl>
                                     <dt>위치</dt>
                                     <dd>
-                                        1층 <i class="icon-location"></i>
+                                        <a href="#">1층 <i class="icon-location"></i></a>
                                     </dd>
                                 </dl>
-                            </a>
+                            </div>
                         </li>
                     </ul>
                 </div>

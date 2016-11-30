@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="/assets/css/sub.css">
 <link rel="stylesheet" href="/assets/css/member.css">
 </head>
-<body class="sub member">
+<body class="sub member mypage">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb_aside.php'); ?>
     <div id="wrapper">
         <div id="top-bn">
@@ -20,15 +20,29 @@
             </div>
         </header>
         <main id="content">
-            <div class="container">
-                <section class="mypoint">
-                    <div class="section-header">
-                        <h2>나의 포인트</h2>
-                        <hr>
-                        <p>
-                            스퀘어원 포인트카드는 스퀘어원 이용 시 구매금액의 <i>1%를<br class="visible-xs"> 적립</i> 할 수 있으며,<br class="hidden-xs"> 누적된 포인트가 일정 수준이상이 되면<br class="visible-xs"> 이를 포인트 금액대별 차감 기프트로 교환하실 수  있습니다.
-                        </p>
+            <div class="page-header has-snb"><!-- SNB를 포함할 경우 has-snb 클래스 추가-->
+                <h2>나의 포인트</h2>
+                <hr>
+                <p>
+                    스퀘어원 포인트카드는 스퀘어원 이용 시 구매금액의 <i>1%를<br class="visible-xs"> 적립</i> 할 수 있으며,<br class="hidden-xs"> 누적된 포인트가 일정 수준이상이 되면<br class="visible-xs"> 이를 포인트 금액대별 차감 기프트로 교환하실 수  있습니다.
+                </p>
+                <div class="snb">
+                    <div class="container">
+                        <button class="btn btn-block" type="button">
+                            마이포인트
+                        </button>
+                        <nav>
+                            <ul>
+                                <li><a href="/member/edit_form.php">회원정보 수정</a></li>
+                                <li class="active"><a href="/member/mypoint.php">마이포인트</a></li>
+                                <li><a href="/member/inquiry_list.php">1:1 문의</a></li>
+                            </ul>
+                        </nav>
                     </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="mypoint">
                     <div class="section-content">
                         <div class="point">
                             <div class="row">
@@ -159,7 +173,7 @@
                             </nav>
                         </div>
                     </div>
-                </section>
+                </div>
             </div><!-- container -->
         </main>
         <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>

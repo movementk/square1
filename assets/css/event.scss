@@ -51,6 +51,7 @@
                     color: $orange;
                     @include lato();
                     line-height: 30px;
+                    letter-spacing: -1px;
                     margin-bottom: 15px;
                     @media(min-width: $sm) {
                         font-size: 30px;
@@ -83,12 +84,12 @@
                         max-width: 310px;
                         margin: 0 auto;
                         margin-bottom: 10px;
-//                        border: 2px solid #f8f8f8;
                         .details {
                             padding: 20px;
                             background-color: #fff;
                             h4 {
                                 font-size: 14px;
+                                font-weight: 400;
                                 color: $orange;
                                 i {
                                     display: inline-block;
@@ -184,6 +185,39 @@
             line-height: 36px;
             @media(min-width: $sm) {
                 line-height: 32px;
+            }
+        }
+    }
+}
+
+/* event-list */
+.event-list {
+    .section-header {
+        padding-top: 0 !important;
+        padding-bottom: 30 !important;
+        @media(min-width: $md) {
+            padding-bottom: 60px !important;
+        }
+        @media(min-width: $md) {
+            padding-bottom: 80px !important;
+        }
+        h2 {
+            font-size: 22px !important;
+            color: $orange !important;
+            font-weight: 400 !important;
+            margin-bottom: 15px !important;
+            @media(min-width: $sm) {
+                font-size: 30px !important;
+                margin-bottom: 40px !important;
+                line-height: 45px !important;
+            }
+        }
+    }
+    .section-content {
+        .paging {
+            margin-top: 30px;
+            @media(min-width: $sm) {
+                margin-top: 12px;
             }
         }
     }
@@ -523,12 +557,12 @@
         .article-header {
             font-size: 16px;
             color: #222;
-            padding: 30px 15px;
+            padding: 25px 15px;
             border-top: 2px solid $orange;
             border-bottom: 1px solid #dfdfdf;
             @media(min-width: $sm) {
                 font-size: 18px;
-                padding: 40px 30px;
+                padding: 35px 30px;
             }
         }
         .article-content {
@@ -544,7 +578,7 @@
                 }
             }
             .user-info {
-                padding: 18px 10px;
+                padding: 15px 10px;
                 border-bottom: 1px solid #dfdfdf;
                 @media(min-width: $sm) {
                     padding-left: 30px;
@@ -611,7 +645,7 @@
                 }
             }
             .attach {
-                padding: 18px 10px;
+                padding: 15px 10px;
                 border-bottom: 1px solid #dfdfdf;
                 @media(min-width: $sm) {
                     padding-left: 30px;

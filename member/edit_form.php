@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="/assets/css/sub.css">
 <link rel="stylesheet" href="/assets/css/member.css">
 </head>
-<body class="sub member">
+<body class="sub member mypage">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb_aside.php'); ?>
     <div id="wrapper">
         <div id="top-bn">
@@ -20,15 +20,29 @@
             </div>
         </header>
         <main id="content">
-            <div class="container">
-                <section class="edit">
-                    <div class="section-header">
-                        <h2>회원정보 수정</h2>
-                        <hr>
-                        <p>
-                            변경된 고객님의 회원정보를 입력해주세요
-                        </p>
+            <div class="page-header has-snb"><!-- SNB를 포함할 경우 has-snb 클래스 추가-->
+                <h2>회원정보수정</h2>
+                <hr>
+                <p>
+                    변경된 고객님의 회원정보를 입력해주세요
+                </p>
+                <div class="snb">
+                    <div class="container">
+                        <button class="btn btn-block" type="button">
+                            회원정보 수정
+                        </button>
+                        <nav>
+                            <ul>
+                                <li class="active"><a href="/member/edit_form.php">회원정보 수정</a></li>
+                                <li><a href="/member/mypoint.php">마이포인트</a></li>
+                                <li><a href="/member/inquiry_list.php">1:1 문의</a></li>
+                            </ul>
+                        </nav>
                     </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="edit">
                     <div class="section-content">
                         <div class="edit-form">
                             <h3>회원정보수정</h3>
@@ -95,7 +109,7 @@
                             </form>
                         </div>
                     </div>
-                </section>
+                </div>
             </div><!-- container -->
         </main>
         <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>

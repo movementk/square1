@@ -4,6 +4,7 @@
     background-color: #f8f8f8;
     #content {
         .form-control {
+            font-weight: 300;
             border: 1px solid #dedede;
         }
         .btn,.btn-sm,.btn-xs {
@@ -412,9 +413,6 @@
                                 font-size: 13px;
                                 color: $orange;
                                 margin-right: 6px;
-                                @media(min-width: $sm) {
-                                    font-size: 16px;
-                                }
                             }
                             a {
                                 color: #333;
@@ -546,15 +544,14 @@
         > li {
             padding-left: -5px !important;
             padding-right: -5px !important;
-            > a {
+            > div {
                 display: block;
                 margin-bottom: 10px;
                 padding: 26px 20px 39px;
                 background-color: #fff;
                 border: 5px solid #fff;
-                &:hover, &:focus {
-                    text-decoration: none;
-                    border-color: #e06513;
+                &:hover {
+                    border-color: $orange;
                 }
                 .a-header {
                     padding-left: 90px;
@@ -564,6 +561,7 @@
                     h3 {
                         font-size: 20px;
                         color: #666;
+                        font-weight: 400;
                         margin-bottom: 10px;
                         small {
                             display: block;
@@ -576,11 +574,14 @@
                     p {
                         font-size: 13px;
                         color: #666;
+                        font-weight: 300;
                         line-height: 22px;
                         letter-spacing: -.5px;
                         i {
+                            font-weight: 12px;
                             font-style: normal;
                             color: #f57f26;
+                            font-weight: 300;
                         }
                     }
                 }
@@ -595,21 +596,28 @@
                         font-size: 13px;
                         color: #333;
                         line-height: 24px;
-                        font-weight: 400;
+                        font-weight: 300;
                     }
                     dd {
                         float: left;
                         font-size: 13px;
-                        color: #666;
                         line-height: 24px;
-                        font-weight: 400;
                         margin-right: 15px;
-                        i {
-                            font-size: 13px;
-                            color: $orange;
-                            display: inline;
-                            @media(min-width: $sm) {
-                                font-size: 16px;
+                        font-weight: 300;
+                        a {
+                            font-weight: 300;
+                            color: #666;
+                            &:hover, &:focus {
+                                color: $orange;
+                                text-decoration: none;
+                            }
+                            i {
+                                font-size: 13px;
+                                color: $orange;
+                                display: inline;
+                                @media(min-width: $sm) {
+                                    font-size: 16px;
+                                }
                             }
                         }
                         &.clear {
@@ -696,13 +704,16 @@
                             font-size: 30px;
                             margin-bottom: 20px;
                             small {
-                                font-size: 16px;
+                                font-size: 11px;
                                 margin-bottom: 5px;
                             }
                         }
                         p {
                             font-size: 16px;
                             line-height: 27px;
+                            i {
+                                font-size: 13px;
+                            }
                         }
                     }
                     dl {
@@ -903,7 +914,7 @@
                     color: #222;
                     padding-left: 90px;
                     line-height: 20px;
-                    font-weight: bold;
+                    font-weight: 400;
                     i {
                         font-style: normal;
                         color: #555;

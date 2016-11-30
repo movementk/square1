@@ -71,6 +71,11 @@
 
 /* notice , press-list , pr-list */
 .notice {
+    .section-header {
+        h3 {
+            letter-spacing: -1px;
+        }
+    }
     .section-content {
         .table-wrap {
             margin-top: 18px;
@@ -102,12 +107,13 @@
             .article-header {
                 font-size: 16px;
                 color: #222;
-                padding: 30px 15px;
+                font-weight: 300;
+                padding: 25px 15px;
                 border-top: 2px solid $orange;
                 border-bottom: 1px solid #dfdfdf;
                 @media(min-width: $sm) {
                     font-size: 18px;
-                    padding: 40px 30px;
+                    padding: 35px 30px;
                 }
             }
             .article-content {
@@ -115,6 +121,7 @@
                     font-size: 13px;
                     color: #4e4e4e;
                     line-height: 25px;
+                    font-weight: 300;
                     padding: 45px 11px 95px;
                     border-bottom: 1px solid #dfdfdf;
                     @media(min-width: $sm) {
@@ -123,7 +130,7 @@
                     }
                 }
                 .user-info {
-                    padding: 18px 10px;
+                    padding: 15px 10px;
                     border-bottom: 1px solid #dfdfdf;
                     @media(min-width: $sm) {
                         padding-left: 30px;
@@ -190,7 +197,7 @@
                     }
                 }
                 .attach {
-                    padding: 18px 10px;
+                    padding: 15px 10px;
                     border-bottom: 1px solid #dfdfdf;
                     @media(min-width: $sm) {
                         padding-left: 30px;
@@ -329,7 +336,7 @@
                 }
                 .comment-list {
                     .comment-info {
-                        padding: 22px 11px;
+                        padding: 18px 11px;
                         border-bottom: 1px solid #dfdfdf;
                         h4 {
                             display: inline;
@@ -382,8 +389,9 @@
                             display: block;
                             font-size: 12px;
                             color: #999;
+                            font-weight: 300;
                             @media(min-width: $sm) {
-                                margin-top: 10px;
+                                margin-top: 5px;
                                 font-size: 13px;
                             }
                         }
