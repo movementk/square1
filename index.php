@@ -47,10 +47,20 @@
                                 <form>
                                     <div class="form-group">
                                         <label for="search-store-name" class="sr-only">검색매장명</label>
-                                        <input type="text" class="form-control" name="#">
+                                        <input id="search-store-name" class="form-control" type="text" name="#">
                                         <button class="btn" type="submit"><i class="icon-search-1"></i></button>
                                     </div>
                                 </form>
+                                <div class="results" style="display: none;">
+                                    <p class="nothing">검색결과가 없습니다.</p>
+                                    <ul>
+                                        <li><a href="#">검색어 #1</a></li>
+                                        <li><a href="#">검색어 #2</a></li>
+                                        <li><a href="#">검색어 #3</a></li>
+                                        <li><a href="#">검색어 #4</a></li>
+                                        <li><a href="#">검색어 #5</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </section>
                     </div>
@@ -137,7 +147,7 @@
     </div>
     
     <!-- 팝업 -->
-    <div id="popup" class="modal" tabindex="-1" role="dialog" data-show="true" data-backdrop="true">
+    <div id="popup" class="modal" role="dialog" data-show="true" data-backdrop="false">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-body">
@@ -159,6 +169,14 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script>
         (function($) {
+            $(document).on('focus', '#search-store .form-area #search-store-name', function() {
+                $('#search-store .form-area').addClass('focus');
+            });
+            $(document).on('blur', '#search-store .form-area #search-store-name', function() {
+                if ($(this).val() == '') {
+                    $('#search-store .form-area').removeClass('focus');
+                }
+            });
             $(".banner ul").bxSlider({
                 auto: true,
                 controls: false,
@@ -168,7 +186,7 @@
                 }
             });
             $('#popup').on('shown.bs.modal', function (e) {
-                $('body').css('padding-right', 0);
+                $('body, #popup').css('padding-right', 0);
                 $('#popup .popup-list').bxSlider({
                     auto: true,
                     autoHover: true,

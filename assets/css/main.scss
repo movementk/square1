@@ -186,6 +186,7 @@
 #search-store {
     //margin-left: -10px;
     //margin-right: -10px;
+    position: relative;
     padding: 15px 30px 20px;
     background-color: #f57f26;
     color: #fff;
@@ -203,6 +204,7 @@
         line-height: 12px;
     }
     .form-area {
+        position: relative;
         margin-top: 15px;
         .form-group {
             position: relative;
@@ -213,7 +215,6 @@
                 height: 23px;
                 background-color: transparent;
                 border: 0;
-                color: #fff;
             }
             .btn {
                 position: absolute;
@@ -223,11 +224,61 @@
                 width: 23px;
                 height: 23px;
                 border: 0;
+                border-radius: 0;
                 background-color: transparent;
                 i {
                     vertical-align: 3px;
                     font-size: 12px;
                 }
+            }
+            
+        }
+        &.focus {
+            .form-group {
+                .form-control {
+                    background-color: #fff;
+                    color: $orange;
+                }
+                .btn {
+                    background-color: #fff;
+                    i {
+                        color: $orange;
+                    }
+                }
+            }
+        }
+        .results {
+            position: absolute;
+            top: 27px;
+            z-index: 1;
+            width: 100%;
+            background-color: #fff;
+            border-top: 1px solid #dfdfdf;
+            ul {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                li {
+                    a {
+                        display: block;
+                        padding-left: 12px;
+                        padding-right: 12px;
+                        @include font(13px, 30px);
+                        text-align: left;
+                        color: #666;
+                        font-weight: 300;
+                        text-decoration: none;
+                        &:focus, &:hover {
+                            color: $orange;
+                        }
+                    }
+                }
+            }
+            .nothing {
+                padding: 10px;
+                @include font(13px, 30px);
+                font-weight: 300;
+                text-align: left;
+                color: #ccc;
             }
         }
     }
@@ -257,6 +308,19 @@
                         font-size: 24px;
                         vertical-align: 5px;
                     }
+                }
+            }
+            .results {
+                top: 57px;
+                ul {
+                    li {
+                        a {
+                            @include font(16px, 34px);
+                        }
+                    }
+                }
+                .nothing {
+                    @include font(16px, 34px);
                 }
             }
         }
@@ -291,6 +355,19 @@
                         font-size: 18px;
                         vertical-align: 4px;
                     }
+                }
+            }
+            .results {
+                top: 45px;
+                ul {
+                    li {
+                        a {
+                            @include font(16px, 30px);
+                        }
+                    }
+                }
+                .nothing {
+                    @include font(16px, 30px);
                 }
             }
         }
@@ -525,10 +602,18 @@
     & ~ .modal-backdrop {
         background-color: transparent;
     }
+    overflow: visible;
+    width: 100%;
+    height: 1px;
+    right: inherit;
+    bottom: inherit;
     .modal-dialog {
         margin-top: 55px;
+        margin-bottom: 0;
+        margin-right: 0;
         width: 300px;
-        background-color: transparent;
+        //background-color: transparent;
+        background-color: #fff;
         .modal-content {
             border: 0;
             border-radius: 0;

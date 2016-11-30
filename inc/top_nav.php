@@ -33,7 +33,8 @@
                             <button type="button" class="btn btn-global-search"><i class="icon-search"></i></button>
                         </div>
                     </form>
-                    <div class="results">
+                    <div class="results" style="display: none">
+                        <p class="nothing">검색결과가 없습니다.</p>
                         <ul>
                             <li><a href="#">CUU</a></li>
                             <li><a href="#">GS24</a></li>
