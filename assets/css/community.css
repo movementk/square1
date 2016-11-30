@@ -56,6 +56,8 @@
           font-size: 16px; } }
 
 /* notice , press-list , pr-list */
+.notice .section-header h3 {
+  letter-spacing: -1px; }
 .notice .section-content .table-wrap {
   margin-top: 18px; }
   @media (min-width: 768px) {
@@ -76,17 +78,19 @@
 .notice_view .section-content .content-view .article-header {
   font-size: 16px;
   color: #222;
-  padding: 30px 15px;
+  font-weight: 300;
+  padding: 25px 15px;
   border-top: 2px solid #ec6708;
   border-bottom: 1px solid #dfdfdf; }
   @media (min-width: 768px) {
     .notice_view .section-content .content-view .article-header {
       font-size: 18px;
-      padding: 40px 30px; } }
+      padding: 35px 30px; } }
 .notice_view .section-content .content-view .article-content .content {
   font-size: 13px;
   color: #4e4e4e;
   line-height: 25px;
+  font-weight: 300;
   padding: 45px 11px 95px;
   border-bottom: 1px solid #dfdfdf; }
   @media (min-width: 768px) {
@@ -94,7 +98,7 @@
       font-size: 15px;
       padding: 48px 30px 120px; } }
 .notice_view .section-content .content-view .article-content .user-info {
-  padding: 18px 10px;
+  padding: 15px 10px;
   border-bottom: 1px solid #dfdfdf; }
   @media (min-width: 768px) {
     .notice_view .section-content .content-view .article-content .user-info {
@@ -147,7 +151,7 @@
         font-size: 18px;
         margin-right: 5px; }
 .notice_view .section-content .content-view .article-content .attach {
-  padding: 18px 10px;
+  padding: 15px 10px;
   border-bottom: 1px solid #dfdfdf; }
   @media (min-width: 768px) {
     .notice_view .section-content .content-view .article-content .attach {
@@ -258,7 +262,7 @@
           height: 42px;
           line-height: 42px; } }
 .notice_view .section-content .content-view .article-content .comment-list .comment-info {
-  padding: 22px 11px;
+  padding: 18px 11px;
   border-bottom: 1px solid #dfdfdf; }
   .notice_view .section-content .content-view .article-content .comment-list .comment-info h4 {
     display: inline;
@@ -303,10 +307,11 @@
     clear: both;
     display: block;
     font-size: 12px;
-    color: #999; }
+    color: #999;
+    font-weight: 300; }
     @media (min-width: 768px) {
       .notice_view .section-content .content-view .article-content .comment-list .comment-info p {
-        margin-top: 10px;
+        margin-top: 5px;
         font-size: 13px; } }
   .notice_view .section-content .content-view .article-content .comment-list .comment-info.reply {
     padding-left: 40px;

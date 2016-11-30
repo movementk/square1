@@ -251,6 +251,9 @@
   @media (min-width: 768px) {
     .sub.store.floor .floor-title {
       margin-bottom: 40px; } }
+  @media (min-width: 992px) {
+    .sub.store.floor .floor-title {
+      display: none; } }
 .sub.store.floor .floor-plan {
   margin-bottom: 30px; }
   .sub.store.floor .floor-plan p img {
@@ -258,6 +261,9 @@
   @media (min-width: 768px) {
     .sub.store.floor .floor-plan {
       margin-bottom: 50px; } }
+  @media (min-width: 992px) {
+    .sub.store.floor .floor-plan {
+      margin-top: 75px; } }
 .sub.store.floor .store-list {
   margin-bottom: 60px; }
   .sub.store.floor .store-list .btn-area {
@@ -329,7 +335,8 @@
             font-size: 1.5em; }
         .sub.store.hours .square1-hours .container div p {
           font-size: 50px;
-          line-height: 60px; }
+          line-height: 60px;
+          font-weight: bold; }
           .sub.store.hours .square1-hours .container div p small {
             font-size: 35px; } }
   @media (min-width: 1200px) {

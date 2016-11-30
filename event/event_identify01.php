@@ -20,11 +20,24 @@
         </header>
         <main id="content">
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/lnb4.php'); ?>
+            <div class="page-header has-snb"><!-- SNB를 포함할 경우 has-snb 클래스 추가-->
+                <h1><span class="square1">SQUARE<i>1</i></span> 이벤트</h1>
+                <div class="snb">
+                    <div class="container">
+                        <button class="btn btn-block" type="button">
+                            진행 중 이벤트
+                        </button>
+                        <nav>
+                            <ul>
+                                <li class="active"><a href="/event/event_list.php">진행 중 이벤트</a></li>
+                                <li><a href="/event/prizewinner_list.php">당첨자 발표</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
             <div class="container">
                 <section class="square1-event event-identify01">
-                    <div class="section-header">
-                        <h2>SQUARE<i>1</i> 이벤트</h2>
-                    </div>
                     <div class="section-content">
                         <p class="event-img">
                             <img src="/assets/images/event/event_lg_img.jpg" class="img-responsive visible-xs" alt="진행이벤트">

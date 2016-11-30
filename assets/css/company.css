@@ -133,7 +133,7 @@
         color: #222;
         font-weight: 700;
         letter-spacing: 2px;
-        @inclide jjmj(); }
+        font-family: 'Jeju Myeongjo', serif; }
         #content.greeting .greeting-info .section-content .ceo .details h4 small {
           font-size: 13px;
           color: #222;
@@ -178,7 +178,8 @@
         font-size: 22px;
         color: #ec6708;
         font-weight: 300;
-        line-height: 30px; }
+        line-height: 30px;
+        letter-spacing: -1px; }
         @media (min-width: 768px) {
           .history-info .history-bg .history .section-header h3 {
             font-size: 30px; } }
@@ -193,7 +194,7 @@
           font-weight: 400;
           vertical-align: top;
           font-weight: 300;
-          padding: 22px 10px;
+          padding: 18px 10px;
           border: 0;
           border-bottom: 1px solid #dfdfdf;
           background-color: #fff; }
@@ -208,7 +209,7 @@
           color: #666;
           vertical-align: top;
           font-weight: 300;
-          padding: 22px 10px;
+          padding: 18px 10px;
           border: 0;
           border-bottom: 1px solid #dfdfdf; }
           @media (min-width: 768px) {
@@ -505,7 +506,7 @@
         display: block; }
     @media (min-width: 768px) {
       .location .section-content .map-info .addr {
-        padding: 33px 0; }
+        padding: 25px 0; }
         .location .section-content .map-info .addr dt {
           font-size: 16px; }
           .location .section-content .map-info .addr dt.call {
@@ -521,7 +522,7 @@
     font-size: 20px;
     color: #ec6708;
     text-align: left;
-    font-weight: bold;
+    font-weight: 500;
     padding-top: 25px;
     padding-bottom: 20px;
     border-top: 1px solid #ec6708; }
@@ -546,11 +547,12 @@
       width: 60px;
       height: 40px;
       font-size: 14px;
-      line-height: 40px;
+      line-height: 28px;
       color: #000;
       text-align: center;
       margin-right: 10px;
       border-radius: 50px;
+      border: 5px solid #45b5f4;
       background-color: #fff; }
       .location .section-content .traffic .subway dl dd h5 i {
         font-style: normal; }
@@ -565,8 +567,7 @@
       padding-top: 55px;
       padding-bottom: 55px; }
       .location .section-content .traffic .subway dl dd h5 {
-        width: 170px;
-        height: 40px; }
+        width: 170px; }
         .location .section-content .traffic .subway dl dd h5 i {
           font-size: 11px;
           color: #1568c6;
@@ -605,6 +606,7 @@
     .location .section-content .traffic .bus dl dd ul li p span {
       display: inline-block;
       width: 50px;
+      font-size: 14px;
       height: 27px;
       line-height: 27px;
       text-align: center;
@@ -613,9 +615,6 @@
       margin-right: 10px;
       border-radius: 3px;
       font-family: 'Noto Sans KR', sans-serif; }
-      @media (min-width: 768px) {
-        .location .section-content .traffic .bus dl dd ul li p span {
-          font-size: 16px; } }
       .location .section-content .traffic .bus dl dd ul li p span.blue {
         background-color: #395cb3; }
       .location .section-content .traffic .bus dl dd ul li p span.purple {

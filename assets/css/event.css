@@ -42,6 +42,7 @@
       color: #ec6708;
       font-family: 'Lato', sans-serif;
       line-height: 30px;
+      letter-spacing: -1px;
       margin-bottom: 15px; }
       @media (min-width: 768px) {
         .event #content section .section-header > h3 {
@@ -68,6 +69,7 @@
     background-color: #fff; }
     .brand-event .section-content .event-list ul li a .details h4 {
       font-size: 14px;
+      font-weight: 400;
       color: #ec6708; }
       .brand-event .section-content .event-list ul li a .details h4 i {
         display: inline-block;
@@ -135,6 +137,32 @@
   @media (min-width: 768px) {
     .art-hall .section-header h2 {
       line-height: 32px; } }
+
+/* event-list */
+.event-list .section-header {
+  padding-top: 0 !important;
+  padding-bottom: 30 !important; }
+  @media (min-width: 992px) {
+    .event-list .section-header {
+      padding-bottom: 60px !important; } }
+  @media (min-width: 992px) {
+    .event-list .section-header {
+      padding-bottom: 80px !important; } }
+  .event-list .section-header h2 {
+    font-size: 22px !important;
+    color: #ec6708 !important;
+    font-weight: 400 !important;
+    margin-bottom: 15px !important; }
+    @media (min-width: 768px) {
+      .event-list .section-header h2 {
+        font-size: 30px !important;
+        margin-bottom: 40px !important;
+        line-height: 45px !important; } }
+.event-list .section-content .paging {
+  margin-top: 30px; }
+  @media (min-width: 768px) {
+    .event-list .section-content .paging {
+      margin-top: 12px; } }
 
 /* prizewinner-list */
 @media (min-width: 1200px) {
@@ -402,13 +430,13 @@
 .event-view .content-view .article-header {
   font-size: 16px;
   color: #222;
-  padding: 30px 15px;
+  padding: 25px 15px;
   border-top: 2px solid #ec6708;
   border-bottom: 1px solid #dfdfdf; }
   @media (min-width: 768px) {
     .event-view .content-view .article-header {
       font-size: 18px;
-      padding: 40px 30px; } }
+      padding: 35px 30px; } }
 .event-view .content-view .article-content .content {
   font-size: 13px;
   color: #4e4e4e;
@@ -420,7 +448,7 @@
       font-size: 15px;
       padding: 48px 30px 120px; } }
 .event-view .content-view .article-content .user-info {
-  padding: 18px 10px;
+  padding: 15px 10px;
   border-bottom: 1px solid #dfdfdf; }
   @media (min-width: 768px) {
     .event-view .content-view .article-content .user-info {
@@ -473,7 +501,7 @@
         font-size: 18px;
         margin-right: 5px; }
 .event-view .content-view .article-content .attach {
-  padding: 18px 10px;
+  padding: 15px 10px;
   border-bottom: 1px solid #dfdfdf; }
   @media (min-width: 768px) {
     .event-view .content-view .article-content .attach {
