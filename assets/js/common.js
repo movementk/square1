@@ -49,10 +49,10 @@
     });
 
     // 데스크탑 GNB 펼침
-    $(document).on('mouseenter focusin', '#gnb', function() {
+    $(document).on('mouseenter focusin', '#gnb .container', function() {
         $('#gnb').addClass('opened');
     });
-    $(document).on('mouseleave', '#gnb', function() {
+    $(document).on('mouseleave', '#gnb .container', function() {
         $('#gnb').removeClass('opened');
     });
     
