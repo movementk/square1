@@ -287,6 +287,39 @@
   .sub.store.place .amenity-list {
     margin-top: 85px;
     margin-bottom: 120px; } }
+.sub.store.place .a-info-modal .modal-dialog .modal-content {
+  border: 0;
+  border-radius: 0; }
+  .sub.store.place .a-info-modal .modal-dialog .modal-content .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #fbad1c;
+    opacity: 1; }
+    .sub.store.place .a-info-modal .modal-dialog .modal-content .close img {
+      width: 100%;
+      height: 100%; }
+@media (min-width: 768px) {
+  .sub.store.place .a-info-modal .modal-dialog {
+    margin: 10px;
+    width: auto;
+    max-width: 1030px; }
+    .sub.store.place .a-info-modal .modal-dialog .modal-content .close {
+      width: 60px;
+      height: 60px; } }
+@media (min-width: 768px) {
+  .sub.store.place .a-info-modal .modal-dialog {
+    margin-left: auto;
+    margin-right: auto; }
+    .sub.store.place .a-info-modal .modal-dialog .modal-content .close {
+      width: 75px;
+      height: 75px; } }
+.sub.store.place.modal-open {
+  overflow: hidden !important; }
+  .sub.store.place.modal-open .a-info-modal {
+    overflow: hidden; }
 
 .sub.store.hours .square1-hours {
   position: relative;

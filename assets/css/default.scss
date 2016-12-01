@@ -697,7 +697,6 @@ body.gnb-open {
             background-color: #3e4347;
             border-top: 1px solid rgba(#fff, .1);
             ul {
-                display: none;
                 padding-top: 10px;
                 padding-bottom: 10px;
                 li {
@@ -858,7 +857,7 @@ body.gnb-open {
     overflow: hidden;
     clear: both;
     position: absolute;
-    z-index: 1050;
+    z-index: 1039;
     top: 200px;
     width: 100%;
     height: 48px;

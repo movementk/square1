@@ -50,7 +50,7 @@
                                 <dl>
                                     <dt>위치</dt>
                                     <dd>
-                                        <a href="#">1층 <i class="icon-location"></i></a>
+                                        <a href="#" data-toggle="modal" data-target="#a-info1-f1">1층 <i class="icon-location"></i></a>
                                     </dd>
                                     <dt>운영시간</dt>
                                     <dd>10:30 ~ 22:00</dd>
@@ -261,7 +261,28 @@
             <!-- // 컨텐츠 영역 -->
         </main>
         <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
+        <div id="a-info1-f1" class="modal fade a-info-modal" tabindex="-1" role="dialog" data-backdrop="static">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img src="/assets/images/store/btn_popup_close.gif" alt="">
+                    </button>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info1_f1.jpg" alt=""></p>
+                </div>
+            </div>
+        </div>
     </div>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+    <script>
+        (function($) {
+            $('.a-info-modal').on('shown.bs.modal', function (e) {
+                //$('html').css('overflow', 'hidden');
+                $('body').css('padding-right', 0);
+            });
+//            $('.a-info-modal').on('hidden.bs.modal', function (e) {
+//                $('html').removeAttr('style');
+//            }); 
+        })(jQuery);
+    </script>
 </body>
 </html>
