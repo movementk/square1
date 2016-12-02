@@ -74,7 +74,7 @@
                                 <dl>
                                     <dt>위치</dt>
                                     <dd>
-                                        <a href="#">1층 <i class="icon-location"></i></a>
+                                        <a href="#" data-toggle="modal" data-target="#a-info2-f1">1층 <i class="icon-location"></i></a>
                                     </dd>
                                     <dt>운영시간</dt>
                                     <dd>10:30 ~ 22:00</dd>
@@ -157,9 +157,6 @@
                                     <dd>
                                         <a href="#" data-toggle="modal" data-target="#a-info5-f1">1층 <i class="icon-location"></i></a>
                                     </dd>
-                                    <dd>
-                                        <a href="#">4층 <i class="icon-location"></i></a>
-                                    </dd>
                                     <dt>운영시간</dt>
                                     <dd>10:30 ~ 22:00</dd>
                                 </dl>
@@ -224,13 +221,13 @@
                                 <dl>
                                     <dt>위치</dt>
                                     <dd>
-                                        <a href="#">1층 <i class="icon-location"></i></a>
+                                        <a href="#" data-toggle="modal" data-target="#a-info8-f1">1층 <i class="icon-location"></i></a>
                                     </dd>
                                     <dd>
-                                        <a href="#">2층 <i class="icon-location"></i></a>
+                                        <a href="#" data-toggle="modal" data-target="#a-info8-f2">2층 <i class="icon-location"></i></a>
                                     </dd>
                                     <dd class="clear">
-                                        <a href="#">3층 <i class="icon-location"></i></a>
+                                        <a href="#" data-toggle="modal" data-target="#a-info8-f3">3층 <i class="icon-location"></i></a>
                                     </dd>
                                 </dl>
                             </div>
@@ -250,7 +247,10 @@
                                 <dl>
                                     <dt>위치</dt>
                                     <dd>
-                                        <a href="#">1층 <i class="icon-location"></i></a>
+                                        <a href="#" data-toggle="modal" data-target="#a-info9-f1">1층 <i class="icon-location"></i></a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#" data-toggle="modal" data-target="#a-info9-f4">4층 <i class="icon-location"></i></a>
                                     </dd>
                                 </dl>
                             </div>
@@ -274,7 +274,7 @@
         </div>
         
         <!-- a-info2 -->
-        <!-- div id="a-info2-f1" class="modal fade a-info-modal" tabindex="-1" role="dialog" data-backdrop="static">
+        <div id="a-info2-f1" class="modal fade a-info-modal" tabindex="-1" role="dialog" data-backdrop="static">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -283,7 +283,7 @@
                     <p><img class="img-responsive" src="/assets/images/store/img_a_info1_f1.jpg" alt=""></p>
                 </div>
             </div>
-        </div -->
+        </div>
         
         <!-- a-info3 -->
         <div id="a-info3-f1" class="modal fade a-info-modal" tabindex="-1" role="dialog" data-backdrop="static">
@@ -380,16 +380,6 @@
                 </div>
             </div>
         </div>
-        <!-- div id="a-info5-f4" class="modal fade a-info-modal" tabindex="-1" role="dialog" data-backdrop="static">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <img src="/assets/images/store/btn_popup_close.gif" alt="">
-                    </button>
-                    <p><img class="img-responsive" src="/assets/images/store/img_a_info5_f4.jpg" alt=""></p>
-                </div>
-            </div>
-        </div -->
         
         <!-- a-info6 -->
         <div id="a-info6-f1" class="modal fade a-info-modal" tabindex="-1" role="dialog" data-backdrop="static">
@@ -415,7 +405,7 @@
             </div>
         </div>
         
-        <!-- a-info8 
+        <!-- a-info8 -->
         <div id="a-info8-f1" class="modal fade a-info-modal" tabindex="-1" role="dialog" data-backdrop="static">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -446,9 +436,8 @@
                 </div>
             </div>
         </div>
-        -->
         
-        <!-- a-info9 
+        <!-- a-info9 -->
         <div id="a-info9-f1" class="modal fade a-info-modal" tabindex="-1" role="dialog" data-backdrop="static">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -459,7 +448,16 @@
                 </div>
             </div>
         </div>
-        -->
+        <div id="a-info9-f4" class="modal fade a-info-modal" tabindex="-1" role="dialog" data-backdrop="static">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img src="/assets/images/store/btn_popup_close.gif" alt="">
+                    </button>
+                    <p><img class="img-responsive" src="/assets/images/store/img_a_info9_f4.jpg" alt=""></p>
+                </div>
+            </div>
+        </div>
     </div>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
     <script>

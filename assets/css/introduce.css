@@ -1,3 +1,8 @@
+@charset "UTF-8";
+/* 스퀘어원 소개 헤더 공통 */
+.sub.introduce #header {
+  background-image: url(/assets/images/introduce/intro_head_bg.jpg); }
+
 .sub.introduce.company .page-summary {
   text-align: center; }
   .sub.introduce.company .page-summary h3 {
@@ -125,7 +130,7 @@
         .sub.introduce.company.square1 .feature ul li p {
           font-size: 14px;
           line-height: 24px; } }
-  @media (min-width: 768px) {
+  @media (min-width: 1200px) {
     .sub.introduce.company.square1 .feature {
       padding-top: 110px;
       padding-bottom: 110px; }
@@ -135,8 +140,39 @@
           clear: none; }
         .sub.introduce.company.square1 .feature ul li:nth-of-type(2) ~ li {
           margin-top: 0; } }
-.sub.introduce.company.square1 .figure ul li p img {
-  width: 100%; }
+.sub.introduce.company.square1 .figure ul li p {
+  min-height: 145px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 100% auto;
+  -webkit-transition: background .5s ease-out;
+  -moz-transition: background .5s ease-out;
+  -ms-transition: background .5s ease-out;
+  -o-transition: background .5s ease-out;
+  transition: background .5s ease-out; }
+  .sub.introduce.company.square1 .figure ul li p.img-figure1 {
+    background-image: url(/assets/images/introduce/img_figure_1.jpg); }
+  .sub.introduce.company.square1 .figure ul li p.img-figure2 {
+    background-image: url(/assets/images/introduce/img_figure_2.jpg); }
+  .sub.introduce.company.square1 .figure ul li p.img-figure3 {
+    background-image: url(/assets/images/introduce/img_figure_3.jpg); }
+  .sub.introduce.company.square1 .figure ul li p.img-figure4 {
+    background-image: url(/assets/images/introduce/img_figure_4.jpg); }
+  .sub.introduce.company.square1 .figure ul li p:hover {
+    background-size: 120% auto;
+    background-position: 50% 50%; }
+  @media (min-width: 768px) {
+    .sub.introduce.company.square1 .figure ul li p {
+      min-height: 170px; } }
+  @media (min-width: 992px) {
+    .sub.introduce.company.square1 .figure ul li p {
+      min-height: 221px; } }
+  @media (min-width: 1200px) {
+    .sub.introduce.company.square1 .figure ul li p {
+      min-height: 268px; } }
+  @media (min-width: 1500px) {
+    .sub.introduce.company.square1 .figure ul li p {
+      min-height: 332px; } }
 @media (min-width: 768px) {
   .sub.introduce.company.square1 .figure ul {
     overflow: hidden; }
@@ -281,7 +317,7 @@
         display: table-cell; } }
 .sub.introduce.company.concept .concept-slogan {
   margin-bottom: 10px;
-  background-color: #344359; }
+  background-image: url(/assets/images/introduce/concept_pattern.png); }
   .sub.introduce.company.concept .concept-slogan .slogan-content {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -321,8 +357,6 @@
 
 .sub.introduce.company.bi .page-summary {
   margin-bottom: 40px; }
-  .sub.introduce.company.bi .page-summary h3 {
-    font-family: 'Jeju Myeongjo', serif; }
   .sub.introduce.company.bi .page-summary p .red {
     color: #ec6708; }
   .sub.introduce.company.bi .page-summary p .blue {
@@ -557,11 +591,12 @@
         width: 60px;
         height: 40px;
         font-size: 14px;
-        line-height: 40px;
+        line-height: 28px;
         color: #000;
         text-align: center;
         margin-right: 10px;
         border-radius: 50px;
+        border: 5px solid #45b5f4;
         background-color: #fff; }
         .location .section-content .traffic .subway dl dd h5 i {
           font-style: normal; }
@@ -725,10 +760,10 @@
           height: 160px;
           text-align: center;
           padding-top: 30px;
-          -webkit-transition: background-color .5s;
-          -moz-transition: background-color .5s;
-          -o-transition: background-color .5s;
-          transition: background-color .5s; }
+          -webkit-transition: background-color .3s;
+          -moz-transition: background-color .3s;
+          -o-transition: background-color .3s;
+          transition: background-color .3s; }
           .special .square1-special .container .row div .meaning:hover .summary h5, .special .square1-special .container .row div .meaning:focus .summary h5 {
             font-size: 16px;
             color: #fff;

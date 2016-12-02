@@ -101,9 +101,12 @@
                                     </dl>
                                 </div>
                                 <div class="btn-area">
-                                    <p>
+                                    <p class="pull-left">
                                         <a href="#" class="btn btn-orange" role="button">완료</a>
                                         <a href="#" class="btn btn-default" role="button">취소</a>
+                                    </p>
+                                    <p class="pull-right">
+                                        <a href="/member/member_leave.php" class="btn-leave">회원탈퇴</a>
                                     </p>
                                 </div>
                             </form>

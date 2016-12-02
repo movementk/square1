@@ -73,6 +73,20 @@
     }
 }
 
+/* 진행중인 이벤트가 없을때 */
+.none-event {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    margin-bottom: 300px;
+    .no-event-title {
+        font-size: 14px;
+        color: #666;
+        font-weight: 300;
+        line-height: 36px;
+    }
+}
+
 /* brand-event art-hall 공통*/
 .brand-event {
     .section-content {
