@@ -100,6 +100,9 @@
                                 </li>
                             </ul>
                         </div>
+                        <div class="none-event">
+                            <h1 class="no-event-title">진행중인 이벤트가 없습니다.</h1>
+                        </div>
                         <nav aria-label="Page navigation" class="paging">
                             <ul class="pagination">
                                 <li>

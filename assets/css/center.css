@@ -397,31 +397,31 @@
         .faq .section-content .panel-group .panel .panel-collapse .panel-body {
           padding-left: 171px;
           padding-bottom: 45px; } }
-    .faq .section-content .panel-group .panel .panel-collapse p {
-      position: relative;
-      font-size: 12px;
-      color: #666;
-      font-weight: 300;
-      line-height: 22px;
-      display: inline-block;
-      padding-left: 38px; }
-      .faq .section-content .panel-group .panel .panel-collapse p:before {
-        position: absolute;
-        top: 5px;
-        left: 0;
-        content: 'A';
-        width: 26px;
-        height: 26px;
+      .faq .section-content .panel-group .panel .panel-collapse .panel-body > div {
+        position: relative;
+        font-size: 12px;
+        color: #666;
+        font-weight: 300;
+        line-height: 22px;
         display: inline-block;
-        font-size: 15px;
-        color: #fff;
-        text-align: center;
-        border-radius: 50%;
-        background-color: #35455c; }
-      @media (min-width: 768px) {
-        .faq .section-content .panel-group .panel .panel-collapse p {
-          font-size: 13px;
-          padding-left: 46px; } }
+        padding-left: 38px; }
+        .faq .section-content .panel-group .panel .panel-collapse .panel-body > div:before {
+          position: absolute;
+          top: 0px;
+          left: 0;
+          content: 'A';
+          width: 26px;
+          height: 26px;
+          display: inline-block;
+          font-size: 15px;
+          color: #fff;
+          text-align: center;
+          border-radius: 50%;
+          background-color: #35455c; }
+        @media (min-width: 768px) {
+          .faq .section-content .panel-group .panel .panel-collapse .panel-body > div {
+            font-size: 13px;
+            padding-left: 46px; } }
 .faq .section-content .paging {
   margin-top: 45px; }
   @media (min-width: 768px) {

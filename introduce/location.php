@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="/assets/css/sub.css">
 <link rel="stylesheet" href="/assets/css/introduce.css">
 </head>
-<body class="sub company">
+<body class="sub introduce">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb_aside.php'); ?>
     <div id="wrapper">
         <div id="top-bn">
@@ -11,10 +11,10 @@
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/top_nav.php'); ?>
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/gnb.php'); ?>
             <div class="jumbo">
-                <h1><small>회사소개</small>SEOBU T&amp;D</h1>
+                <h1><small>스퀘어원 소개</small>SQUARE1</h1>
                 <p>
-                    인천의 풍요로운 라이프 스타일을 제공하는<br>
-                    (주)서부 T&amp;D 입니다.
+                    인천에 새로운 문화와 라이프 스타일이 시작됩니다.<br>
+                    새로운 쇼핑세상으로 초대합니다.
                 </p>
             </div>
         </header>

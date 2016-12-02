@@ -8,7 +8,10 @@
         vertical-align: top;
         margin-bottom: 0;
         &:last-child {
-            margin-left: 80px;
+            margin-left: 20px;
+            @media(min-width: $sm) {
+                margin-left: 80px;
+            }
         }
         input[type=checkbox] {
             margin-top: -2px;
@@ -422,6 +425,11 @@
                     padding: 27px 20px;
                     height: 350px;
                 }
+            }
+        }
+        .email-terms {
+            .article-content {
+                height: auto;
             }
         }
         .btn-area {
@@ -1027,7 +1035,7 @@
                         &.phone {
                             .form-control {
                                 display: inline-block;
-                                width: 90px;
+                                width: 85px;
                             }
                             > select {
                                 width: 66px !important;
@@ -1040,7 +1048,34 @@
                 }
             }
             .btn-area {
+                overflow: hidden;
+                position: relative;
                 margin-top: 30px;
+                .pull-left {
+                    .btn {
+                        width: 90px;
+                        @media(min-width: $sm) {
+                            width: 123px;
+                        }
+                    }
+                    @media(min-width: $sm) {
+                        float: none!important;
+                        text-align: center;
+                    }
+                }
+                .pull-right {
+                    .btn-leave {
+                        font-size: 13px;
+                        color: #999;
+                        line-height: 42px;
+                    }
+                    @media(min-width: $sm) {
+                        float: none!important;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                    }
+                }
             }
         }
     }
@@ -1159,12 +1194,20 @@
         .terms {
             overflow-y: scroll;
             height: 240px;
-            font-size: 12px;
+            font-size: 13px;
             color: #666;
+            font-weight: 300;
             line-height: 20px;
             padding: 20px;
             border: 1px solid #dfdfdf;
             background-color: #fff;
+            pre {
+                padding: 0;
+                @include noto();
+                border-radius: 0;
+                border: 0;
+                background-color: #fff;
+            }
             @media(min-width: $sm) {
                 font-size: 13px;
                 height: 650px;

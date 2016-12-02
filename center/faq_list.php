@@ -58,11 +58,11 @@
                                 </div>
                                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                                     <div class="panel-body">
-                                        <p>
+                                        <div>
                                             연중무휴이며 오전 10시 반부터 오후 10시까지 이용가능합니다.
                                             <br>
                                             (특이사항 발생시 홈페이지공지예정)
-                                        </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -74,11 +74,11 @@
                                 </div>
                                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                                     <div class="panel-body">
-                                        <p>
+                                        <div>
                                             연중무휴이며 오전 10시 반부터 오후 10시까지 이용가능합니다.
                                             <br>
                                             (특이사항 발생시 홈페이지공지예정)
-                                        </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -90,11 +90,11 @@
                                 </div>
                                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                     <div class="panel-body">
-                                        <p>
+                                        <div>
                                             연중무휴이며 오전 10시 반부터 오후 10시까지 이용가능합니다.
                                             <br>
                                             (특이사항 발생시 홈페이지공지예정)
-                                        </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

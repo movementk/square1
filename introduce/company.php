@@ -89,10 +89,18 @@
             </div>
             <div class="figure">
                 <ul>
-                    <li><p><img src="/assets/images/introduce/img_figure_1.jpg" alt=""></p></li>
-                    <li><p><img src="/assets/images/introduce/img_figure_2.jpg" alt=""></p></li>
-                    <li><p><img src="/assets/images/introduce/img_figure_3.jpg" alt=""></p></li>
-                    <li><p><img src="/assets/images/introduce/img_figure_4.jpg" alt=""></p></li>
+                    <li>
+                        <p class="img-figure1"></p>
+                    </li>
+                    <li>
+                        <p class="img-figure2"></p>
+                    </li>
+                    <li>
+                        <p class="img-figure3"></p>
+                    </li>
+                    <li>
+                        <p class="img-figure4"></p>
+                    </li>
                 </ul>
             </div>
             <!-- // 컨텐츠 영역 -->
