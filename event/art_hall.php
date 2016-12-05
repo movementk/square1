@@ -20,15 +20,13 @@
         </header>
         <main id="content">
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/lnb4.php'); ?>
+            <div class="page-header">
+                <h1><span class="square1">SQUARE<i>1</i></span> 문화홀 공연/전시</h1>
+                <h2>스퀘어원 문화홀<br class="visible-xs"> 공연/전시 소식을 한번에<br class="visible-xs"> 보실 수 있습니다.</h2>
+                <p>복합 문화 소비공간 스퀘어원만의<br class="visible-xs"> 다양한 이벤트를 경험해 보세요~</p>
+            </div>
             <div class="container">
                 <section class="brand-event art-hall">
-                    <div class="section-header">
-                        <h2>SQUARE<i>1</i><br class="visible-xs"> 문화홀 공연/전시</h2>
-                        <h3>스퀘어원 문화홀<br class="visible-xs"> 공연/전시 소식을 한번에<br class="visible-xs"> 보실 수 있습니다.</h3>
-                        <p>
-                            복합 문화 소비공간 스퀘어원만의<br class="visible-xs"> 다양한 이벤트를 경험해 보세요~
-                        </p>
-                    </div>
                     <div class="section-content">
                         <div class="event-list">
                             <ul class="row">

@@ -381,9 +381,9 @@
             .ideology .section-content .rule > ul > li > div .details p {
               font-size: 16px;
               line-height: 28px; } }
-      .ideology .section-content .rule > ul > li > div:hover, .ideology .section-content .rule > ul > li > div:focus {
+      .ideology .section-content .rule > ul > li > div:hover {
         text-decoration: none; }
-        .ideology .section-content .rule > ul > li > div:hover .details, .ideology .section-content .rule > ul > li > div:focus .details {
+        .ideology .section-content .rule > ul > li > div:hover .details {
           display: block; }
       .ideology .section-content .rule > ul > li > div.human {
         background-image: url(/assets/images/company/ideology_list1.gif); }
@@ -447,8 +447,6 @@
     font-weight: 300;
     margin-bottom: 20px; }
 .location .section-content .map-info {
-  position: relative;
-  overflow: hidden;
   max-width: 1200px;
   margin: 0 auto; }
   .location .section-content .map-info .pn-icon {
@@ -482,13 +480,10 @@
     display: block;
     margin: 0 auto; }
   .location .section-content .map-info .addr {
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100%;
     padding: 5px 0;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8); }
+    background-color: #fff; }
     .location .section-content .map-info .addr dt {
       display: inline-block;
       font-size: 14px;

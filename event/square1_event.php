@@ -20,11 +20,11 @@
         </header>
         <main id="content">
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/lnb4.php'); ?>
+            <div class="page-header">
+                <h1><span class="square1">SQUARE<i>1</i></span> 이벤트</h1>
+            </div>
             <div class="container">
                 <section class="square1-event">
-                    <div class="section-header">
-                        <h2>SQUARE<i>1</i> 이벤트</h2>
-                    </div>
                     <div class="section-content">
                         <p class="event-img">
                             <img src="/assets/images/event/event_lg_img.jpg" class="img-responsive visible-xs" alt="진행이벤트">
