@@ -40,7 +40,7 @@
                                     <p>
                                         스퀘어원 포인트카드는 스퀘어원 이용 시 구매금액의 <i>1%를 적립</i> 할수 있으며,<br class="hidden-xs hidden-sm"> 누적된 초인트가 일정 수준이상이 되면 이를 포인트 금액대별 차감 기프트로<br class="hidden-xs hidden-sm"> 교환하실 수 있습니다.
                                     </p>
-                                    <a href="#">내 포인트 보기</a>
+                                    <a href="/member/mypoint.php">내 포인트 보기</a>
                                 </div>
                             </div>
                         </div>

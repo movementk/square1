@@ -5,6 +5,24 @@
         background-image: url(/assets/images/introduce/intro_head_bg.jpg);
     }
 }
+.sub.introduce {
+    #content {
+        .page-header {
+            h2 {
+                font-size: 22px;
+                color: $orange;
+                font-weight: 300;
+                margin-top: 40px;
+                margin-bottom: 20px;
+            }
+            @media(min-width: $sm) {
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
 .sub.introduce.company {
     .page-summary {
         text-align: center;
@@ -635,48 +653,8 @@
     @media(min-width: $sm) {
         padding-bottom: 120px;
     }
-    .section-header {
-        text-align: center;
-        padding: 45px 0;
-        h2 {
-            font-size: 27px;
-            color: #060032;
-            color: #060032;
-            margin-bottom: 40px;
-            font-weight: bold;
-            i {
-                font-size: 38px;
-                font-style: normal;
-                color: $orange;
-            }
-        }
-        h3 {
-            font-size: 22px;
-            color: $orange;
-            font-weight: 300;
-            margin-bottom: 20px;
-        }
-        @media(min-width: $sm) {
-            padding: 65px 0 60px;
-            h2 {
-                font-size: 34px;
-                margin-bottom: 40px;
-                i {
-                    font-size: 45px;
-                }
-            }
-            p {
-                font-size: 16px;
-            }
-        }
-        @media(min-width: $lg) {
-            padding-bottom: 90px;
-        }
-    }
     .section-content {
         .map-info {
-            position: relative;
-            overflow: hidden;
             max-width: 1200px;
             margin: 0 auto;
             .pn-icon {
@@ -719,13 +697,11 @@
                 }
             }
             .addr {
-                position: absolute;
-                bottom: 0;
-                left: 0;
                 width: 100%;
                 padding: 5px 0;
                 text-align: center;
-                background-color: rgba(255, 255, 255, .8);
+                background-color: #fff;
+//                background-color: rgba(255, 255, 255, .8);
                 dt {
                     display: inline-block;
                     font-size: 14px;

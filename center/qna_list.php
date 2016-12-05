@@ -20,20 +20,20 @@
         </header>
         <main id="content">
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/lnb5.php'); ?>
+            <div class="page-header">
+                <h1><span class="square1">SQUARE<i>1</i></span> Q&amp;A</h1>
+                <h2>
+                    스퀘어원과 관련된 궁금한 사항은<br>
+                    무엇이든 물어보세요.
+                </h2>
+                <p>
+                    제안ㆍ건의ㆍ만족ㆍ불만족 등과<br class="visible-xs">
+                    관련된 고객님의 소중한 의견을 남겨주시면<br>
+                    접수후 빠른 대응을 하도록하겠습니다.
+                </p>
+            </div>
             <div class="container">
                 <section class="qna">
-                    <div class="section-header">
-                        <h2>SQUARE<i>1</i> Q&amp;A</h2>
-                        <h3>
-                            스퀘어원과 관련된 궁금한 사항은<br>
-                            무엇이든 물어보세요.
-                        </h3>
-                        <p>
-                            고객님의 편의를 위한 제안ㆍ건의ㆍ만족ㆍ불만족 등과<br class="visible-xs">
-                            관련된 고객님의 소중한 의견을 남겨주시면<br>
-                            접수후 빠른 대응을 하도록하겠습니다.
-                        </p>
-                    </div>
                     <div class="section-content">
                         <div class="search-form">
                             <form>

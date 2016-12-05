@@ -8,6 +8,20 @@
     .sub #content .btn:hover, .sub #content .btn:focus, .sub #content .btn-sm:hover, .sub #content .btn-sm:focus, .sub #content .btn-xs:hover, .sub #content .btn-xs:focus {
       text-decoration: none; }
 
+.sub #content .page-header h2 {
+  font-size: 22px;
+  color: #ec6708;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 20px; }
+@media (min-width: 768px) {
+  .sub #content .page-header h2 {
+    font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: 45px; }
+  .sub #content .page-header p {
+    font-size: 16px; } }
+
 .calendar-form {
   text-align: center; }
   @media (min-width: 768px) {

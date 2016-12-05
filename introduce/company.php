@@ -72,7 +72,7 @@
                         <li class="col-xs-6 col-sm-4 col-sm-offset-2 col-lg-3 col-lg-offset-0">
                             <span>02</span>
                             <h4>FLOOR</h4>
-                            <p>b2f ~ 4f. 지하2층부터 지상 4층까지 음식,쇼핑 문화를 마음껏 즐기세요.</p>
+                            <p>B2 ~ 4F. 지하2층부터 지상 4층까지 음식,쇼핑 문화를 마음껏 즐기세요.</p>
                         </li>
                         <li class="col-xs-6 col-sm-4 col-sm-offset-1 col-lg-3 col-lg-offset-0">
                             <span>03</span>

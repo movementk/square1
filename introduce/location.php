@@ -20,34 +20,36 @@
         </header>
         <main id="content">
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/lnb1.php'); ?>
+            <div class="page-header">
+                <h1><span class="square1">SQUARE<i>1</i></span> 오시는길</h1>
+                <h2>Malling Island SQUARE1 MAP</h2>
+                <p>
+                    몰링 아일랜드, 스케어원으로 오시는 길입니다.
+                </p>
+            </div>
             <section class="location">
-                <div class="section-header">
-                    <h2>SQUARE<i>1</i> 오시는길</h2>
-                    <h3>Malling Island SQUARE1 MAP</h3>
-                    <p>
-                        몰링 아일랜드, 스케어원으로 오시는 길입니다.
-                    </p>
-                </div>
                 <div class="section-content">
                     <div class="map-info">
-                        <p class="pn-icon">
-                            <a href="#" role="button">
-                                <i class="icon-naver">
-                                    <img src="/assets/images/company/icon_naver.gif" alt="">
-                                </i>
-                            </a>
-                            <a href="#" role="button"><i class="icon-print"></i></a>
-                        </p>
-                        <p class="maps">
-                            <img src="/assets/images/company/map.gif" class="img-responsive" alt="오시는길 지도">
-                        </p>
-                        <dl class="addr">
-                            <dt>주소</dt>
-                            <dd>인천광역시 연수구 동춘동 926</dd>
-                            <dd class="block-dd visible-xs"></dd>
-                            <dt class="call">대표전화</dt>
-                            <dd>032-456-4000</dd>
-                        </dl>
+                        <div class="container">
+                            <p class="pn-icon">
+                                <a href="#" role="button">
+                                    <i class="icon-naver">
+                                        <img src="/assets/images/company/icon_naver.gif" alt="">
+                                    </i>
+                                </a>
+                                <a href="#" role="button"><i class="icon-print"></i></a>
+                            </p>
+                            <p class="maps">
+                                <img src="/assets/images/company/map.gif" class="img-responsive" alt="오시는길 지도">
+                            </p>
+                            <dl class="addr">
+                                <dt>주소</dt>
+                                <dd>인천광역시 연수구 동춘동 926</dd>
+                                <dd class="block-dd visible-xs"></dd>
+                                <dt class="call">대표전화</dt>
+                                <dd>032-456-4000</dd>
+                            </dl>
+                        </div>
                     </div>
                     <div class="container">
                         <div class="traffic">

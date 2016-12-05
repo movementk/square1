@@ -21,22 +21,22 @@
         </header>
         <main id="content">
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/lnb5.php'); ?>
+            <div class="page-header">
+                <h1><span class="square1">SQUARE<i>1</i></span> 분실물센터안내</h1>
+                <h2>
+                    스퀘어원은 고객님의 물건<br class="visible-xs">
+                    하나하나<br class="visible-sm"> 소중히 생각합니다.
+                </h2>
+                <p>
+                    소중한 물건을 분실하였나요?<br class="visible-xs">
+                    안내데스크로 연락주세요. <a href="tel:0314564011"> Tel. 031-456-4011</a><br>
+                    물건을 찾는 즉시 안전하게 되돌려 드립니다.<br>
+                    먼저 아래 습득물 리스트에 분실한 물건이 있는지<br class="visible-xs">
+                    확인해보세요.
+                </p>
+            </div>
             <div class="container">
                 <section class="lost">
-                    <div class="section-header">
-                        <h2>SQUARE<i>1</i><br class="visible-xs"> 분실물센터안내</h2>
-                        <h3>
-                            스퀘어원은 고객님의 물건<br class="visible-xs">
-                            하나하나<br class="visible-sm"> 소중히 생각합니다.
-                        </h3>
-                        <p>
-                            소중한 물건을 분실하였나요?<br class="visible-xs">
-                            안내데스크로 연락주세요. <a href="tel:0314564011"> Tel. 031-456-4011</a><br>
-                            물건을 찾는 즉시 안전하게 되돌려 드립니다.<br>
-                            먼저 아래 습득물 리스트에 분실한 물건이 있는지<br class="visible-xs">
-                            확인해보세요.
-                        </p>
-                    </div>
                     <div class="section-content">
                         <div class="calendar-form">
                             <form>

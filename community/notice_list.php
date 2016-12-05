@@ -20,13 +20,13 @@
         </header>
         <main id="content">
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/lnb3.php'); ?>
+            <div class="page-header">
+                <h1><span class="square1">SQUARE<i>1</i></span> 공지사항</h1>
+                <h2>스퀘어원의 새로운 소식을<br class="visible-xs"> 알려드립니다.</h2>
+                <p>고객님의 편의를 위한 스퀘어원의<br class="visible-xs"> 정보를 전해드립니다.</p>
+            </div>
             <div class="container">
                 <section class="notice">
-                    <div class="section-header">
-                        <h2>SQUARE<i>1</i> 공지사항</h2>
-                        <h3>스퀘어원의 새로운 소식을<br class="visible-xs"> 알려드립니다.</h3>
-                        <p>고객님의 편의를 위한 스퀘어원의<br class="visible-xs"> 정보를 전해드립니다.</p>
-                    </div>
                     <div class="section-content">
                         <div class="search-form">
                             <form>

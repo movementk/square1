@@ -1,5 +1,4 @@
 @import 'common';
-
 /* center 공통 */
 .center {
     #header {
@@ -9,77 +8,31 @@
         #lnb {
             border-bottom: 0;
         }
-        section {
-            padding-bottom: 80px;
-            @media(min-width: $md) {
-                padding-bottom: 120px;
-            }
-            .section-header {
-                text-align: center;
-                padding-top: 45px;
-                padding-bottom: 45px;
+        .page-header {
+            .txt-m {
+                margin-top: 30px;
                 @media(min-width: $sm) {
-                    padding-top: 63px;
-                    padding-bottom: 45px;
-                }
-                @media(min-width: $md) {
-                    padding-bottom: 63px;
-                }
-                > h2 {
-                    font-size: 27px;
-                    color: #060032;
-                    font-weight: bold;
-                    margin-bottom: 45px;
-                    i {
-                        font-size: 38px;
-                        font-style: normal;
-                        color: $orange;
-                    }
-                    @media(min-width: $sm) {
-                        font-size: 34px;
-                        margin-bottom: 60px;
-                        i {
-                            font-size: 45px;
-                        }
-                    }
-                }
-                > h3 {
-                    font-size: 22px;
-                    color: $orange;
-                    @include lato();
-                    line-height: 30px;
-                    letter-spacing: -1px;
-                    margin-bottom: 15px;
-                    @media(min-width: $sm) {
-                        font-size: 30px;
-                        margin-bottom: 40px;
-                        line-height: 45px;
-                    }
-                }
-                > p {
-                    font-size: 13px;
-                    color: #333;
-                    line-height: 26px;
-                    font-weight: 400;
-                    @media(min-width: $sm) {
-                        font-size: 16px;
-                    }
+                    margin-top: 45px;
                 }
             }
-        }
-    }
-}
-
-/* lost */
-.lost {
-    .section-header {
-        h3 {
-            line-height: 30px !important;
-            @media(min-width: $sm) {
-                line-height: 45px !important;
+            hr {
+                width: 30px;
+                display: block;
+                margin-top: 45px;
+                margin-bottom: 25px;
+                border-top: 3px solid $orange;
+                @media(min-width: $sm) {
+                    margin-top: 60px;
+                }
             }
-        }
-        p {
+            small {
+                font-size: 12px;
+                color: #666;
+                line-height: 24px;
+                @media(min-width: $sm) {
+                    font-size: 14px;
+                }
+            }
             a {
                 color: #777;
                 @include lato();
@@ -88,7 +41,20 @@
                 }
             }
         }
+        section {
+            padding-bottom: 80px;
+            @media(min-width: $md) {
+                padding-bottom: 120px;
+            }
+            .section-header {
+                text-align: center;
+            }
+        }
     }
+}
+
+/* lost */
+.lost {
     .section-content {
         .calendar-form {
             margin-bottom: 15px;
@@ -205,26 +171,6 @@
 
 /* culture-hall */
 .culture-hall {
-    .section-header {
-        hr {
-            width: 30px;
-            display: block;
-            margin-top: 45px;
-            margin-bottom: 25px;
-            border-top: 3px solid $orange;
-            @media(min-width: $sm) {
-                margin-top: 60px;
-            }
-        }
-        small {
-            font-size: 12px;
-            color: #666;
-            line-height: 24px;
-            @media(min-width: $sm) {
-                font-size: 14px;
-            }
-        }
-    }
     .section-content {
         .privacy {
             margin-bottom: 45px;
@@ -387,14 +333,6 @@
 
 /* faq */
 .faq {
-    .section-header {
-        h2 {
-            margin-bottom: 30px !important;
-            @media(min-width: $sm) {
-                margin-bottom: 45px !important;
-            }
-        }
-    }
     .section-content {
         .board-list {
             margin-bottom: 45px;
@@ -556,14 +494,6 @@
 
 /* qna */
 .qna {
-    .section-header {
-        h3 {
-            letter-spacing: -1px;
-            @media(min-width: 360px) {
-                letter-spacing: 0;
-            }
-        }
-    }
     .section-content {
         .table-wrap {
             margin-top: 15px;
@@ -582,14 +512,6 @@
 
 /* view */
 .view {
-    .section-header {
-        h3 {
-            letter-spacing: -1px;
-            @media(min-width: 360px) {
-                letter-spacing: 0;
-            }
-        }
-    }
     .section-content {
         .content-view {
             .article-header {

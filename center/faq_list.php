@@ -20,12 +20,12 @@
         </header>
         <main id="content">
             <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/lnb5.php'); ?>
+            <div class="page-header">
+                <h1><span class="square1">SQUARE<i>1</i></span> FAQ</h1>
+                <p class="txt-m">스퀘어원과 관련한 궁금한 사항은<br class="visible-xs"> 무엇이든 찾아보세요</p>
+            </div>
             <div class="container">
                 <section class="faq">
-                    <div class="section-header">
-                        <h2>SQUARE<i>1</i> FAQ</h2>
-                        <p>스퀘어원과 관련한 궁금한 사항은<br class="visible-xs"> 무엇이든 찾아보세요</p>
-                    </div>
                     <div class="section-content">
                         <nav class="board-list">
                             <ul class="row">
